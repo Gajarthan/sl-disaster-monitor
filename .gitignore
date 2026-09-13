@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pdf
+dmc-inspect.html
+build/
+.cache/
+node_modules/
+test-results/
+playwright-report/

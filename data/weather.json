@@ -1,0 +1,1864 @@
+[
+  {
+    "content_hash": "ea8c57b6f412de48ada2677052b3bea20e1ca9b6f629d368de5eddc2e636109a",
+    "description": "",
+    "districts": [
+      "Anuradhapura",
+      "Batticaloa",
+      "Colombo",
+      "Galle",
+      "Jaffna",
+      "Kandy",
+      "Mannar",
+      "Matara",
+      "Nuwara Eliya",
+      "Ratnapura",
+      "Trincomalee"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-ea8c57b6f412de48ada2677052b3bea20e1ca9b6f629d368de5eddc2e636109a",
+    "issued_at": "2026-09-13T16:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789297366.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789297366.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789297366.pdf",
+    "summary": "ඉදිරි පැය 36 සඳහා සාමාන්‍යය කාලගුණ අන්‍ාවැකිය 2026 සැප්තැම්බර් මස 13 දින්‍ සවස 04.00 ට නිකුත් කරන්‍ ලදි දිවයිනේ නබානහෝ ප්‍රනේශ වල පස්වරු 1.00 ේ පසුව තැනිේ තැන්‍ වැසි නහෝ ගිගුරුම් සහිත වැසි ඇති නේ. උතුරු-මැද, මධ්‍යම, සබරගමුව, ඌව සහ වයඹ පළාත්වල ඇතැම් ස්ථාන වලට මි. මී 100 ට වැඩි තද වැසි ඇති විය හැක. බස්නාහිර පළාතත් සහ ගාල්ල සහ මාතර දිස්ික්කවල උදැසන කාලතේදී වැසි ඇති විය හැක. ගිගුරුම් සහිත වැසි සමග ඇතිවිය හැකි තාවකාලික තද සුළං වලිේ සහ අකුණු මඟිේ සිදු වන්‍ අන්‍තුරු අවම කර ගැනීමට අවශය පියවර ගේන්‍ා නලස ජන්‍තාවනගේ කාරුණිකව ඉල්ලා සිටිනු ලැනේ. GENERAL WEATHER FORECAST FOR NEXT 36 HOURS Issued at 04.00 p.",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "cd9500468e7f45fa66a4fc927c4ec1a471f2a59d26b5dffd8765224f7764fb6f",
+    "description": "",
+    "districts": [
+      "Hambantota",
+      "Jaffna",
+      "Kilinochchi",
+      "Moneragala",
+      "Mullaitivu",
+      "Vavuniya"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "general_weather",
+    "hazards": [
+      "general_weather"
+    ],
+    "id": "dmc-cd9500468e7f45fa66a4fc927c4ec1a471f2a59d26b5dffd8765224f7764fb6f",
+    "issued_at": "2026-09-13T16:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789297466.pdf",
+          "title": "Warm Weather Advisory"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789297466.pdf",
+      "title": "Warm Weather Advisory"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789297466.pdf",
+    "summary": "නිවේදන අංකය : 13 LHA/26/09/13/01 වර්ණය : ඇම්බර් උණුසුම් කාලගුණ තත්තත්තවය පිළිබඳ අවවාදාත්තමක නිවේදනය ස්වභාවික විපත්ත පිළිබඳ පූර්ව අනතුරු ඇඟවීවම් මධ්‍යස්ථානය විසින් 2026 සැප්තැම්බර් මස 14 දිනය සඳහා වලංගු වන පරිදි 2026 සැප්තැම්බර් 13 දින ප.ව. 04.00 ට නිකුත්ත කරන ලදි. උතුරු-මැද, නැවෙනහිර පළාත්ත සහ යාපනය, කිලිවනාච්චි, මුලතිේ, වේනියා, වමානරාෙල සහ හම්බන්වතාට දිස්ික්ක සඳහා සූදානම් වන්න! උතුරු-මැද සහ නැවෙනහිර පළාත්තවලත්ත යාපනය, කිලිවනාච්චි, මුලතිේ, වේනියා, වමානරාෙල සහ හම්බන්වතාට දිස්ික්කවලත්ත ඇතැම් ප්‍රවේශවල දිවා කාලවේදී උණුසුම් දර්ශකය, එනම් මිනිස් සිරුරට දැවනන උණුසුම “අවධ්‍ානය වයාමු කල යුතු” මට්ටමක පැ",
+    "title": "Warm Weather Advisory",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "999f967b4158b8db63549f7ecbec4effb4167334c8615db6801dccc2ebab2e5b",
+    "description": "",
+    "districts": [
+      "Jaffna"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "general_weather",
+    "hazards": [
+      "general_weather"
+    ],
+    "id": "dmc-999f967b4158b8db63549f7ecbec4effb4167334c8615db6801dccc2ebab2e5b",
+    "issued_at": "2026-09-13T16:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.935,
+    "language_reason": "1166 of 1247 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789297945.pdf",
+          "title": "Warm Weather Advisory (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789297945.pdf",
+      "title": "Warm Weather Advisory (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Northern"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789297945.pdf",
+    "summary": "அறிக்கை இல: 13 LHA/26/09/13/01 நிறம்: ஆம்பர் வெப்பமான ொனிகல வ ாடர்பான ஆலலாசகன இயற்கை அனர்த் ம் வ ாடர்பான முன்வனச்சாிக்கை பிாிெினால் வெளியிடப்பட்டது 2026 செப்டம்பர் 14ஆம் ிை ி ெகை வசல்லுபடியாகும் ெகையில் 2026 செப்டம்பர் 13ஆம் ிை ி பிற்பைல் 04.00 மணியில் வெளியிடப்பட்டது. ெடமத் ிய மற்றும் ைிழக்கு மாைாணங்ைளுக்கும் யாழ்ப்பாணம், ைிளிவநாச்சி, முல்கலத் ீவு, ெவுனியா, வமானைாைகல மற்றும் ஹம்பாந்ல ாட்கட மாெட்டங்ைளுக்கும்: யவு வசய்து அெ ானமாை இருக்ைவும்: வெப்பச் சுட்வடண், அ ாெது மனி உடலில் உணைப்படும் வெப்பநிகலயானது ெடமத் ிய மற்றும் ைிழக்கு மாைாணங்ைளிலும் யாழ்ப்பாணம், ைிளிவநாச்சி, முல்கலத் ீவு, ெவுனியா, வமா",
+    "title": "Warm Weather Advisory (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "90418cacbf8737df55f647e086c2bb8cc8d26d74ca61b20ab3752689820fd15b",
+    "description": "",
+    "districts": [
+      "Galle"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-90418cacbf8737df55f647e086c2bb8cc8d26d74ca61b20ab3752689820fd15b",
+    "issued_at": "2026-09-13T16:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.808,
+    "language_reason": "571 of 707 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789297820.pdf",
+          "title": "Weather Forecast (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789297820.pdf",
+      "title": "Weather Forecast (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Southern",
+      "Uva"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789297820.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது அடுத்த 36 மணித்தியாலங்களுக்கான பபாதுவான வானிழல முன்னறிவிப்பு 2026 செப்டம்பர் 13ஆம் திகதி ப",
+    "title": "Weather Forecast (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "54498e9dee65190a0196665df68dbe703bc09a819d08c0229062019fbd66c779",
+    "description": "",
+    "districts": [
+      "Galle",
+      "Puttalam"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-54498e9dee65190a0196665df68dbe703bc09a819d08c0229062019fbd66c779",
+    "issued_at": "2026-09-13T15:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.838,
+    "language_reason": "1405 of 1677 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "15:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789292109.pdf",
+          "title": "Weather Forecast (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "15:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789292109.pdf",
+      "title": "Weather Forecast (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "North Western",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789292109.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது 2026 செப்டம்பர் 14ஆம் திகதிக்கான வானிழல முன்னறிவிப்பு 2026 செப்டம்பர் 13ஆம் திகதி பிற்பகல்",
+    "title": "Weather Forecast (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "35a5bc194fe6a76a44949e54379dda6038d06e6901bbb39a194d6ef02a21af3b",
+    "description": "",
+    "districts": [
+      "Colombo",
+      "Galle",
+      "Hambantota",
+      "Matara",
+      "Puttalam"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-35a5bc194fe6a76a44949e54379dda6038d06e6901bbb39a194d6ef02a21af3b",
+    "issued_at": "2026-09-13T14:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "14:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789289373.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "14:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789289373.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789289373.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලං කා ව සඳහා ස මා න්‍ය ය කා ලංගුණ අන්‍ය වැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 සැප්තැම්බර් මාස 14 දින්‍යය සඳහා කා ලංගුණ අන්‍ය වැකිය",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "1200bfffb5057b3054a903730180a2a5751ee5ed8535819966fa90c38410e51a",
+    "description": "",
+    "districts": [],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "high_waves",
+    "hazards": [
+      "high_waves"
+    ],
+    "id": "dmc-1200bfffb5057b3054a903730180a2a5751ee5ed8535819966fa90c38410e51a",
+    "issued_at": "2026-09-13T13:30:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.991,
+    "language_reason": "331 of 334 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "13:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789287039.pdf",
+          "title": "Advisory for High Waves (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "13:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789287039.pdf",
+      "title": "Advisory for High Waves (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789287039.pdf",
+    "summary": "அறிக்கை இல : 01 MHA/26/09/13/01 நிறம் : ஆம்பர் உயர் அகலைள் த ொடர்பொன ஆலலொசகன: இயற்கை அனர்த் ம் த ொடர்பொன முன்தனச்சொிக்கை நிகலயத் ினொல், 2026 செப்டம்பர் 14ஆம் ிை ி நண்பைல் 12.00 மணி வகை தசல்லுபடியொகும் வகையில் 2026 செப்டம்பர் 13ஆம் ிை ி நண்பைல் 12.00 மணியில் தவளியிடப்பட்டது. சிலொபத் ிலிருந்து தைொழும்பு, ைொலி மற்றும் மொத் கற ஊடொை தபொத்துவில் வகையொன ைடற்பைப்புைளுக்கு: தயவுசெய்து தயாராக இருக்கவும்! சிலொபத் ிலிருந்து தைொழும்பு, ைொலி மற்றும் மொத் கற ஊடொை தபொத்துவில் வகையொன ைகைலயொைத் ிற்கு அப்பொற்பட்ட ைடற்பைப்புைளில் ைடல் அகலைள் 2.0 – 3.0 மீற்றர் உயைம் வகை லமதலழும்பக் கூடிய சொத் ியம் ைொணப்படுைின்றது.",
+    "title": "Advisory for High Waves (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "08977f3368154c699dae9b841f06382027c05dcce22d9934d9e1940816caa4a1",
+    "description": "",
+    "districts": [
+      "Colombo",
+      "Galle",
+      "Matara"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "high_waves",
+    "hazards": [
+      "high_waves"
+    ],
+    "id": "dmc-08977f3368154c699dae9b841f06382027c05dcce22d9934d9e1940816caa4a1",
+    "issued_at": "2026-09-13T12:00:00+05:30",
+    "language": "si",
+    "language_confidence": 0.528,
+    "language_reason": "500 of 947 letters use the si Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "12:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789283295.pdf",
+          "title": "Advisory for High Waves"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "12:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789283295.pdf",
+      "title": "Advisory for High Waves"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Southern",
+      "Western"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789283295.pdf",
+    "summary": "මුහුදේ ස්වභාවය : නිසල (0-5)පැ.කි.මී ,සුමට (5-15)පැ.කි.මී, සාමාන්‍ය ස්වභාවයෙන් යුතු (16-28)පැ.කි.මී, මද රළු (29-37)පැ.කි.මී, තරමක් රළු (38-46)පැ.කි.මී, රළු (47-55)පැ.කි.මී, ඉතා රළු (56-74)පැ.කි.මී, දළ රළු (75- 102)පැ.කි.මී, ඉතා දළ රළු 103 පැ.කි.මී ට වැඩි. නියේදන්‍ අංකෙ : 01 MHA/2026/09/13/01 වර්ණෙ : ඇම්බර් මුහුදු රළ උස ඉහළ යාම පිළිබඳව අවවාදාත්මක නිදේදනය කාලගුණ විදයා දදපාර්තදම්න්තුදේ, ස්වභාවික විපත් පිළිබඳ පූර්ව අනුරු ඇඟවීදම් මධ්‍යස්ථානය විසින්ත 2026 සැප්තැම්බර් මස 14 වන්‍ දින්‍ මධ්‍යහන්‍. 12.00 යතක් වලංගු වන්‍ පරිදි 2026 සැප්තැම්බර් මස 13 වන්‍ දින්‍ මධ්‍යහන්‍ 12.00 ට නිකුත් කරන්‍ ලදි. හලාවත සිට",
+    "title": "Advisory for High Waves",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "035e5229e16674a3b933df1a98841fec393737ff9f6e082d99b0665bfd2a6e4b",
+    "description": "",
+    "districts": [
+      "Galle",
+      "Kurunegala",
+      "Mannar",
+      "Vavuniya"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "lightning",
+    "hazards": [
+      "lightning",
+      "heavy_rain",
+      "strong_wind"
+    ],
+    "id": "dmc-035e5229e16674a3b933df1a98841fec393737ff9f6e082d99b0665bfd2a6e4b",
+    "issued_at": "2026-09-13T10:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.795,
+    "language_reason": "1069 of 1344 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "10:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1000hrs_on_13__1789277022.pdf",
+          "title": "Advisory for Severe Lightning (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "10:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1000hrs_on_13__1789277022.pdf",
+      "title": "Advisory for Severe Lightning (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "North Western",
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1000hrs_on_13__1789277022.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது அறிக்ழக இல: 01 LLA/26/09/13/01 நிறம்: ஆம்பர் கடும் மின்னல் தாக்கம் ததாடர்பான ஆலலாசழன: இயற்",
+    "title": "Advisory for Severe Lightning (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "02ac0d8f30517611aa8b1fcddef899717e370ceadc336e47184435744e55b8cd",
+    "description": "",
+    "districts": [
+      "Kurunegala",
+      "Mannar",
+      "Mullaitivu",
+      "Vavuniya"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "lightning",
+    "hazards": [
+      "lightning",
+      "heavy_rain",
+      "strong_wind"
+    ],
+    "id": "dmc-02ac0d8f30517611aa8b1fcddef899717e370ceadc336e47184435744e55b8cd",
+    "issued_at": "2026-09-13T10:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "10:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1000hrs_on_13__1789274734.pdf",
+          "title": "Advisory for Severe Lightning"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "10:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1000hrs_on_13__1789274734.pdf",
+      "title": "Advisory for Severe Lightning"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "North Central",
+      "North Western",
+      "Northern",
+      "Uva"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1000hrs_on_13__1789274734.pdf",
+    "summary": "Spatial rainfall distribution: Isolated: <25%, A few: 26-50%, Many: 51-75%, Most: 76-100% Rainfall amount (mm): Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. නිවේදන අංකය : 01 LLA/26/09/13/01 වර්ණය : ඇම්බර් ප්‍රභල අකුණු පිළිබඳව අවවාදාත්මක නිවේදනය කාලගුණ විදයා වදපාර්තවේන්තුවේ, ස්වභාවික විපත් පිළිබඳ පූර්ව අනුරු ඇඟවීවේ මධ්‍යස්ථානය විසින්ත 2026 සැප්තැේබර් මස 13 වන දින ප.ව. 11.30 දක්වා වලංගු වන පරිදි 2026 සැප්තැේබර් මස 13 වන දින වප.ව. 10.00 ට නිකුත් කරන ලදී. නැවෙනහිර, ඌව, උතුරු මැද , මධ්‍යම, සබරෙමුව පළාත් සහ වවුනියාව, මන්නාරම, මුලතිේ, කුරුණෑෙල දිසරික්ක සඳහා සැලකිලි",
+    "title": "Advisory for Severe Lightning",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "f04a940dea772ff3a6ded85c7e73059bb691d85b3c30f4711c4cd1210df52e1e",
+    "description": "",
+    "districts": [
+      "Batticaloa",
+      "Colombo",
+      "Galle",
+      "Hambantota",
+      "Matara",
+      "Mullaitivu",
+      "Puttalam",
+      "Trincomalee"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-f04a940dea772ff3a6ded85c7e73059bb691d85b3c30f4711c4cd1210df52e1e",
+    "issued_at": "2026-09-13T05:30:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "05:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789259802.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "05:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789259802.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789259802.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලං කා ව සඳහා ස මා න්‍ය ය කා ලංගුණ අන්‍ය වැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 සැප්තැම්බර් මාස 13 දින්‍ය සඳහා කා ලංගුණ අන්‍ය වැකිය ",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "6952e13e649b654ff2e7b4f891f800f9b6f2f13ba1a05b062c15bdaf81a76cfd",
+    "description": "",
+    "districts": [
+      "Batticaloa",
+      "Galle"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-6952e13e649b654ff2e7b4f891f800f9b6f2f13ba1a05b062c15bdaf81a76cfd",
+    "issued_at": "2026-09-13T05:30:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.839,
+    "language_reason": "1419 of 1691 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-13",
+          "report_time": "05:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789267642.pdf",
+          "title": "Weather Forecast (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "05:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789267642.pdf",
+      "title": "Weather Forecast (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Eastern",
+      "Southern"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789267642.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது 2026 செப்டம்பர் 13ஆம் திகதிக்கான வானிழல முன்னறிவிப்பு 2026 செப்டம்பர் 13ஆம் திகதி அதிகாலை ",
+    "title": "Weather Forecast (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "b8db583c4b2f19b577ce0076eb1cc066573aeef91f8128f3c2c2c6392a41dd5a",
+    "description": "",
+    "districts": [
+      "Hambantota",
+      "Jaffna",
+      "Kilinochchi",
+      "Kurunegala",
+      "Moneragala",
+      "Mullaitivu",
+      "Vavuniya"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "general_weather",
+    "hazards": [
+      "general_weather"
+    ],
+    "id": "dmc-b8db583c4b2f19b577ce0076eb1cc066573aeef91f8128f3c2c2c6392a41dd5a",
+    "issued_at": "2026-09-12T16:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-12",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789209280.pdf",
+          "title": "Warm Weather Advisory"
+        }
+      ],
+      "report_date": "2026-09-12",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789209280.pdf",
+      "title": "Warm Weather Advisory"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "North Western",
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789209280.pdf",
+    "summary": "නිවේදන අංකය : 12 LHA/26/09/12/01 වර්ණය : ඇම්බර් උණුසුම් කාලගුණ තත්තත්තවය පිළිබඳ අවවාදාත්තමක නිවේදනය ස්වභාවික විපත්ත පිළිබඳ පූර්ව අනතුරු ඇඟවීවම් මධ්‍යස්ථානය විසින් 2026 සැප්තැම්බර් මස 13 දිනය සඳහා වලංගු වන පරිදි 2026 සැප්තැම්බර් 12 දින ප.ව. 04.00 ට නිකුත්ත කරන ලදි. උතුරු-මැද, නැවෙනහිර පළාත්ත සහ යාපනය, කිලිවනාච්චි, මුලතිේ, වේනියා, කුරුණෑෙල, වමානරාෙල සහ හම්බන්වතාට දිස්ික්ක සඳහා සූදානම් වන්න! උතුරු-මැද සහ නැවෙනහිර පළාත්තවලත්ත යාපනය, කිලිවනාච්චි, මුලතිේ, වේනියා, කුරුණෑෙල, වමානරාෙල සහ හම්බන්වතාට දිස්ික්කවලත්ත ඇතැම් ප්‍ර වේශවල දිවා කාලවේදී උණුසුම් දර්ශකය , එනම් මිනිස් සිරුරට දැවනන උණුසුම “අවධ්‍ානය වය",
+    "title": "Warm Weather Advisory",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "31ee6e6e2bf64aa15257e699d30fc7ba62b00da810f89eb3208540cf1f7970d2",
+    "description": "",
+    "districts": [
+      "Anuradhapura",
+      "Batticaloa",
+      "Colombo",
+      "Galle",
+      "Hambantota",
+      "Jaffna",
+      "Kandy",
+      "Mannar",
+      "Matara",
+      "Nuwara Eliya",
+      "Ratnapura",
+      "Trincomalee"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-31ee6e6e2bf64aa15257e699d30fc7ba62b00da810f89eb3208540cf1f7970d2",
+    "issued_at": "2026-09-12T16:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-12",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789209340.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-12",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789209340.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789209340.pdf",
+    "summary": "ඉදිරි පැය 36 සඳහා සාමාන්‍යය කාලගුණ අන්‍ාවැකිය 2026 සැප්තැම්බර් මස 12 දින්‍ සවස 04.00 ට නිකුත් කරන්‍ ලදි ඉදිරි දින්‍ කිහිපයේදී උතුරු සහ න්‍ැයෙන්‍හිර පළාත්වල සවස් කාලයේ ගිගුරුම් සහිත වැසි ඇති වීමට හිතකර වායුයෙෝලීය තත්ත්වයක් නිර්මාණය යවමින් පවතී. උතුරු, උතුරු -මැද, ඌව, නැගෙනහිර, මධ්‍යම සහ සබරෙමුව පළාත්වල සහ හම්බනගතාට දිසරි ක්කගේ පසරවරු 2.00 න පසුව තැනින තැන වැසි ගහෝ ගිගුරුම් සහිත වැසි ඇති වන අතර ඇතැම් සරථාන වලට මි. මී 75 ට වැඩි තරමක තද වැසි ඇති විය හැක. බසරනාහිර සහ වයඹ පළාත්වලත් ොල්ල සහ මාතර දිසරික්කවලත් වැසි වාර කිහිපයක් ඇති විය හැක. ගිගුරුම් සහිත වැසි සමෙ ඇතිවිය හැකි තාවකාලික තද සුළං වලින් සහ ",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "818a57e0694e9244c289317a8781819a86e32004955126dbdfc5bd18a00c0a8b",
+    "description": "",
+    "districts": [
+      "Batticaloa",
+      "Colombo",
+      "Galle",
+      "Hambantota",
+      "Mannar",
+      "Matara",
+      "Mullaitivu",
+      "Puttalam",
+      "Trincomalee"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-818a57e0694e9244c289317a8781819a86e32004955126dbdfc5bd18a00c0a8b",
+    "issued_at": "2026-09-12T14:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-12",
+          "report_time": "14:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789203711.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-12",
+      "report_time": "14:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789203711.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Western",
+      "Northern",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789203711.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලං කා ව සඳහා ස මා න්‍ය ය කා ලංගුණ අන්‍ය වැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 සැප්තැම්බර් මාස 13 දින්‍යය සඳහා කා ලංගුණ අන්‍ය වැකිය",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "3e391282ca06e5de1c8c89438d2016958bcc39ab2d53c1d5213fd7da4b30d806",
+    "description": "",
+    "districts": [
+      "Batticaloa",
+      "Galle",
+      "Mannar"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-3e391282ca06e5de1c8c89438d2016958bcc39ab2d53c1d5213fd7da4b30d806",
+    "issued_at": "2026-09-12T14:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.827,
+    "language_reason": "1944 of 2352 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-12",
+          "report_time": "14:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789205177.pdf",
+          "title": "Weather Forecast (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-12",
+      "report_time": "14:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789205177.pdf",
+      "title": "Weather Forecast (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Eastern",
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789205177.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது 2026 செப்டம்பர் 13ஆம் திகதிக்கான வானிழல முன்னறிவிப்பு 2026 செப்டம்பர் 12ஆம் திகதி பிற்பகல்",
+    "title": "Weather Forecast (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "caf0ba1cc05eba3eb6cb22608109ae2f74fbcf137ac47d9ca5bee3afc614ab8e",
+    "description": "",
+    "districts": [],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "strong_wind",
+    "hazards": [
+      "strong_wind",
+      "rough_sea"
+    ],
+    "id": "dmc-caf0ba1cc05eba3eb6cb22608109ae2f74fbcf137ac47d9ca5bee3afc614ab8e",
+    "issued_at": "2026-09-12T12:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.995,
+    "language_reason": "588 of 591 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-12",
+          "report_time": "12:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_11__1789195511.pdf",
+          "title": "Advisory for Strong Winds and Rough Seas (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-12",
+      "report_time": "12:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_11__1789195511.pdf",
+      "title": "Advisory for Strong Winds and Rough Seas (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_11__1789195511.pdf",
+    "summary": "அறிக்கை இல : 05 MWA/26/09/12/01 நிறம் : ஆம்பர் ைடும் ைாற்று மற்றும் கைாந்தளிப்பான ைடல் கதாடர்பான ஆலலாசகன: இயற்கை அனர்த்தம் கதாடர்பான முன்கனச்சாிக்கை நிகலயத்தினால், 2026 செப்டம்பர் 13ஆம் திைதி முற்பைல் 11.00 மணி வகை கசல்லுபடியாகும் வகையில் 2026 செப்டம்பர் 12ஆம் திைதி முற்பைல் 11.00 மணியில் கவளியிடப்பட்டது. ஹம்பாந்லதாட்கடயிலிருந்து கபாத்துவில் வகையான ைடற்பைப்புைளுக்கு: தயவுகசய்து அவதானமாை இருக்ைவும்! ஹம்பாந்லதாட்கடயிலிருந்து கபாத்துவில் வகையான ைகைலயாைத்திற்கு அப்பாற்பட்ட ைடற்பைப்புைள் அவ்வப்லபாது கைாந்தளிப்பாைக் ைாணப்படுவதுடன் அக் ைடற்பைப்புைளில் அவ்வப்லபாது மணித்தியாலத்துக்கு 50-60 ைிலலா மீற்றர",
+    "title": "Advisory for Strong Winds and Rough Seas (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "687bae1aab224951d3801820c1a41ea1ec53361f6c874efa5e7f2121cfb66d3e",
+    "description": "",
+    "districts": [
+      "Galle",
+      "Hambantota",
+      "Matara"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "strong_wind",
+    "hazards": [
+      "strong_wind",
+      "rough_sea"
+    ],
+    "id": "dmc-687bae1aab224951d3801820c1a41ea1ec53361f6c874efa5e7f2121cfb66d3e",
+    "issued_at": "2026-09-12T11:00:00+05:30",
+    "language": "si",
+    "language_confidence": 0.519,
+    "language_reason": "751 of 1447 letters use the si Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-12",
+          "report_time": "11:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_1100hrs_on_12__1789192127.pdf",
+          "title": "Advisory for Strong Winds and Rough Seas"
+        }
+      ],
+      "report_date": "2026-09-12",
+      "report_time": "11:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_1100hrs_on_12__1789192127.pdf",
+      "title": "Advisory for Strong Winds and Rough Seas"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Southern"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_1100hrs_on_12__1789192127.pdf",
+    "summary": "මුහුදේ ස්වභාවය : නිසල (0-5)පැ.කි.මී ,සුමට (5-15)පැ.කි.මී, සාමාන්‍ය ස්වභාවයෙන් යුතු (16-28)පැ.කි.මී, මද රළු (29-37)පැ.කි.මී, තරමක් රළු (38-46)පැ.කි.මී, රළු (47-55)පැ.කි.මී, ඉතා රළු (56-74)පැ.කි.මී, දළ රළු (75- 102)පැ.කි.මී, ඉතා දළ රළු 103 පැ.කි.මී ට වැඩි. නියේදන්‍ අංකෙ : 05 MWA/26/09/12/01 වර්ණෙ : ඇම්බර් තද සුළං සහ රළු මුහුදු ප්‍රදේශ පිළිබඳව අවවාදාත්මක නිදේදනය කාලගුණ විදයා දදපාර්තදම්න්තුදේ, ස්වභාවික විපත් පිළිබඳ පූර්ව අනුරු ඇඟවීදම් මධ්‍යස්ථානය විසින්ත 2026 සැප්තැම්බර් මස 13 වන්‍ දින්‍ යප.ව. 11.00 වන්‍ යතක් වලංගු වන්‍ පරිදි 2026 සැප්තැම්බර් මස 12 වන්‍ දින්‍ යප.ව. 11.00 ට නිකුත් කරන්‍ ලදි. හම්බන්",
+    "title": "Advisory for Strong Winds and Rough Seas",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "37033a17ff39254ce3eb562dad07d0b4a6069c2df5f494d6e24c385e7f98f71a",
+    "description": "",
+    "districts": [
+      "Batticaloa",
+      "Galle",
+      "Kandy",
+      "Mannar"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-37033a17ff39254ce3eb562dad07d0b4a6069c2df5f494d6e24c385e7f98f71a",
+    "issued_at": "2026-09-12T08:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.822,
+    "language_reason": "1878 of 2286 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-12",
+          "report_time": "08:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789181127.pdf",
+          "title": "Weather Forecast (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-12",
+      "report_time": "08:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789181127.pdf",
+      "title": "Weather Forecast (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789181127.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது 2026 செப்டம்பர் 12ஆம் திகதிக்கான வானிழல முன்னறிவிப்பு 2026 செப்டம்பர் 12ஆம் திகதி அதிகாலை ",
+    "title": "Weather Forecast (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "4aa2d909ad79edef73216f06f8f9bd9c0c4c40eb5f4abaa35db27b1a3d4fe49a",
+    "description": "",
+    "districts": [
+      "Batticaloa",
+      "Colombo",
+      "Galle",
+      "Hambantota",
+      "Kandy",
+      "Mannar",
+      "Matara",
+      "Mullaitivu",
+      "Nuwara Eliya",
+      "Puttalam",
+      "Trincomalee"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-4aa2d909ad79edef73216f06f8f9bd9c0c4c40eb5f4abaa35db27b1a3d4fe49a",
+    "issued_at": "2026-09-12T05:30:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-12",
+          "report_time": "05:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789171884.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-12",
+      "report_time": "05:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789171884.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789171884.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලං කා ව සඳහා ස මා න්‍ය ය කා ලංගුණ අන්‍ය වැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 සැප්තැම්බර් මාස 12 දින්‍ය සඳහා කා ලංගුණ අන්‍ය වැකිය ",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "ffdf437b876d4629464fa26f4e9e939613940cd005cd1f71497b7dda8a32d1af",
+    "description": "",
+    "districts": [
+      "Hambantota",
+      "Jaffna",
+      "Kilinochchi",
+      "Kurunegala",
+      "Moneragala",
+      "Mullaitivu",
+      "Vavuniya"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "general_weather",
+    "hazards": [
+      "general_weather"
+    ],
+    "id": "dmc-ffdf437b876d4629464fa26f4e9e939613940cd005cd1f71497b7dda8a32d1af",
+    "issued_at": "2026-09-11T16:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-11",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789123495.pdf",
+          "title": "Warm Weather Advisory"
+        }
+      ],
+      "report_date": "2026-09-11",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789123495.pdf",
+      "title": "Warm Weather Advisory"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "North Western",
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789123495.pdf",
+    "summary": "නිවේදන අංකය : 11 LHA/26/09/11/01 වර්ණය : ඇම්බර් උණුසුම් කාලගුණ තත්තත්තවය පිළිබඳ අවවාදාත්තමක නිවේදනය ස්වභාවික විපත්ත පිළිබඳ පූර්ව අනතුරු ඇඟවීවම් මධ්‍යස්ථානය විසින් 2026 සැප්තැම්බර් මස 12 දිනය සඳහා වලංගු වන පරිදි 2026 සැප්තැම්බර් 11 දින ප.ව. 04.00 ට නිකුත්ත කරන ලදි. උතුරු-මැද, නැවෙනහිර පළාත්ත සහ යාපනය, කිලිවනාච්චි, මුලතිේ, වේනියා, කුරුණෑෙල, වමානරාෙල සහ හම්බන්වතාට දිස්ික්ක සඳහා සූදානම් වන්න! උතුරු-මැද සහ නැවෙනහිර පළාත්තවලත්ත යාපනය, කිලිවනාච්චි, මුලතිේ, වේනියා, කුරුණෑෙල, වමානරාෙල සහ හම්බන්වතාට දිස්ික්කවලත්ත ඇතැම් ප්‍ර වේශවල දිවා කාලවේදී උණුසුම් දර්ශකය , එනම් මිනිස් සිරුරට දැවනන උණුසුම “අවධ්‍ානය වය",
+    "title": "Warm Weather Advisory",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "55a869e97ecc2bc54082753bb9c7d2c5a87108388db2a1ac2473324fe1ecaaa2",
+    "description": "",
+    "districts": [
+      "Anuradhapura",
+      "Batticaloa",
+      "Colombo",
+      "Galle",
+      "Jaffna",
+      "Kandy",
+      "Mannar",
+      "Matara",
+      "Mullaitivu",
+      "Nuwara Eliya",
+      "Ratnapura",
+      "Trincomalee"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-55a869e97ecc2bc54082753bb9c7d2c5a87108388db2a1ac2473324fe1ecaaa2",
+    "issued_at": "2026-09-11T16:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-11",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789123183.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-11",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789123183.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Central",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789123183.pdf",
+    "summary": "ඉදිරි පැය 36 සඳහා සාමාන්‍යය කාලගුණ අන්‍ාවැකිය 2026 සැප්තැම්බර් මස 11 දින්‍ සවස 04.00 ට නිකුත් කරන්‍ ලදි බස්නාහිර සහ සබරගමුව පළාත්වලත් මහනුවර , නුවරඑළිය, ගාල්ල සහ මාතර දිස්ි ක්කවලත් වැසි වාර කිහිපයක් ඇති වේ. ඌව සහ නැවගනහිර පළාත්වලත් මුලතිේ දිස්ි ක්කවයත් පස්වරු 2.00 න් පසුව තැනින් තැන වැසි වහෝ ගිගුරුම් සහිත වැසි ඇති විය හැකි අතර ඇතැම් ස්ථාන වලට මි. මී 50 ට වැඩි තරමක තද වැසි ඇති විය හැක. ගිගුරුම් සහිත වැසි සමග ඇතිවිය හැකි තාවකාලික තද සුළං වලින් සහ අකුණු මඟින් සිදු වන්‍ අන්‍තුරු අවම කර ගැනීමට අවශ්‍ය පියවර ගන්න්‍ා ලලස ජන්‍තාවලගන් කාරුණිකව ඉල්ලා සිටිනු ලැලේ. GENERAL WEATHER FORECAST FOR NEXT 36 HOUR",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "96aa4534f402e9f0e83b42dc6d456203001f1b01a1c1c88c414789f934c862a3",
+    "description": "",
+    "districts": [
+      "Colombo",
+      "Galle",
+      "Hambantota",
+      "Kandy",
+      "Mannar",
+      "Matara",
+      "Mullaitivu",
+      "Nuwara Eliya",
+      "Puttalam"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-96aa4534f402e9f0e83b42dc6d456203001f1b01a1c1c88c414789f934c862a3",
+    "issued_at": "2026-09-11T14:00:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-11",
+          "report_time": "14:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789116913.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-11",
+      "report_time": "14:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789116913.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789116913.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලං කා ව සඳහා ස මා න්‍ය ය කා ලංගුණ අන්‍ය වැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 සැප්තැම්බර් මාස 12 දින්‍යය සඳහා කා ලංගුණ අන්‍ය වැකිය",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "229083d89e054190975379dee1269eb57ed088c909a6f652ad00dc672555ff26",
+    "description": "",
+    "districts": [
+      "Galle",
+      "Kandy",
+      "Mannar"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-229083d89e054190975379dee1269eb57ed088c909a6f652ad00dc672555ff26",
+    "issued_at": "2026-09-11T14:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.809,
+    "language_reason": "1726 of 2134 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-11",
+          "report_time": "14:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789117363.pdf",
+          "title": "Weather Forecast (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-11",
+      "report_time": "14:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789117363.pdf",
+      "title": "Weather Forecast (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789117363.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது 2026 செப்டம்பர் 12ஆம் திகதிக்கான வானிழல முன்னறிவிப்பு 2026 செப்டம்பர் 11ஆம் திகதி பிற்பகல்",
+    "title": "Weather Forecast (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "0a50c9999057c80bc8a76f2afe0c34d99b0cf7baf184ffdbc2a76a90664b3b89",
+    "description": "",
+    "districts": [],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "strong_wind",
+    "hazards": [
+      "strong_wind",
+      "rough_sea"
+    ],
+    "id": "dmc-0a50c9999057c80bc8a76f2afe0c34d99b0cf7baf184ffdbc2a76a90664b3b89",
+    "issued_at": "2026-09-11T12:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.995,
+    "language_reason": "569 of 572 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-11",
+          "report_time": "12:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_11__1789109781.pdf",
+          "title": "Advisory for Strong Winds and Rough Seas (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-11",
+      "report_time": "12:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_11__1789109781.pdf",
+      "title": "Advisory for Strong Winds and Rough Seas (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_11__1789109781.pdf",
+    "summary": "அறிக்கை இல : 04 MWA/26/09/11/01 நிறம் : ஆம்பர் ைடும் ைாற்று மற்றும் கைாந்தளிப்பான ைடல் கதாடர்பான ஆலலாசகன: இயற்கை அனர்த்தம் கதாடர்பான முன்கனச்சாிக்கை நிகலயத்தினால், 2026 செப்டம்பர் 12ஆம் திைதி முற்பைல் 11.00 மணி வகை கசல்லுபடியாகும் வகையில் 2026 செப்டம்பர் 11ஆம் திைதி முற்பைல் 11.00 மணியில் கவளியிடப்பட்டது. ஹம்பாந்லதாட்கடயிலிருந்து கபாத்துவில் வகையான ைடற்பைப்புைளுக்கு: தயவுகசய்து அவதானமாை இருக்ைவும்! ஹம்பாந்லதாட்கடயிலிருந்து கபாத்துவில் வகையான ைகைலயாைத்திற்கு அப்பாற்பட்ட ைடற்பைப்புைள் அவ்வப்லபாது கைாந்தளிப்பாைக் ைாணப்படுவதுடன் அக் ைடற்பைப்புைளில் அவ்வப்லபாது மணித்தியாலத்துக்கு 50-60 ைிலலா மீற்றர",
+    "title": "Advisory for Strong Winds and Rough Seas (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "11085ddab71f595b6c922778b50ec29c65230cf299b6342435995edaf7c2a2bf",
+    "description": "",
+    "districts": [
+      "Galle",
+      "Hambantota",
+      "Matara"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "strong_wind",
+    "hazards": [
+      "strong_wind",
+      "rough_sea"
+    ],
+    "id": "dmc-11085ddab71f595b6c922778b50ec29c65230cf299b6342435995edaf7c2a2bf",
+    "issued_at": "2026-09-11T11:00:00+05:30",
+    "language": "si",
+    "language_confidence": 0.505,
+    "language_reason": "669 of 1324 letters use the si Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-11",
+          "report_time": "11:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas__1789107441.pdf",
+          "title": "Advisory for Strong Winds and Rough Seas"
+        }
+      ],
+      "report_date": "2026-09-11",
+      "report_time": "11:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas__1789107441.pdf",
+      "title": "Advisory for Strong Winds and Rough Seas"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Southern"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas__1789107441.pdf",
+    "summary": "මුහුදේ ස්වභාවය : නිසල (0-5)පැ.කි.මී ,සුමට (5-15)පැ.කි.මී, සාමාන්‍ය ස්වභාවයෙන් යුතු (16-28)පැ.කි.මී, මද රළු (29-37)පැ.කි.මී, තරමක් රළු (38-46)පැ.කි.මී, රළු (47-55)පැ.කි.මී, ඉතා රළු (56-74)පැ.කි.මී, දළ රළු (75- 102)පැ.කි.මී, ඉතා දළ රළු 103 පැ.කි.මී ට වැඩි. නියේදන්‍ අංකෙ : 04 MWA/26/09/11/01 වර්ණෙ : ඇම්බර් තද සුළං සහ රළු මුහුදු ප්‍රදේශ පිළිබඳව අවවාදාත්මක නිදේදනය කාලගුණ විදයා දදපාර්තදම්න්තුදේ, ස්වභාවික විපත් පිළිබඳ පූර්ව අනුරු ඇඟවීදම් මධ්‍යස්ථානය විසින්ත 2026 සැප්තැම්බර් මස 12 වන්‍ දින්‍ යප.ව. 11.00 වන්‍ යතක් වලංගු වන්‍ පරිදි 2026 සැප්තැම්බර් මස 11 වන්‍ දින්‍ යප.ව. 11.00 ට නිකුත් කරන්‍ ලදි. හම්බන්",
+    "title": "Advisory for Strong Winds and Rough Seas",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "96b3b0f0d80b1d5071f2ccd0467d1f5ec914f8e0ac777a4a7613eb805ec3f083",
+    "description": "",
+    "districts": [
+      "Colombo",
+      "Galle",
+      "Hambantota",
+      "Kandy",
+      "Mannar",
+      "Matara",
+      "Mullaitivu",
+      "Nuwara Eliya",
+      "Puttalam"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-96b3b0f0d80b1d5071f2ccd0467d1f5ec914f8e0ac777a4a7613eb805ec3f083",
+    "issued_at": "2026-09-11T05:30:00+05:30",
+    "language": "unknown",
+    "language_confidence": 0.0,
+    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-11",
+          "report_time": "05:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789085894.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-11",
+      "report_time": "05:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789085894.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789085894.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලං කා ව සඳහා ස මා න්‍ය ය කා ලංගුණ අන්‍ය වැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 සැප්තැම්බර් මාස 11 දින්‍ය සඳහා කා ලංගුණ අන්‍ය වැකිය ",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "7ab8fa760b8ee60e7451b47e37e001d5ec97b50c7a7997c0c3f27f7c192abcf1",
+    "description": "",
+    "districts": [
+      "Galle",
+      "Kandy",
+      "Mannar"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-7ab8fa760b8ee60e7451b47e37e001d5ec97b50c7a7997c0c3f27f7c192abcf1",
+    "issued_at": "2026-09-11T05:30:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.84,
+    "language_reason": "1429 of 1701 letters use the ta Unicode script; dominant local script",
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-11",
+          "report_time": "05:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789093130.pdf",
+          "title": "Weather Forecast (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-11",
+      "report_time": "05:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789093130.pdf",
+      "title": "Weather Forecast (Tamil Language)"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=20",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789093130.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது 2026 செப்டம்பர் 11ஆம் திகதிக்கான வானிழல முன்னறிவிப்பு 2026 செப்டம்பர் 11ஆம் திகதி அதிகாலை ",
+    "title": "Weather Forecast (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  }
+]

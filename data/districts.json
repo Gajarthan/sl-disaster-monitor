@@ -1,0 +1,561 @@
+{
+  "districts": [
+    {
+      "name": "Colombo",
+      "province": "Western",
+      "aliases": {
+        "en": [
+          "Colombo"
+        ],
+        "si": [
+          "කොළඹ"
+        ],
+        "ta": [
+          "கொழும்பு"
+        ]
+      }
+    },
+    {
+      "name": "Gampaha",
+      "province": "Western",
+      "aliases": {
+        "en": [
+          "Gampaha"
+        ],
+        "si": [
+          "ගම්පහ"
+        ],
+        "ta": [
+          "கம்பஹா"
+        ]
+      }
+    },
+    {
+      "name": "Kalutara",
+      "province": "Western",
+      "aliases": {
+        "en": [
+          "Kalutara",
+          "Kaluthara",
+          "Kalutura"
+        ],
+        "si": [
+          "කළුතර",
+          "කලුතර"
+        ],
+        "ta": [
+          "களுத்துறை"
+        ]
+      }
+    },
+    {
+      "name": "Kandy",
+      "province": "Central",
+      "aliases": {
+        "en": [
+          "Kandy",
+          "Mahanuwara"
+        ],
+        "si": [
+          "මහනුවර"
+        ],
+        "ta": [
+          "கண்டி"
+        ]
+      }
+    },
+    {
+      "name": "Matale",
+      "province": "Central",
+      "aliases": {
+        "en": [
+          "Matale",
+          "Mathale"
+        ],
+        "si": [
+          "මාතලේ"
+        ],
+        "ta": [
+          "மாத்தளை"
+        ]
+      }
+    },
+    {
+      "name": "Nuwara Eliya",
+      "province": "Central",
+      "aliases": {
+        "en": [
+          "Nuwara Eliya",
+          "Nuwara-Eliya",
+          "Nuwaraeliya"
+        ],
+        "si": [
+          "නුවරඑළිය",
+          "නුවර එළිය"
+        ],
+        "ta": [
+          "நுவரெலியா",
+          "நுவரெலிய"
+        ]
+      }
+    },
+    {
+      "name": "Galle",
+      "province": "Southern",
+      "aliases": {
+        "en": [
+          "Galle"
+        ],
+        "si": [
+          "ගාල්ල"
+        ],
+        "ta": [
+          "காலி"
+        ]
+      }
+    },
+    {
+      "name": "Matara",
+      "province": "Southern",
+      "aliases": {
+        "en": [
+          "Matara",
+          "Mathara"
+        ],
+        "si": [
+          "මාතර"
+        ],
+        "ta": [
+          "மாத்தறை"
+        ]
+      }
+    },
+    {
+      "name": "Hambantota",
+      "province": "Southern",
+      "aliases": {
+        "en": [
+          "Hambantota",
+          "Hambanthota"
+        ],
+        "si": [
+          "හම්බන්තොට"
+        ],
+        "ta": [
+          "அம்பாந்தோட்டை",
+          "ஹம்பாந்தோட்டை"
+        ]
+      }
+    },
+    {
+      "name": "Jaffna",
+      "province": "Northern",
+      "aliases": {
+        "en": [
+          "Jaffna",
+          "Yalpanam"
+        ],
+        "si": [
+          "යාපනය"
+        ],
+        "ta": [
+          "யாழ்ப்பாணம்"
+        ]
+      }
+    },
+    {
+      "name": "Kilinochchi",
+      "province": "Northern",
+      "aliases": {
+        "en": [
+          "Kilinochchi",
+          "Killinochchi",
+          "Kilinochchi District"
+        ],
+        "si": [
+          "කිලිනොච්චි",
+          "කිලිනොච්චිය"
+        ],
+        "ta": [
+          "கிளிநொச்சி"
+        ]
+      }
+    },
+    {
+      "name": "Mannar",
+      "province": "Northern",
+      "aliases": {
+        "en": [
+          "Mannar"
+        ],
+        "si": [
+          "මන්නාරම"
+        ],
+        "ta": [
+          "மன்னார்"
+        ]
+      }
+    },
+    {
+      "name": "Mullaitivu",
+      "province": "Northern",
+      "aliases": {
+        "en": [
+          "Mullaitivu",
+          "Mullaittivu",
+          "Mullativu"
+        ],
+        "si": [
+          "මුලතිවු",
+          "මුලතිව්"
+        ],
+        "ta": [
+          "முல்லைத்தீவு"
+        ]
+      }
+    },
+    {
+      "name": "Vavuniya",
+      "province": "Northern",
+      "aliases": {
+        "en": [
+          "Vavuniya",
+          "Vavunia"
+        ],
+        "si": [
+          "වවුනියා",
+          "වව්නියාව"
+        ],
+        "ta": [
+          "வவுனியா"
+        ]
+      }
+    },
+    {
+      "name": "Ampara",
+      "province": "Eastern",
+      "aliases": {
+        "en": [
+          "Ampara",
+          "Amparai"
+        ],
+        "si": [
+          "අම්පාර"
+        ],
+        "ta": [
+          "அம்பாறை"
+        ]
+      }
+    },
+    {
+      "name": "Batticaloa",
+      "province": "Eastern",
+      "aliases": {
+        "en": [
+          "Batticaloa"
+        ],
+        "si": [
+          "මඩකලපුව"
+        ],
+        "ta": [
+          "மட்டக்களப்பு"
+        ]
+      }
+    },
+    {
+      "name": "Trincomalee",
+      "province": "Eastern",
+      "aliases": {
+        "en": [
+          "Trincomalee",
+          "Trinco"
+        ],
+        "si": [
+          "ත්‍රිකුණාමලය",
+          "ත්‍රිකුණාමළය"
+        ],
+        "ta": [
+          "திருகோணமலை",
+          "திருக்கோணமலை"
+        ]
+      }
+    },
+    {
+      "name": "Kurunegala",
+      "province": "North Western",
+      "aliases": {
+        "en": [
+          "Kurunegala"
+        ],
+        "si": [
+          "කුරුණෑගල"
+        ],
+        "ta": [
+          "குருநாகல்"
+        ]
+      }
+    },
+    {
+      "name": "Puttalam",
+      "province": "North Western",
+      "aliases": {
+        "en": [
+          "Puttalam",
+          "Putlam"
+        ],
+        "si": [
+          "පුත්තලම"
+        ],
+        "ta": [
+          "புத்தளம்"
+        ]
+      }
+    },
+    {
+      "name": "Anuradhapura",
+      "province": "North Central",
+      "aliases": {
+        "en": [
+          "Anuradhapura"
+        ],
+        "si": [
+          "අනුරාධපුර",
+          "අනුරාධපුරය"
+        ],
+        "ta": [
+          "அனுராதபுரம்"
+        ]
+      }
+    },
+    {
+      "name": "Polonnaruwa",
+      "province": "North Central",
+      "aliases": {
+        "en": [
+          "Polonnaruwa",
+          "Polonnaruva"
+        ],
+        "si": [
+          "පොළොන්නරුව",
+          "පොලොන්නරුව"
+        ],
+        "ta": [
+          "பொலன்னறுவை"
+        ]
+      }
+    },
+    {
+      "name": "Badulla",
+      "province": "Uva",
+      "aliases": {
+        "en": [
+          "Badulla"
+        ],
+        "si": [
+          "බදුල්ල"
+        ],
+        "ta": [
+          "பதுளை"
+        ]
+      }
+    },
+    {
+      "name": "Moneragala",
+      "province": "Uva",
+      "aliases": {
+        "en": [
+          "Moneragala",
+          "Monaragala"
+        ],
+        "si": [
+          "මොණරාගල",
+          "මොනරාගල"
+        ],
+        "ta": [
+          "மொணராகலை",
+          "மொனராகலை"
+        ]
+      }
+    },
+    {
+      "name": "Ratnapura",
+      "province": "Sabaragamuwa",
+      "aliases": {
+        "en": [
+          "Ratnapura",
+          "Rathnapura"
+        ],
+        "si": [
+          "රත්නපුර"
+        ],
+        "ta": [
+          "இரத்தினபுரி",
+          "இரத்தினபுரம்"
+        ]
+      }
+    },
+    {
+      "name": "Kegalle",
+      "province": "Sabaragamuwa",
+      "aliases": {
+        "en": [
+          "Kegalle",
+          "Kegalla"
+        ],
+        "si": [
+          "කෑගල්ල"
+        ],
+        "ta": [
+          "கேகாலை"
+        ]
+      }
+    }
+  ],
+  "provinces": [
+    {
+      "name": "Western",
+      "aliases": {
+        "en": [
+          "Western Province"
+        ],
+        "si": [
+          "බස්නාහිර",
+          "බස්නාහිර පළාත"
+        ],
+        "ta": [
+          "மேல் மாகாணம்"
+        ]
+      }
+    },
+    {
+      "name": "Central",
+      "aliases": {
+        "en": [
+          "Central Province"
+        ],
+        "si": [
+          "මධ්‍යම",
+          "මධ්‍යම පළාත"
+        ],
+        "ta": [
+          "மத்திய மாகாணம்"
+        ]
+      }
+    },
+    {
+      "name": "Southern",
+      "aliases": {
+        "en": [
+          "Southern Province"
+        ],
+        "si": [
+          "දකුණු",
+          "දකුණු පළාත"
+        ],
+        "ta": [
+          "தென் மாகாணம்"
+        ]
+      }
+    },
+    {
+      "name": "Northern",
+      "aliases": {
+        "en": [
+          "Northern Province"
+        ],
+        "si": [
+          "උතුරු",
+          "උතුරු පළාත"
+        ],
+        "ta": [
+          "வட மாகாணம்"
+        ]
+      }
+    },
+    {
+      "name": "Eastern",
+      "aliases": {
+        "en": [
+          "Eastern Province"
+        ],
+        "si": [
+          "නැගෙනහිර",
+          "නැගෙනහිර පළාත"
+        ],
+        "ta": [
+          "கிழக்கு மாகாணம்"
+        ]
+      }
+    },
+    {
+      "name": "North Western",
+      "aliases": {
+        "en": [
+          "North Western Province",
+          "North-Western Province",
+          "Northwestern Province",
+          "Wayamba"
+        ],
+        "si": [
+          "වයඹ",
+          "වයඹ පළාත"
+        ],
+        "ta": [
+          "வட மேல் மாகாணம்",
+          "வடமேல் மாகாணம்"
+        ]
+      }
+    },
+    {
+      "name": "North Central",
+      "aliases": {
+        "en": [
+          "North Central Province",
+          "North-Central Province"
+        ],
+        "si": [
+          "උතුරු මැද",
+          "උතුරු මැද පළාත"
+        ],
+        "ta": [
+          "வட மத்திய மாகாணம்",
+          "வடமத்திய மாகாணம்"
+        ]
+      }
+    },
+    {
+      "name": "Uva",
+      "aliases": {
+        "en": [
+          "Uva Province"
+        ],
+        "si": [
+          "ඌව",
+          "ඌව පළාත"
+        ],
+        "ta": [
+          "ஊவா",
+          "ஊவா மாகாணம்"
+        ]
+      }
+    },
+    {
+      "name": "Sabaragamuwa",
+      "aliases": {
+        "en": [
+          "Sabaragamuwa Province",
+          "Sabaragamuva Province"
+        ],
+        "si": [
+          "සබරගමුව",
+          "සබරගමුව පළාත"
+        ],
+        "ta": [
+          "சபரகமுவ",
+          "சப்ரகமுவ",
+          "சபரகமுவ மாகாணம்"
+        ]
+      }
+    }
+  ]
+}

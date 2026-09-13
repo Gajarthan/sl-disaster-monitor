@@ -1,0 +1,86 @@
+[
+  {
+    "content_hash": "8f29d8e186bd0dd9535dbd2dbd3697dd33c892e176a8d42aaf6c140244fe7850",
+    "description": "",
+    "districts": [
+      "Ampara",
+      "Anuradhapura",
+      "Badulla",
+      "Galle",
+      "Hambantota",
+      "Jaffna",
+      "Kalutara",
+      "Kandy",
+      "Kegalle",
+      "Kurunegala",
+      "Matale",
+      "Matara",
+      "Mullaitivu",
+      "Nuwara Eliya",
+      "Puttalam",
+      "Ratnapura",
+      "Trincomalee"
+    ],
+    "document_type": "situation",
+    "extraction": {
+      "location_scope": "mentions",
+      "rules_version": "1.0.0",
+      "severity_evidence": "situation report",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "flood",
+      "landslide"
+    ],
+    "id": "dmc-8f29d8e186bd0dd9535dbd2dbd3697dd33c892e176a8d42aaf6c140244fe7850",
+    "issued_at": "2026-09-13T10:00:00+05:30",
+    "language": "en",
+    "language_confidence": 0.83,
+    "language_reason": "Predominantly Latin letters with multiple English function/weather words",
+    "official": {
+      "description": "",
+      "document_type": "situation",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "situation",
+          "report_date": "2026-09-13",
+          "report_time": "10:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1789277061.pdf",
+          "title": "Situation Report"
+        }
+      ],
+      "report_date": "2026-09-13",
+      "report_time": "10:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1789277061.pdf",
+      "title": "Situation Report"
+    },
+    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1789277061.pdf",
+    "summary": "දිස්ත්‍රික්කය மாவட்டம் District ප්‍රා.ලේ. ලකා gpuNjr nra.gp DS Division පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;fs; Families පුද්ගලයින් egHfs; People පූර්ණ හානි KOik Fully අර්ධ හානි gFjpasT Partially කුඩා හා මධය පරිමාණ වයාපාරික ස්ත්‍රථාන சிறிய, நடுத்தர, நிறுவனங் களி ன் சேதங் கள்; Small, Medium, Enterprises Damages ඉතා වැදගත් යටිතල පහසුකම් වලට වූ හානි mbg;gilf; fl;likg;Gf;fs; Damages to critical Infrastructure ආරක්ිත ස්ත්‍රථාන ස්ත්‍ංඛ්‍යාව vz;zpf;i f No. of Safety Locations පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;f s; Families පුද්ගලයින් egHfs; Persons 1 නුවර fz;b Kandy 18 DS Divisions Cutting Failiure / Flood / Heavy Rain ",
+    "title": "Situation Report",
+    "valid_from": null,
+    "valid_until": null
+  }
+]
