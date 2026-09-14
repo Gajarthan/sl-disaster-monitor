@@ -1,22 +1,277 @@
 {
- "$schema":"https://json-schema.org/draft/2020-12/schema", "type":"object", "additionalProperties":false,
- "required":["id","source","document_type","hazard","hazards","severity","title","description","summary","language","language_confidence","language_reason","issued_at","valid_from","valid_until","districts","provinces","source_page","source_pdf","content_hash","processed_at","official","extraction"],
- "properties":{
-  "id":{"type":"string","pattern":"^dmc-[a-f0-9]{64}$"},"source":{"const":"DMC"},
-  "document_type":{"enum":["situation","weather","river_flood","landslide"]},
-  "hazard":{"$ref":"#/$defs/hazard"},"hazards":{"type":"array","minItems":1,"uniqueItems":true,"items":{"$ref":"#/$defs/hazard"}},
-  "severity":{"enum":["unknown","info","advisory","warning","severe"]},
-  "title":{"type":"string","minLength":1},"description":{"type":"string"},"summary":{"type":"string","maxLength":600},
-  "language":{"enum":["en","ta","si","unknown"]},"language_confidence":{"type":"number","minimum":0,"maximum":1},"language_reason":{"type":"string"},
-  "issued_at":{"$ref":"#/$defs/date"},"valid_from":{"$ref":"#/$defs/date"},"valid_until":{"$ref":"#/$defs/date"},
-  "districts":{"type":"array","uniqueItems":true,"items":{"type":"string"}},"provinces":{"type":"array","uniqueItems":true,"items":{"type":"string"}},
-  "source_page":{"$ref":"#/$defs/url"},"source_pdf":{"$ref":"#/$defs/url"},"content_hash":{"type":"string","pattern":"^[a-f0-9]{64}$"},
-  "processed_at":{"type":"string","format":"date-time"},"official":{"type":"object","required":["title","report_date","report_time","source_page","source_pdf"]},
-  "extraction":{"type":"object","required":["rules_version","status","location_scope"],"properties":{"status":{"enum":["ok","no_text"]},"location_scope":{"const":"mentions"}}}
- },
- "$defs":{
-  "date":{"type":["string","null"],"format":"date-time"},
-  "url":{"type":"string","format":"uri","pattern":"^https://(www\\.)?dmc\\.gov\\.lk/"},
-  "hazard":{"enum":["heavy_rain","flood","river_flood","landslide","lightning","strong_wind","high_waves","rough_sea","cyclone","drought","general_weather","other"]}
- }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "source",
+    "document_type",
+    "hazard",
+    "hazards",
+    "severity",
+    "title",
+    "description",
+    "summary",
+    "language",
+    "language_confidence",
+    "language_reason",
+    "issued_at",
+    "valid_from",
+    "valid_until",
+    "districts",
+    "provinces",
+    "source_page",
+    "source_pdf",
+    "content_hash",
+    "processed_at",
+    "official",
+    "extraction",
+    "languages_detected"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^dmc-[a-f0-9]{64}$"
+    },
+    "source": {
+      "const": "DMC"
+    },
+    "document_type": {
+      "enum": [
+        "situation",
+        "weather",
+        "river_flood",
+        "landslide"
+      ]
+    },
+    "hazard": {
+      "$ref": "#/$defs/hazard"
+    },
+    "hazards": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/hazard"
+      }
+    },
+    "severity": {
+      "enum": [
+        "unknown",
+        "info",
+        "advisory",
+        "warning",
+        "severe"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 600
+    },
+    "language": {
+      "enum": [
+        "en",
+        "ta",
+        "si",
+        "unknown",
+        "mul"
+      ]
+    },
+    "language_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "language_reason": {
+      "type": "string"
+    },
+    "issued_at": {
+      "$ref": "#/$defs/date"
+    },
+    "valid_from": {
+      "$ref": "#/$defs/date"
+    },
+    "valid_until": {
+      "$ref": "#/$defs/date"
+    },
+    "districts": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "provinces": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_page": {
+      "$ref": "#/$defs/url"
+    },
+    "source_pdf": {
+      "$ref": "#/$defs/url"
+    },
+    "content_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "processed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "official": {
+      "type": "object",
+      "required": [
+        "title",
+        "report_date",
+        "report_time",
+        "source_page",
+        "source_pdf"
+      ]
+    },
+    "extraction": {
+      "type": "object",
+      "required": [
+        "rules_version",
+        "status",
+        "location_scope"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "ok",
+            "no_text"
+          ]
+        },
+        "location_scope": {
+          "const": "mentions"
+        },
+        "language_detection": {
+          "type": "object",
+          "required": [
+            "version",
+            "language",
+            "languages_detected",
+            "status",
+            "pages"
+          ],
+          "properties": {
+            "version": {
+              "const": "2.0.0"
+            },
+            "status": {
+              "enum": [
+                "multilingual",
+                "single_language",
+                "insufficient_text",
+                "unrecognized_text"
+              ]
+            },
+            "pages": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "page",
+                  "language",
+                  "languages_detected",
+                  "confidence",
+                  "reason",
+                  "evidence"
+                ],
+                "properties": {
+                  "page": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "language": {
+                    "enum": [
+                      "en",
+                      "si",
+                      "ta",
+                      "mul",
+                      "unknown"
+                    ]
+                  },
+                  "languages_detected": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                      "enum": [
+                        "en",
+                        "si",
+                        "ta"
+                      ]
+                    }
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "languages_detected": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "en",
+          "si",
+          "ta"
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://(www\\.)?dmc\\.gov\\.lk/"
+    },
+    "hazard": {
+      "enum": [
+        "heavy_rain",
+        "flood",
+        "river_flood",
+        "landslide",
+        "lightning",
+        "strong_wind",
+        "high_waves",
+        "rough_sea",
+        "cyclone",
+        "drought",
+        "general_weather",
+        "other"
+      ]
+    }
+  }
 }

@@ -1,10 +1,11 @@
-import {dateRangeError,filterAlerts} from './lib.js';
+import {dateRangeError,filterAlerts,LANGUAGE_NAMES} from './lib.js';
 const literal=v=>"'"+String(v).replaceAll("'","''")+"'";
 export function buildHistoryURL(dataset,f={},offset=0){
  const error=dateRangeError(f);if(error)throw new Error(error);
  const where=[];
  if(f.district){if(!/^[A-Za-z]+(?:[ -][A-Za-z]+)*$/.test(f.district))throw new Error('Invalid district');where.push('"district_'+f.district.toLowerCase().replace(/[ -]/g,'_')+'" = true');}
- for(const k of ['hazard','severity','language','document_type'])if(f[k])where.push('"'+k+'" = '+literal(f[k]));
+ for(const k of ['hazard','severity','document_type'])if(f[k])where.push('"'+k+'" = '+literal(f[k]));
+ if(f.language)where.push(Object.hasOwn(LANGUAGE_NAMES,f.language)?'"language_'+f.language+'" = true':'"language" = '+literal(f.language));
  if(f.from)where.push('"issued_at" >= '+literal(f.from+'T00:00:00+05:30'));
  if(f.to)where.push('"issued_at" <= '+literal(f.to+'T23:59:59.999999+05:30'));
  const params=new URLSearchParams({dataset,config:'default',split:'train',where:where.join(' AND ')||'"source" = \'DMC\'',orderby:'"issued_at" DESC',offset:String(Math.max(0,Number(offset)||0)),length:'50'});

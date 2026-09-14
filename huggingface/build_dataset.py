@@ -9,7 +9,7 @@ from scraper.normalizer import validate_alert
 from scraper.district_detector import dictionary
 
 STRING_FIELDS='id source document_type hazard severity title description summary language language_reason issued_at valid_from valid_until source_page source_pdf content_hash processed_at'.split()
-LIST_FIELDS=['districts','provinces','hazards']
+LIST_FIELDS=['districts','provinces','hazards','languages_detected']
 
 def district_column(name):
     return 'district_'+name.lower().replace(' ','_')
@@ -18,16 +18,20 @@ def arrow_schema():
     return pa.schema([(k,pa.string()) for k in STRING_FIELDS]+
         [(k,pa.list_(pa.string())) for k in LIST_FIELDS]+
         [('language_confidence',pa.float64()),('official_json',pa.string()),('extraction_json',pa.string())]+
-        [(district_column(d['name']),pa.bool_()) for d in dictionary()['districts']])
+        [(district_column(d['name']),pa.bool_()) for d in dictionary()['districts']]+
+        [('language_'+code,pa.bool_()) for code in ['en','si','ta']])
 
 def to_row(record):
     row={k:record[k] for k in STRING_FIELDS+LIST_FIELDS+['language_confidence']}
     row['official_json']=json.dumps(record['official'],ensure_ascii=False,sort_keys=True)
     row['extraction_json']=json.dumps(record['extraction'],ensure_ascii=False,sort_keys=True)
     row.update({district_column(d['name']):d['name'] in record['districts'] for d in dictionary()['districts']})
+    row.update({'language_'+code:code in record['languages_detected'] for code in ['en','si','ta']})
     return row
 
 def from_row(row):
+    if row.get('languages_detected') is None:
+        row=dict(row,languages_detected=[row['language']] if row['language'] in ['en','si','ta'] else [])
     record={k:row[k] for k in STRING_FIELDS+LIST_FIELDS+['language_confidence']}
     record['official']=json.loads(row['official_json'])
     record['extraction']=json.loads(row['extraction_json'])
@@ -48,8 +52,9 @@ def save_records(root, records):
     archive=Path(root)/'archive'; archive.mkdir(parents=True,exist_ok=True)
     for year, additions in grouped.items():
         path=archive/f'alerts-{year}.parquet'
-        existing={r['id']:r for r in (pq.read_table(path).to_pylist() if path.exists() else [])}
-        before=dict(existing)
+        original={r['id']:r for r in (pq.read_table(path).to_pylist() if path.exists() else [])}
+        existing={key:to_row(from_row(r)) for key,r in original.items()}
+        before=original
         existing.update({r['id']:to_row(r) for r in additions})
         if before==existing: continue
         table=pa.Table.from_pylist(sorted(existing.values(),key=lambda r:r['id']),schema=arrow_schema())

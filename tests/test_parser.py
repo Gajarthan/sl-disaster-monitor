@@ -42,3 +42,17 @@ def test_image_only_pdf_returns_no_text(tmp_path):
     path = tmp_path/'blank.pdf'
     writer.write(path)
     assert extract_text(path) == ''
+
+def test_pdf_text_preserves_page_boundaries_including_blank_pages(tmp_path):
+    from pypdf import PdfWriter
+    from pypdf.generic import DictionaryObject, NameObject, DecodedStreamObject
+    writer=PdfWriter()
+    for text in ['First page weather report','','Second page weather report']:
+        page=writer.add_blank_page(width=200,height=200)
+        if text:
+            font=DictionaryObject({NameObject('/Type'):NameObject('/Font'),NameObject('/Subtype'):NameObject('/Type1'),NameObject('/BaseFont'):NameObject('/Helvetica')})
+            page[NameObject('/Resources')]=DictionaryObject({NameObject('/Font'):DictionaryObject({NameObject('/F1'):font})})
+            stream=DecodedStreamObject();stream.set_data(f'BT /F1 12 Tf ({text}) Tj ET'.encode())
+            page[NameObject('/Contents')]=stream
+    path=tmp_path/'pages.pdf';writer.write(path)
+    assert extract_text(path).split('\f')==['First page weather report','','Second page weather report']

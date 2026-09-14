@@ -15,10 +15,11 @@ def extract_text(path: Path):
                 raise PDFError('Encrypted PDF')
             if len(reader.pages) > 150:
                 raise PDFError('PDF exceeds 150 page processing limit')
-            text = '\n'.join(page.extract_text() or '' for page in reader.pages)
+            # Form-feed preserves real page boundaries, including blank pages.
+            text = '\f'.join((page.extract_text() or '').replace('\f','\n').replace('\x00','').strip() for page in reader.pages)
             if len(text) > 2_000_000:
                 raise PDFError('Extracted text exceeds limit')
-            return text.replace('\x00','').strip()
+            return text
     except PDFError:
         raise
     except Exception as exc:

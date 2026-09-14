@@ -1,13 +1,27 @@
 export const SEVERITIES=['unknown','info','advisory','warning','severe'];
 export const COLORS={no_coverage:'#b8c5cd',unknown:'#7d718e',info:'#448fa5',advisory:'#c59c2f',warning:'#c97730',severe:'#bb3543'};
 export const label=value=>String(value||'Unknown').replaceAll('_',' ').replace(/^./,c=>c.toUpperCase());
+export const LANGUAGE_NAMES={en:'English',si:'Sinhala',ta:'Tamil'};
+export function detectedLanguages(record){
+ const languages=Array.isArray(record.languages_detected)?record.languages_detected:[record.language];
+ return [...new Set(languages.filter(language=>Object.hasOwn(LANGUAGE_NAMES,language)))];
+}
+export function languageLabel(record){
+ const languages=detectedLanguages(record);
+ return languages.length?languages.map(language=>LANGUAGE_NAMES[language]).join(' + '):'Unknown language';
+}
 export function sourceUrl(value){try{const u=new URL(value);return u.protocol==='https:'&&['dmc.gov.lk','www.dmc.gov.lk'].includes(u.hostname)&&!u.port&&!u.username&&!u.password?u.href:null;}catch{return null;}}
 function validDate(value){return /^\d{4}-\d{2}-\d{2}$/.test(value)&&!Number.isNaN(Date.parse(value))&&new Date(value).toISOString().slice(0,10)===value;}
 export function dateRangeError(f){if([f.from,f.to].some(v=>v&&!validDate(v)))return 'Enter valid dates.';if(f.from&&f.to&&f.from>f.to)return 'The start date must be on or before the end date.';return '';}
 export function filterAlerts(rows,f={}){if(dateRangeError(f))return [];return rows.filter(a=>{
  if(f.district&&!a.districts?.includes(f.district))return false;
  if(f.hazard&&!(a.hazards||[a.hazard]).includes(f.hazard))return false;
- for(const k of ['severity','language','document_type'])if(f[k]&&a[k]!==f[k])return false;
+ for(const k of ['severity','document_type'])if(f[k]&&a[k]!==f[k])return false;
+ if(f.language){
+  const languages=detectedLanguages(a);
+  const classification=languages.length>1?'mul':languages[0]||'unknown';
+  if(Object.hasOwn(LANGUAGE_NAMES,f.language)?!languages.includes(f.language):classification!==f.language)return false;
+ }
  if(f.from||f.to){if(!a.issued_at||!Number.isFinite(Date.parse(a.issued_at)))return false;const day=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Colombo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(a.issued_at));if(f.from&&day<f.from||f.to&&day>f.to)return false;}
  return true;
 });}

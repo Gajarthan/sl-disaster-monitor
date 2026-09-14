@@ -78,6 +78,10 @@ python -m scraper.pipeline --recheck
 # Re-run extraction after parser/rule changes, including unchanged hashes.
 python -m scraper.pipeline --reprocess
 
+# Upgrade language labels/evidence for the entire existing archive only.
+# Checks each PDF's hash and preserves other fields; safe to resume after failure.
+python -m scraper.reprocess_languages
+
 # Expand collection/backfill deliberately; the page budget stays bounded.
 python -m scraper.pipeline --bootstrap-days 30 --max-pages 50 --reprocess
 ```
@@ -91,7 +95,7 @@ Large backfills should be run in measured batches to avoid burdening DMC. Rule c
 | `official` | Verbatim cleaned listing title, description if supplied, date/time, category and source URLs. `listings` preserves additional occurrences. |
 | `id`, `content_hash`, `source_pdf` | Content identity and official original document link. |
 | `issued_at` | Listing date/time interpreted as Sri Lanka time, `+05:30`. Null if time is missing; no invented midnight. |
-| `language`, confidence/reason | Tamil and Sinhala Unicode-script proportions or English word evidence; ambiguous text is `unknown`. |
+| `language`, `languages_detected`, confidence/reason | All supported languages detected by page/script and English word evidence. `language=mul` denotes multiple languages; the list retains `en`, `si`, `ta`. Unrecognized/insufficient text remains `unknown`. |
 | `hazard`, `hazards` | Deterministic keyword matches across title/body; primary hazard favors title evidence. |
 | `severity` | Explicit listing-title label only: `info`, `advisory`, `warning`, `severe`, or `unknown`. An advisory for severe lightning stays advisory. |
 | `districts`, `provinces` | Multilingual dictionary mentions, with province derived from a named district or explicitly mentioned province. Province-only text does not invent districts. |
@@ -100,6 +104,8 @@ Large backfills should be run in measured batches to avoid burdening DMC. Rule c
 | `extraction` | Rule version, status, severity evidence and scope/validity limitations. |
 
 The versioned [JSON schema](schemas/alert.schema.json) rejects invalid severities, source URLs and malformed records. Additional district attributes can later represent DS/GN divisions, towns, rivers, reservoirs, coastlines or coordinates without changing how documents are acquired.
+
+A PDF with Sinhala and English pages now has `"language": "mul"` and `"languages_detected": ["en", "si"]`. Each original page retains its own language list, evidence, reason and heuristic confidence under `extraction.language_detection.pages`. The language filter matches membership, so that report appears under both English and Sinhala, as well as Multilingual. A small foreign-language heading alone is insufficient evidence; mixed pages require substantial script/word evidence. These labels describe text present in the PDF, not the completeness of translations.
 
 Hazards: `heavy_rain`, `flood`, `river_flood`, `landslide`, `lightning`, `strong_wind`, `high_waves`, `rough_sea`, `cyclone`, `drought`, `general_weather`, `other`. Classification is a search aid: a water-level report can receive the `river_flood` topic without being a flood warning. Keyword matches can include background context and negation; read the original PDF.
 
@@ -143,14 +149,14 @@ python -m huggingface.upload_dataset --repo-id USERNAME/sl-disaster-alerts
 
 The uploader validates the archive, creates a public dataset if needed, and uploads only the card and yearly Parquet files. Authentication uses `HF_TOKEN` or the local Hub login. Publication retries in Actions. Historical rows use `default` / `train`. Original nested `official` and `extraction` objects become `official_json` and `extraction_json` columns, while required analytical columns remain typed and directly queryable.
 
-The dashboard's `history.js` adapters share `search(filters, offset)`. Recent JSON uses local filtering; historical search uses the public [Dataset Server filter API](https://huggingface.co/docs/dataset-viewer/filter). Boolean `district_<slug>` columns support district membership, and scalar columns support primary hazard, severity, language, document type and date. Recent hazard filtering can match any detected hazard; archive hazard filtering uses the primary hazard. Queries load 50 records per page. No token is sent from the browser. Dataset Server indexing is asynchronous, can be busy or partial, and does not guarantee availability; visible errors retain the local recent-search option. A future DuckDB/PostgreSQL adapter can implement the same interface.
+The dashboard's `history.js` adapters share `search(filters, offset)`. Recent JSON uses local filtering; historical search uses the public [Dataset Server filter API](https://huggingface.co/docs/dataset-viewer/filter). Boolean `district_<slug>` columns support district membership, and `language_en`, `language_si`, `language_ta` include multilingual reports in each matching language filter. Scalar columns support primary hazard, severity, document type, date, and the multilingual/unknown language categories. Recent hazard filtering can match any detected hazard; archive hazard filtering uses the primary hazard. Queries load 50 records per page. No token is sent from the browser. Dataset Server indexing is asynchronous, can be busy or partial, and does not guarantee availability; visible errors retain the local recent-search option. A future DuckDB/PostgreSQL adapter can implement the same interface.
 
 ## Monitoring and limitations
 
 `metadata.json` includes last run, last successful scrape, newest DMC document seen, documents checked/new/failed, download/parse failures, duplicates, unknown languages, no-text count, pending retries, archive count, per-category status and error details. The frontend warns on partial/failed collection, no successful run, a last success older than six hours, or a newest source document older than 48 hours. Map colors are muted when coverage is uncertain. A green pipeline means collection succeeded, not that conditions are safe.
 
 - No OCR is included. Scanned PDFs and legacy font encodings can remain incomplete even when the download succeeds.
-- Language confidence is heuristic, not a calibrated probability; multilingual reports use a dominant script or remain unknown.
+- Language confidence is heuristic, not a calibrated probability. `languages_detected` reports language presence, not a guarantee that the entire report is translated. Page-level evidence appears under `extraction.language_detection`; a page may itself contain several languages. Mixed-language evidence is separate from insufficient/unrecognized text and does not imply OCR is needed.
 - Source listing dates can differ from dates printed inside PDFs; the source fields are preserved for audit.
 - Report-wide severity is conservative and does not parse district-specific levels or warning legends. Validity remains unknown.
 - Source outages, HTML changes, inaccessible URLs and delayed publication affect coverage. Always use the official original report for decisions.

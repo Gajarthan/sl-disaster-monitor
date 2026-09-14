@@ -23,6 +23,100 @@
     ],
     "document_type": "situation",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.205,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.205,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 1353,
+                "reason": "1353 Latin letters and 5 distinct English function/report words",
+                "share": 0.771
+              },
+              {
+                "confidence": 0.205,
+                "language": "si",
+                "letters": 360,
+                "reason": "360 of 1755 alphabetic characters use the si script",
+                "share": 0.205
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.182,
+            "evidence": [
+              {
+                "confidence": 0.67,
+                "language": "en",
+                "letters": 752,
+                "reason": "752 Latin letters and 3 distinct English function/report words",
+                "share": 0.818
+              },
+              {
+                "confidence": 0.182,
+                "language": "si",
+                "letters": 167,
+                "reason": "167 of 919 alphabetic characters use the si script",
+                "share": 0.182
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.177,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 408,
+                "reason": "408 Latin letters and 4 distinct English function/report words",
+                "share": 0.823
+              },
+              {
+                "confidence": 0.177,
+                "language": "si",
+                "letters": 88,
+                "reason": "88 of 496 alphabetic characters use the si script",
+                "share": 0.177
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 3,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "situation report",
@@ -39,9 +133,13 @@
     ],
     "id": "dmc-8f29d8e186bd0dd9535dbd2dbd3697dd33c892e176a8d42aaf6c140244fe7850",
     "issued_at": "2026-09-13T10:00:00+05:30",
-    "language": "en",
-    "language_confidence": 0.83,
-    "language_reason": "Predominantly Latin letters with multiple English function/weather words",
+    "language": "mul",
+    "language_confidence": 0.205,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "situation",
@@ -62,7 +160,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1789277061.pdf",
       "title": "Situation Report"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",

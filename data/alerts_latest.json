@@ -17,6 +17,82 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.342,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si",
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.373,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 537,
+                "reason": "537 Latin letters and 11 distinct English function/report words",
+                "share": 0.627
+              },
+              {
+                "confidence": 0.373,
+                "language": "si",
+                "letters": 319,
+                "reason": "319 of 856 alphabetic characters use the si script",
+                "share": 0.373
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.257,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 455,
+                "reason": "455 Latin letters and 5 distinct English function/report words",
+                "share": 0.402
+              },
+              {
+                "confidence": 0.257,
+                "language": "si",
+                "letters": 291,
+                "reason": "291 of 1133 alphabetic characters use the si script",
+                "share": 0.257
+              },
+              {
+                "confidence": 0.342,
+                "language": "ta",
+                "letters": 387,
+                "reason": "387 of 1133 alphabetic characters use the ta script",
+                "share": 0.342
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si",
+              "ta"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -33,9 +109,14 @@
     ],
     "id": "dmc-ea8c57b6f412de48ada2677052b3bea20e1ca9b6f629d368de5eddc2e636109a",
     "issued_at": "2026-09-13T16:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.342,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si",
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -56,7 +137,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789297366.pdf",
       "title": "Weather Forecast"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -90,6 +171,95 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.99,
+            "evidence": [
+              {
+                "confidence": 0.99,
+                "language": "si",
+                "letters": 308,
+                "reason": "308 of 311 alphabetic characters use the si script",
+                "share": 0.99
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "308 of 311 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.985,
+            "evidence": [
+              {
+                "confidence": 0.985,
+                "language": "si",
+                "letters": 585,
+                "reason": "585 of 594 alphabetic characters use the si script",
+                "share": 0.985
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "585 of 594 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.91,
+            "evidence": [
+              {
+                "confidence": 0.91,
+                "language": "en",
+                "letters": 447,
+                "reason": "447 Latin letters and 9 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "447 Latin letters and 9 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 823,
+                "reason": "823 Latin letters and 10 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 4,
+            "reason": "823 Latin letters and 10 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -104,9 +274,13 @@
     ],
     "id": "dmc-cd9500468e7f45fa66a4fc927c4ec1a471f2a59d26b5dffd8765224f7764fb6f",
     "issued_at": "2026-09-13T16:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.95,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -127,7 +301,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789297466.pdf",
       "title": "Warm Weather Advisory"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Northern",
       "Southern",
@@ -150,6 +324,56 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.991,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.991,
+            "evidence": [
+              {
+                "confidence": 0.991,
+                "language": "ta",
+                "letters": 323,
+                "reason": "323 of 326 alphabetic characters use the ta script",
+                "share": 0.991
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "323 of 326 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.915,
+            "evidence": [
+              {
+                "confidence": 0.915,
+                "language": "ta",
+                "letters": 843,
+                "reason": "843 of 921 alphabetic characters use the ta script",
+                "share": 0.915
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "843 of 921 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -165,8 +389,11 @@
     "id": "dmc-999f967b4158b8db63549f7ecbec4effb4167334c8615db6801dccc2ebab2e5b",
     "issued_at": "2026-09-13T16:00:00+05:30",
     "language": "ta",
-    "language_confidence": 0.935,
-    "language_reason": "1166 of 1247 letters use the ta Unicode script; dominant local script",
+    "language_confidence": 0.991,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -187,7 +414,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789297945.pdf",
       "title": "Warm Weather Advisory (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Northern"
     ],
@@ -208,6 +435,37 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.808,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.808,
+            "evidence": [
+              {
+                "confidence": 0.808,
+                "language": "ta",
+                "letters": 571,
+                "reason": "571 of 707 alphabetic characters use the ta script",
+                "share": 0.808
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "571 of 707 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -226,7 +484,10 @@
     "issued_at": "2026-09-13T16:00:00+05:30",
     "language": "ta",
     "language_confidence": 0.808,
-    "language_reason": "571 of 707 letters use the ta Unicode script; dominant local script",
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -247,7 +508,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789297820.pdf",
       "title": "Weather Forecast (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Southern",
       "Uva"
@@ -270,6 +531,56 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.861,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.806,
+            "evidence": [
+              {
+                "confidence": 0.806,
+                "language": "ta",
+                "letters": 564,
+                "reason": "564 of 700 alphabetic characters use the ta script",
+                "share": 0.806
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "564 of 700 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.861,
+            "evidence": [
+              {
+                "confidence": 0.861,
+                "language": "ta",
+                "letters": 841,
+                "reason": "841 of 977 alphabetic characters use the ta script",
+                "share": 0.861
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "841 of 977 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -287,8 +598,11 @@
     "id": "dmc-54498e9dee65190a0196665df68dbe703bc09a819d08c0229062019fbd66c779",
     "issued_at": "2026-09-13T15:00:00+05:30",
     "language": "ta",
-    "language_confidence": 0.838,
-    "language_reason": "1405 of 1677 letters use the ta Unicode script; dominant local script",
+    "language_confidence": 0.861,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -309,7 +623,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789292109.pdf",
       "title": "Weather Forecast (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "North Western",
       "Southern",
@@ -336,6 +650,73 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.396,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.376,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 617,
+                "reason": "617 Latin letters and 12 distinct English function/report words",
+                "share": 0.624
+              },
+              {
+                "confidence": 0.376,
+                "language": "si",
+                "letters": 372,
+                "reason": "372 of 989 alphabetic characters use the si script",
+                "share": 0.376
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.396,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 894,
+                "reason": "894 Latin letters and 11 distinct English function/report words",
+                "share": 0.604
+              },
+              {
+                "confidence": 0.396,
+                "language": "si",
+                "letters": 587,
+                "reason": "587 of 1481 alphabetic characters use the si script",
+                "share": 0.396
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -352,9 +733,13 @@
     ],
     "id": "dmc-35a5bc194fe6a76a44949e54379dda6038d06e6901bbb39a194d6ef02a21af3b",
     "issued_at": "2026-09-13T14:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.396,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -375,7 +760,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789289373.pdf",
       "title": "Weather Forecast"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "North Western",
@@ -400,6 +785,37 @@
     "districts": [],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.991,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.991,
+            "evidence": [
+              {
+                "confidence": 0.991,
+                "language": "ta",
+                "letters": 331,
+                "reason": "331 of 334 alphabetic characters use the ta script",
+                "share": 0.991
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "331 of 334 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -416,7 +832,10 @@
     "issued_at": "2026-09-13T13:30:00+05:30",
     "language": "ta",
     "language_confidence": 0.991,
-    "language_reason": "331 of 334 letters use the ta Unicode script; dominant local script",
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -437,7 +856,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789287039.pdf",
       "title": "Advisory for High Waves (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [],
     "severity": "advisory",
     "source": "DMC",
@@ -458,6 +877,65 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.83,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.993,
+            "evidence": [
+              {
+                "confidence": 0.993,
+                "language": "si",
+                "letters": 418,
+                "reason": "418 of 421 alphabetic characters use the si script",
+                "share": 0.993
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "418 of 421 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.156,
+            "evidence": [
+              {
+                "confidence": 0.83,
+                "language": "en",
+                "letters": 444,
+                "reason": "444 Latin letters and 7 distinct English function/report words",
+                "share": 0.844
+              },
+              {
+                "confidence": 0.156,
+                "language": "si",
+                "letters": 82,
+                "reason": "82 of 526 alphabetic characters use the si script",
+                "share": 0.156
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -472,9 +950,13 @@
     ],
     "id": "dmc-08977f3368154c699dae9b841f06382027c05dcce22d9934d9e1940816caa4a1",
     "issued_at": "2026-09-13T12:00:00+05:30",
-    "language": "si",
-    "language_confidence": 0.528,
-    "language_reason": "500 of 947 letters use the si Unicode script; dominant local script",
+    "language": "mul",
+    "language_confidence": 0.83,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -495,7 +977,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789283295.pdf",
       "title": "Advisory for High Waves"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Southern",
       "Western"
@@ -524,6 +1006,65 @@
     ],
     "document_type": "situation",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.386,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.386,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 938,
+                "reason": "938 Latin letters and 5 distinct English function/report words",
+                "share": 0.587
+              },
+              {
+                "confidence": 0.386,
+                "language": "si",
+                "letters": 617,
+                "reason": "617 of 1597 alphabetic characters use the si script",
+                "share": 0.386
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.361,
+            "evidence": [
+              {
+                "confidence": 0.361,
+                "language": "si",
+                "letters": 296,
+                "reason": "296 of 819 alphabetic characters use the si script",
+                "share": 0.361
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "296 of 819 alphabetic characters use the si script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "situation report",
@@ -538,9 +1079,13 @@
     ],
     "id": "dmc-9371e7eafed996f5b324674cde97466a1bfb5df32b1ab3aa779d0c6518c44525",
     "issued_at": "2026-09-13T10:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.386,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "situation",
@@ -561,7 +1106,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Drought_Situation_Report_on_2026__1789277084.pdf",
       "title": "Drought Situation Report"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -603,6 +1148,100 @@
     ],
     "document_type": "situation",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.205,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.205,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 1353,
+                "reason": "1353 Latin letters and 5 distinct English function/report words",
+                "share": 0.771
+              },
+              {
+                "confidence": 0.205,
+                "language": "si",
+                "letters": 360,
+                "reason": "360 of 1755 alphabetic characters use the si script",
+                "share": 0.205
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.182,
+            "evidence": [
+              {
+                "confidence": 0.67,
+                "language": "en",
+                "letters": 752,
+                "reason": "752 Latin letters and 3 distinct English function/report words",
+                "share": 0.818
+              },
+              {
+                "confidence": 0.182,
+                "language": "si",
+                "letters": 167,
+                "reason": "167 of 919 alphabetic characters use the si script",
+                "share": 0.182
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.177,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 408,
+                "reason": "408 Latin letters and 4 distinct English function/report words",
+                "share": 0.823
+              },
+              {
+                "confidence": 0.177,
+                "language": "si",
+                "letters": 88,
+                "reason": "88 of 496 alphabetic characters use the si script",
+                "share": 0.177
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 3,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "situation report",
@@ -619,9 +1258,13 @@
     ],
     "id": "dmc-8f29d8e186bd0dd9535dbd2dbd3697dd33c892e176a8d42aaf6c140244fe7850",
     "issued_at": "2026-09-13T10:00:00+05:30",
-    "language": "en",
-    "language_confidence": 0.83,
-    "language_reason": "Predominantly Latin letters with multiple English function/weather words",
+    "language": "mul",
+    "language_confidence": 0.205,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "situation",
@@ -642,7 +1285,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1789277061.pdf",
       "title": "Situation Report"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -674,6 +1317,56 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.847,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.847,
+            "evidence": [
+              {
+                "confidence": 0.847,
+                "language": "ta",
+                "letters": 771,
+                "reason": "771 of 910 alphabetic characters use the ta script",
+                "share": 0.847
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "771 of 910 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.687,
+            "evidence": [
+              {
+                "confidence": 0.687,
+                "language": "ta",
+                "letters": 298,
+                "reason": "298 of 434 alphabetic characters use the ta script",
+                "share": 0.687
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "298 of 434 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -691,8 +1384,11 @@
     "id": "dmc-035e5229e16674a3b933df1a98841fec393737ff9f6e082d99b0665bfd2a6e4b",
     "issued_at": "2026-09-13T10:00:00+05:30",
     "language": "ta",
-    "language_confidence": 0.795,
-    "language_reason": "1069 of 1344 letters use the ta Unicode script; dominant local script",
+    "language_confidence": 0.847,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -713,7 +1409,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1000hrs_on_13__1789277022.pdf",
       "title": "Advisory for Severe Lightning (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "North Western",
       "Northern",
@@ -740,6 +1436,57 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.881,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.881,
+            "evidence": [
+              {
+                "confidence": 0.881,
+                "language": "si",
+                "letters": 806,
+                "reason": "806 of 915 alphabetic characters use the si script",
+                "share": 0.881
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "806 of 915 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1194,
+                "reason": "1194 Latin letters and 13 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "1194 Latin letters and 13 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -756,9 +1503,13 @@
     ],
     "id": "dmc-02ac0d8f30517611aa8b1fcddef899717e370ceadc336e47184435744e55b8cd",
     "issued_at": "2026-09-13T10:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.881,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -779,7 +1530,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1000hrs_on_13__1789274734.pdf",
       "title": "Advisory for Severe Lightning"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "North Central",
@@ -806,6 +1557,56 @@
     ],
     "document_type": "river_flood",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.71,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1600,
+                "reason": "1600 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 1,
+            "reason": "1600 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 700,
+                "reason": "700 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "700 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "",
@@ -822,8 +1623,11 @@
     "id": "dmc-0034f28d0f44f938fd00db738da5a93c0e24b35e1f8bce783d9bc81a5e3b9f78",
     "issued_at": "2026-09-13T10:00:00+05:30",
     "language": "en",
-    "language_confidence": 0.79,
-    "language_reason": "Predominantly Latin letters with multiple English function/weather words",
+    "language_confidence": 0.71,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
     "official": {
       "description": "",
       "document_type": "river_flood",
@@ -844,7 +1648,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789272972.pdf",
       "title": "Water Level"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Eastern",
       "Sabaragamuwa",
@@ -874,6 +1678,92 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.777,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.385,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 638,
+                "reason": "638 Latin letters and 12 distinct English function/report words",
+                "share": 0.615
+              },
+              {
+                "confidence": 0.385,
+                "language": "si",
+                "letters": 399,
+                "reason": "399 of 1037 alphabetic characters use the si script",
+                "share": 0.385
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.75,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 175,
+                "reason": "175 Latin letters and 5 distinct English function/report words",
+                "share": 0.223
+              },
+              {
+                "confidence": 0.777,
+                "language": "si",
+                "letters": 608,
+                "reason": "608 of 783 alphabetic characters use the si script",
+                "share": 0.777
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 937,
+                "reason": "937 Latin letters and 11 distinct English function/report words",
+                "share": 0.898
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "937 Latin letters and 11 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -890,9 +1780,13 @@
     ],
     "id": "dmc-f04a940dea772ff3a6ded85c7e73059bb691d85b3c30f4711c4cd1210df52e1e",
     "issued_at": "2026-09-13T05:30:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.777,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -913,7 +1807,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789259802.pdf",
       "title": "Weather Forecast"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -941,6 +1835,56 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.864,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.803,
+            "evidence": [
+              {
+                "confidence": 0.803,
+                "language": "ta",
+                "letters": 556,
+                "reason": "556 of 692 alphabetic characters use the ta script",
+                "share": 0.803
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "556 of 692 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.864,
+            "evidence": [
+              {
+                "confidence": 0.864,
+                "language": "ta",
+                "letters": 863,
+                "reason": "863 of 999 alphabetic characters use the ta script",
+                "share": 0.864
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "863 of 999 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -958,8 +1902,11 @@
     "id": "dmc-6952e13e649b654ff2e7b4f891f800f9b6f2f13ba1a05b062c15bdaf81a76cfd",
     "issued_at": "2026-09-13T05:30:00+05:30",
     "language": "ta",
-    "language_confidence": 0.839,
-    "language_reason": "1419 of 1691 letters use the ta Unicode script; dominant local script",
+    "language_confidence": 0.864,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -980,7 +1927,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789267642.pdf",
       "title": "Weather Forecast (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Eastern",
       "Southern"
@@ -1008,6 +1955,95 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.991,
+            "evidence": [
+              {
+                "confidence": 0.991,
+                "language": "si",
+                "letters": 316,
+                "reason": "316 of 319 alphabetic characters use the si script",
+                "share": 0.991
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "316 of 319 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.985,
+            "evidence": [
+              {
+                "confidence": 0.985,
+                "language": "si",
+                "letters": 585,
+                "reason": "585 of 594 alphabetic characters use the si script",
+                "share": 0.985
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "585 of 594 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.91,
+            "evidence": [
+              {
+                "confidence": 0.91,
+                "language": "en",
+                "letters": 467,
+                "reason": "467 Latin letters and 9 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "467 Latin letters and 9 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 823,
+                "reason": "823 Latin letters and 10 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 4,
+            "reason": "823 Latin letters and 10 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -1022,9 +2058,13 @@
     ],
     "id": "dmc-b8db583c4b2f19b577ce0076eb1cc066573aeef91f8128f3c2c2c6392a41dd5a",
     "issued_at": "2026-09-12T16:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.95,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1045,7 +2085,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789209280.pdf",
       "title": "Warm Weather Advisory"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "North Western",
       "Northern",
@@ -1080,6 +2120,82 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.32,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si",
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.375,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 692,
+                "reason": "692 Latin letters and 12 distinct English function/report words",
+                "share": 0.625
+              },
+              {
+                "confidence": 0.375,
+                "language": "si",
+                "letters": 415,
+                "reason": "415 of 1107 alphabetic characters use the si script",
+                "share": 0.375
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.255,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 407,
+                "reason": "407 Latin letters and 5 distinct English function/report words",
+                "share": 0.424
+              },
+              {
+                "confidence": 0.255,
+                "language": "si",
+                "letters": 245,
+                "reason": "245 of 959 alphabetic characters use the si script",
+                "share": 0.255
+              },
+              {
+                "confidence": 0.32,
+                "language": "ta",
+                "letters": 307,
+                "reason": "307 of 959 alphabetic characters use the ta script",
+                "share": 0.32
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si",
+              "ta"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -1096,9 +2212,14 @@
     ],
     "id": "dmc-31ee6e6e2bf64aa15257e699d30fc7ba62b00da810f89eb3208540cf1f7970d2",
     "issued_at": "2026-09-12T16:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.32,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si",
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1119,7 +2240,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789209340.pdf",
       "title": "Weather Forecast"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -1156,6 +2277,84 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.823,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.374,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 772,
+                "reason": "772 Latin letters and 13 distinct English function/report words",
+                "share": 0.626
+              },
+              {
+                "confidence": 0.374,
+                "language": "si",
+                "letters": 461,
+                "reason": "461 of 1233 alphabetic characters use the si script",
+                "share": 0.374
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.823,
+            "evidence": [
+              {
+                "confidence": 0.823,
+                "language": "si",
+                "letters": 815,
+                "reason": "815 of 990 alphabetic characters use the si script",
+                "share": 0.823
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "815 of 990 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1264,
+                "reason": "1264 Latin letters and 12 distinct English function/report words",
+                "share": 0.922
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "1264 Latin letters and 12 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -1172,9 +2371,13 @@
     ],
     "id": "dmc-818a57e0694e9244c289317a8781819a86e32004955126dbdfc5bd18a00c0a8b",
     "issued_at": "2026-09-12T14:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.823,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1195,7 +2398,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789203711.pdf",
       "title": "Weather Forecast"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -1224,6 +2427,75 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.876,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.831,
+            "evidence": [
+              {
+                "confidence": 0.831,
+                "language": "ta",
+                "letters": 668,
+                "reason": "668 of 804 alphabetic characters use the ta script",
+                "share": 0.831
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "668 of 804 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.876,
+            "evidence": [
+              {
+                "confidence": 0.876,
+                "language": "ta",
+                "letters": 963,
+                "reason": "963 of 1099 alphabetic characters use the ta script",
+                "share": 0.876
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "963 of 1099 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.697,
+            "evidence": [
+              {
+                "confidence": 0.697,
+                "language": "ta",
+                "letters": 313,
+                "reason": "313 of 449 alphabetic characters use the ta script",
+                "share": 0.697
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 3,
+            "reason": "313 of 449 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -1241,8 +2513,11 @@
     "id": "dmc-3e391282ca06e5de1c8c89438d2016958bcc39ab2d53c1d5213fd7da4b30d806",
     "issued_at": "2026-09-12T14:00:00+05:30",
     "language": "ta",
-    "language_confidence": 0.827,
-    "language_reason": "1944 of 2352 letters use the ta Unicode script; dominant local script",
+    "language_confidence": 0.876,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1263,7 +2538,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789205177.pdf",
       "title": "Weather Forecast (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Eastern",
       "Northern",
@@ -1285,6 +2560,37 @@
     "districts": [],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.995,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.995,
+            "evidence": [
+              {
+                "confidence": 0.995,
+                "language": "ta",
+                "letters": 588,
+                "reason": "588 of 591 alphabetic characters use the ta script",
+                "share": 0.995
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "588 of 591 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -1302,7 +2608,10 @@
     "issued_at": "2026-09-12T12:00:00+05:30",
     "language": "ta",
     "language_confidence": 0.995,
-    "language_reason": "588 of 591 letters use the ta Unicode script; dominant local script",
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1323,7 +2632,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_11__1789195511.pdf",
       "title": "Advisory for Strong Winds and Rough Seas (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [],
     "severity": "advisory",
     "source": "DMC",
@@ -1344,6 +2653,76 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.995,
+            "evidence": [
+              {
+                "confidence": 0.995,
+                "language": "si",
+                "letters": 587,
+                "reason": "587 of 590 alphabetic characters use the si script",
+                "share": 0.995
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "587 of 590 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 693,
+                "reason": "693 Latin letters and 11 distinct English function/report words",
+                "share": 0.894
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "693 Latin letters and 11 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 1.0,
+            "evidence": [
+              {
+                "confidence": 1.0,
+                "language": "si",
+                "letters": 82,
+                "reason": "82 of 82 alphabetic characters use the si script",
+                "share": 1.0
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 3,
+            "reason": "82 of 82 alphabetic characters use the si script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -1359,9 +2738,13 @@
     ],
     "id": "dmc-687bae1aab224951d3801820c1a41ea1ec53361f6c874efa5e7f2121cfb66d3e",
     "issued_at": "2026-09-12T11:00:00+05:30",
-    "language": "si",
-    "language_confidence": 0.519,
-    "language_reason": "751 of 1447 letters use the si Unicode script; dominant local script",
+    "language": "mul",
+    "language_confidence": 0.95,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1382,7 +2765,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_1100hrs_on_12__1789192127.pdf",
       "title": "Advisory for Strong Winds and Rough Seas"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Southern"
     ],
@@ -1405,6 +2788,56 @@
     ],
     "document_type": "river_flood",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.71,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1600,
+                "reason": "1600 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 1,
+            "reason": "1600 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 696,
+                "reason": "696 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "696 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "",
@@ -1421,8 +2854,11 @@
     "id": "dmc-d8c34c24328c15a4e94c9b1fd9a5794b6b6c2d6691826c5afe465bedb3483f4e",
     "issued_at": "2026-09-12T09:30:00+05:30",
     "language": "en",
-    "language_confidence": 0.79,
-    "language_reason": "Predominantly Latin letters with multiple English function/weather words",
+    "language_confidence": 0.71,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
     "official": {
       "description": "",
       "document_type": "river_flood",
@@ -1443,7 +2879,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789185958.pdf",
       "title": "Water level & Rainfall"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Eastern",
       "Sabaragamuwa",
@@ -1469,6 +2905,75 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.876,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.816,
+            "evidence": [
+              {
+                "confidence": 0.816,
+                "language": "ta",
+                "letters": 603,
+                "reason": "603 of 739 alphabetic characters use the ta script",
+                "share": 0.816
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "603 of 739 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.876,
+            "evidence": [
+              {
+                "confidence": 0.876,
+                "language": "ta",
+                "letters": 962,
+                "reason": "962 of 1098 alphabetic characters use the ta script",
+                "share": 0.876
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "962 of 1098 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.697,
+            "evidence": [
+              {
+                "confidence": 0.697,
+                "language": "ta",
+                "letters": 313,
+                "reason": "313 of 449 alphabetic characters use the ta script",
+                "share": 0.697
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 3,
+            "reason": "313 of 449 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -1486,8 +2991,11 @@
     "id": "dmc-37033a17ff39254ce3eb562dad07d0b4a6069c2df5f494d6e24c385e7f98f71a",
     "issued_at": "2026-09-12T08:00:00+05:30",
     "language": "ta",
-    "language_confidence": 0.822,
-    "language_reason": "1878 of 2286 letters use the ta Unicode script; dominant local script",
+    "language_confidence": 0.876,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1508,7 +3016,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789181127.pdf",
       "title": "Weather Forecast (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -1543,6 +3051,84 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.824,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.378,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 667,
+                "reason": "667 Latin letters and 12 distinct English function/report words",
+                "share": 0.622
+              },
+              {
+                "confidence": 0.378,
+                "language": "si",
+                "letters": 405,
+                "reason": "405 of 1072 alphabetic characters use the si script",
+                "share": 0.378
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.824,
+            "evidence": [
+              {
+                "confidence": 0.824,
+                "language": "si",
+                "letters": 821,
+                "reason": "821 of 996 alphabetic characters use the si script",
+                "share": 0.824
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "821 of 996 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1264,
+                "reason": "1264 Latin letters and 12 distinct English function/report words",
+                "share": 0.922
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "1264 Latin letters and 12 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -1559,9 +3145,13 @@
     ],
     "id": "dmc-4aa2d909ad79edef73216f06f8f9bd9c0c4c40eb5f4abaa35db27b1a3d4fe49a",
     "issued_at": "2026-09-12T05:30:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.824,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1582,7 +3172,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789171884.pdf",
       "title": "Weather Forecast"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -1616,6 +3206,95 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.991,
+            "evidence": [
+              {
+                "confidence": 0.991,
+                "language": "si",
+                "letters": 316,
+                "reason": "316 of 319 alphabetic characters use the si script",
+                "share": 0.991
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "316 of 319 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.985,
+            "evidence": [
+              {
+                "confidence": 0.985,
+                "language": "si",
+                "letters": 585,
+                "reason": "585 of 594 alphabetic characters use the si script",
+                "share": 0.985
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "585 of 594 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.91,
+            "evidence": [
+              {
+                "confidence": 0.91,
+                "language": "en",
+                "letters": 467,
+                "reason": "467 Latin letters and 9 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "467 Latin letters and 9 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 823,
+                "reason": "823 Latin letters and 10 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 4,
+            "reason": "823 Latin letters and 10 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -1630,9 +3309,13 @@
     ],
     "id": "dmc-ffdf437b876d4629464fa26f4e9e939613940cd005cd1f71497b7dda8a32d1af",
     "issued_at": "2026-09-11T16:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.95,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1653,7 +3336,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1789123495.pdf",
       "title": "Warm Weather Advisory"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "North Western",
       "Northern",
@@ -1688,6 +3371,82 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.313,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si",
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.379,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 551,
+                "reason": "551 Latin letters and 12 distinct English function/report words",
+                "share": 0.621
+              },
+              {
+                "confidence": 0.379,
+                "language": "si",
+                "letters": 336,
+                "reason": "336 of 887 alphabetic characters use the si script",
+                "share": 0.379
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.263,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 378,
+                "reason": "378 Latin letters and 5 distinct English function/report words",
+                "share": 0.424
+              },
+              {
+                "confidence": 0.263,
+                "language": "si",
+                "letters": 235,
+                "reason": "235 of 892 alphabetic characters use the si script",
+                "share": 0.263
+              },
+              {
+                "confidence": 0.313,
+                "language": "ta",
+                "letters": 279,
+                "reason": "279 of 892 alphabetic characters use the ta script",
+                "share": 0.313
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si",
+              "ta"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -1704,9 +3463,14 @@
     ],
     "id": "dmc-55a869e97ecc2bc54082753bb9c7d2c5a87108388db2a1ac2473324fe1ecaaa2",
     "issued_at": "2026-09-11T16:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.313,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si",
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1727,7 +3491,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600_hrs_on_2026__1789123183.pdf",
       "title": "Weather Forecast"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Eastern",
@@ -1763,6 +3527,84 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.81,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.38,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 631,
+                "reason": "631 Latin letters and 13 distinct English function/report words",
+                "share": 0.62
+              },
+              {
+                "confidence": 0.38,
+                "language": "si",
+                "letters": 386,
+                "reason": "386 of 1017 alphabetic characters use the si script",
+                "share": 0.38
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.81,
+            "evidence": [
+              {
+                "confidence": 0.81,
+                "language": "si",
+                "letters": 746,
+                "reason": "746 of 921 alphabetic characters use the si script",
+                "share": 0.81
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "746 of 921 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1118,
+                "reason": "1118 Latin letters and 12 distinct English function/report words",
+                "share": 0.913
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "1118 Latin letters and 12 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -1779,9 +3621,13 @@
     ],
     "id": "dmc-96aa4534f402e9f0e83b42dc6d456203001f1b01a1c1c88c414789f934c862a3",
     "issued_at": "2026-09-11T14:00:00+05:30",
-    "language": "unknown",
-    "language_confidence": 0.0,
-    "language_reason": "No supported script/language has sufficient evidence; legacy PDF fonts may need OCR",
+    "language": "mul",
+    "language_confidence": 0.81,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1802,7 +3648,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789116913.pdf",
       "title": "Weather Forecast"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "North Western",
@@ -1831,6 +3677,75 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.87,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.807,
+            "evidence": [
+              {
+                "confidence": 0.807,
+                "language": "ta",
+                "letters": 570,
+                "reason": "570 of 706 alphabetic characters use the ta script",
+                "share": 0.807
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "570 of 706 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.87,
+            "evidence": [
+              {
+                "confidence": 0.87,
+                "language": "ta",
+                "letters": 913,
+                "reason": "913 of 1049 alphabetic characters use the ta script",
+                "share": 0.87
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "913 of 1049 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.641,
+            "evidence": [
+              {
+                "confidence": 0.641,
+                "language": "ta",
+                "letters": 243,
+                "reason": "243 of 379 alphabetic characters use the ta script",
+                "share": 0.641
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 3,
+            "reason": "243 of 379 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "forecast",
@@ -1848,8 +3763,11 @@
     "id": "dmc-229083d89e054190975379dee1269eb57ed088c909a6f652ad00dc672555ff26",
     "issued_at": "2026-09-11T14:00:00+05:30",
     "language": "ta",
-    "language_confidence": 0.809,
-    "language_reason": "1726 of 2134 letters use the ta Unicode script; dominant local script",
+    "language_confidence": 0.87,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1870,7 +3788,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1789117363.pdf",
       "title": "Weather Forecast (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Central",
       "Northern",
@@ -1892,6 +3810,37 @@
     "districts": [],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.995,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.995,
+            "evidence": [
+              {
+                "confidence": 0.995,
+                "language": "ta",
+                "letters": 569,
+                "reason": "569 of 572 alphabetic characters use the ta script",
+                "share": 0.995
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "569 of 572 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -1909,7 +3858,10 @@
     "issued_at": "2026-09-11T12:00:00+05:30",
     "language": "ta",
     "language_confidence": 0.995,
-    "language_reason": "569 of 572 letters use the ta Unicode script; dominant local script",
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1930,7 +3882,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas_at_11__1789109781.pdf",
       "title": "Advisory for Strong Winds and Rough Seas (Tamil Language)"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [],
     "severity": "advisory",
     "source": "DMC",
@@ -1951,6 +3903,57 @@
     ],
     "document_type": "weather",
     "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.995,
+            "evidence": [
+              {
+                "confidence": 0.995,
+                "language": "si",
+                "letters": 587,
+                "reason": "587 of 590 alphabetic characters use the si script",
+                "share": 0.995
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "587 of 590 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 652,
+                "reason": "652 Latin letters and 11 distinct English function/report words",
+                "share": 0.888
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "652 Latin letters and 11 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
       "location_scope": "mentions",
       "rules_version": "1.0.0",
       "severity_evidence": "advisory",
@@ -1966,9 +3969,13 @@
     ],
     "id": "dmc-11085ddab71f595b6c922778b50ec29c65230cf299b6342435995edaf7c2a2bf",
     "issued_at": "2026-09-11T11:00:00+05:30",
-    "language": "si",
-    "language_confidence": 0.505,
-    "language_reason": "669 of 1324 letters use the si Unicode script; dominant local script",
+    "language": "mul",
+    "language_confidence": 0.95,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
     "official": {
       "description": "",
       "document_type": "weather",
@@ -1989,7 +3996,7 @@
       "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas__1789107441.pdf",
       "title": "Advisory for Strong Winds and Rough Seas"
     },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
+    "processed_at": "2026-09-14T04:45:52.654753+00:00",
     "provinces": [
       "Southern"
     ],
@@ -1999,69 +4006,6 @@
     "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Seas__1789107441.pdf",
     "summary": "මුහුදේ ස්වභාවය : නිසල (0-5)පැ.කි.මී ,සුමට (5-15)පැ.කි.මී, සාමාන්‍ය ස්වභාවයෙන් යුතු (16-28)පැ.කි.මී, මද රළු (29-37)පැ.කි.මී, තරමක් රළු (38-46)පැ.කි.මී, රළු (47-55)පැ.කි.මී, ඉතා රළු (56-74)පැ.කි.මී, දළ රළු (75- 102)පැ.කි.මී, ඉතා දළ රළු 103 පැ.කි.මී ට වැඩි. නියේදන්‍ අංකෙ : 04 MWA/26/09/11/01 වර්ණෙ : ඇම්බර් තද සුළං සහ රළු මුහුදු ප්‍රදේශ පිළිබඳව අවවාදාත්මක නිදේදනය කාලගුණ විදයා දදපාර්තදම්න්තුදේ, ස්වභාවික විපත් පිළිබඳ පූර්ව අනුරු ඇඟවීදම් මධ්‍යස්ථානය විසින්ත 2026 සැප්තැම්බර් මස 12 වන්‍ දින්‍ යප.ව. 11.00 වන්‍ යතක් වලංගු වන්‍ පරිදි 2026 සැප්තැම්බර් මස 11 වන්‍ දින්‍ යප.ව. 11.00 ට නිකුත් කරන්‍ ලදි. හම්බන්",
     "title": "Advisory for Strong Winds and Rough Seas",
-    "valid_from": null,
-    "valid_until": null
-  },
-  {
-    "content_hash": "114fa3d560bba75d2359a6c24ff94a67ef1e73f1036ee96f83860608ab6fba26",
-    "description": "",
-    "districts": [
-      "Ampara",
-      "Colombo",
-      "Ratnapura"
-    ],
-    "document_type": "river_flood",
-    "extraction": {
-      "location_scope": "mentions",
-      "rules_version": "1.0.0",
-      "severity_evidence": "",
-      "severity_reason": "No unambiguous issued severity label in listing title",
-      "status": "ok",
-      "summary_method": "first_600_characters_of_extracted_text",
-      "validity_reason": "Not inferred by MVP rules"
-    },
-    "hazard": "river_flood",
-    "hazards": [
-      "river_flood",
-      "flood"
-    ],
-    "id": "dmc-114fa3d560bba75d2359a6c24ff94a67ef1e73f1036ee96f83860608ab6fba26",
-    "issued_at": "2026-09-11T09:30:00+05:30",
-    "language": "en",
-    "language_confidence": 0.79,
-    "language_reason": "Predominantly Latin letters with multiple English function/weather words",
-    "official": {
-      "description": "",
-      "document_type": "river_flood",
-      "listings": [
-        {
-          "description": "",
-          "document_type": "river_flood",
-          "report_date": "2026-09-11",
-          "report_time": "09:30",
-          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
-          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789099550.pdf",
-          "title": "Water level & Rainfall"
-        }
-      ],
-      "report_date": "2026-09-11",
-      "report_time": "09:30",
-      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
-      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789099550.pdf",
-      "title": "Water level & Rainfall"
-    },
-    "processed_at": "2026-09-13T17:16:49.948626+00:00",
-    "provinces": [
-      "Eastern",
-      "Sabaragamuwa",
-      "Western"
-    ],
-    "severity": "unknown",
-    "source": "DMC",
-    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
-    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789099550.pdf",
-    "summary": "0 DATE : 11-Sep-2026 TIME : 9:30 AM Station Unit Alert Level Minor Flood Level Major Flood Level Kelani Ganga Nagalagam Street ft 4.00 5.00 7.00 0.70 0.80 Normal - Kelani Ganga Hanwella m 6.50 7.50 9.50 0.81 0.79 Normal 0.0 Kelani Ganga Glencourse m 15.00 15.50 19.00 9.19 9.20 Normal 0.5 Kelani Ganga Kithulgala m 3.00 4.00 6.00 1.61 1.65 Normal 1.1 Gurugoda Oya Holombuwa m 3.00 4.00 6.00 0.19 0.18 Normal 0.8 Seethawaka Ganga Deraniyagala m 4.80 5.80 7.00 0.55 0.55 Normal 1.9 Kehelgamu Oya Norwood m 1.50 3.00 4.50 0.47 0.46 Normal 0.0 Kalu Ganga Putupaula m 3.00 4.00 5.00 0.45 0.36 Normal 0.3 K",
-    "title": "Water level & Rainfall",
     "valid_from": null,
     "valid_until": null
   }

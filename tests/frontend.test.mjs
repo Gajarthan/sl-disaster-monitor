@@ -1,4 +1,4 @@
-﻿import test from 'node:test';
+import test from 'node:test';
 import assert from 'node:assert/strict';
 import {filterAlerts, healthState, sourceUrl, dateRangeError, mapSeverity} from '../frontend/lib.js';
 import {buildHistoryURL, normalizeRow} from '../frontend/history.js';
@@ -46,7 +46,7 @@ test('recent provider loads once, filters before pagination, and retries a faile
 test('history sends all scalar filters and restores returned row objects',async()=>{
  const {historyProvider}=await import('../frontend/history.js');const original=globalThis.fetch;let request;
  globalThis.fetch=async url=>{request=new URL(url);return {ok:true,json:async()=>({rows:[{row:{...alert,official_json:'{"title":"Rain"}'}}],num_rows_total:1})};};
- try{const result=await historyProvider('x/y').search({severity:'warning',language:'ta',document_type:'weather'});assert.equal(result.rows[0].official.title,'Rain');assert.equal(result.hasMore,false);assert.match(request.searchParams.get('where'),/"severity" = 'warning'/);assert.match(request.searchParams.get('where'),/"language" = 'ta'/);}finally{globalThis.fetch=original;}
+ try{const result=await historyProvider('x/y').search({severity:'warning',language:'ta',document_type:'weather'});assert.equal(result.rows[0].official.title,'Rain');assert.equal(result.hasMore,false);assert.match(request.searchParams.get('where'),/"severity" = 'warning'/);assert.match(request.searchParams.get('where'),/"language_ta" = true/);}finally{globalThis.fetch=original;}
 });
 test('nonstandard source ports and future collection timestamps are rejected',()=>{
  assert.equal(sourceUrl('https://www.dmc.gov.lk:8443/a.pdf'),null);
@@ -57,4 +57,39 @@ test('partially indexed archive results never claim complete coverage',async()=>
  const {historyProvider}=await import('../frontend/history.js');const original=globalThis.fetch;
  globalThis.fetch=async()=>({ok:true,json:async()=>({partial:true,rows:[],num_rows_total:0})});
  try{await assert.rejects(historyProvider('x/y').search({}),/incomplete/i);}finally{globalThis.fetch=original;}
+});
+
+test('a multilingual report matches every detected language and the multilingual filter',()=>{
+ const multilingual={...alert,language:'mul',languages_detected:['en','si','ta']};
+ for(const language of ['en','si','ta','mul'])assert.equal(filterAlerts([multilingual],{language}).length,1,language);
+ assert.equal(filterAlerts([multilingual],{language:'unknown'}).length,0);
+ assert.equal(filterAlerts([{...alert,language:'mul',languages_detected:['en','si']}],{language:'ta'}).length,0);
+});
+test('language filters preserve legacy fallback and authoritative empty detection arrays',()=>{
+ assert.equal(filterAlerts([alert],{language:'ta'}).length,1);
+ assert.equal(filterAlerts([alert],{language:'en'}).length,0);
+ assert.equal(filterAlerts([{...alert,language:'unknown'}],{language:'unknown'}).length,1);
+ assert.equal(filterAlerts([{...alert,language:undefined}],{language:'unknown'}).length,1);
+ assert.equal(filterAlerts([{...alert,languages_detected:[]}],{language:'ta'}).length,0);
+ assert.equal(filterAlerts([{...alert,language:'unknown',languages_detected:[]}],{language:'unknown'}).length,1);
+});
+test('archive language filters use boolean membership columns for individual languages',()=>{
+ for(const language of ['en','si','ta']){
+  const where=new URL(buildHistoryURL('x/y',{language})).searchParams.get('where');
+  assert.equal(where,'"language_'+language+'" = true');
+ }
+ for(const language of ['mul','unknown']){
+  const where=new URL(buildHistoryURL('x/y',{language})).searchParams.get('where');
+  assert.equal(where,'"language" = '+"'"+language+"'");
+ }
+});
+test('language labels show all detected languages and handle legacy records',async()=>{
+ const {detectedLanguages,languageLabel}=await import('../frontend/lib.js');
+ assert.deepEqual(detectedLanguages({language:'mul',languages_detected:['en','si','ta']}),['en','si','ta']);
+ assert.deepEqual(detectedLanguages(alert),['ta']);
+ assert.deepEqual(detectedLanguages({language:'unknown'}),[]);
+ assert.deepEqual(detectedLanguages({language:'en',languages_detected:[]}),[]);
+ assert.match(languageLabel({language:'mul',languages_detected:['en','si']}),/English/);
+ assert.match(languageLabel({language:'mul',languages_detected:['en','si']}),/Sinhala/);
+ assert.equal(languageLabel({language:'unknown'}),'Unknown language');
 });

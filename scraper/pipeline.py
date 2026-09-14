@@ -146,7 +146,7 @@ def run(root, *, now=None, max_pages=20, bootstrap_days=7, pause=.4, client=None
             status['new_documents']+=int(is_new)
             status['reprocessed_documents']+=int(not is_new)
             if record['language']=='unknown': status['unknown_language_count']+=1
-            if not text: status['no_text_count']+=1
+            if not text.strip(): status['no_text_count']+=1
         except Exception as exc:
             status['parsing_failures']+=1; status['failed_documents']+=1
             status['errors'].append(f'Parse {url}: {type(exc).__name__}: {exc}')
@@ -166,6 +166,8 @@ def run(root, *, now=None, max_pages=20, bootstrap_days=7, pause=.4, client=None
     elif category_success or additions:
         status['status']='partial'
     status['records_total']=len(by_hash)
+    status['multilingual_documents_total']=sum(r['language']=='mul' for r in by_hash.values())
+    status['unknown_language_total']=sum(r['language']=='unknown' for r in by_hash.values())
     status['extraction_incomplete_total']=sum(r['language']=='unknown' or r['extraction']['status']!='ok' for r in by_hash.values())
     write_json(root/'data/metadata.json',status)
     LOG.info('Run %s: checked=%d new=%d failed=%d duplicates=%d',status['status'],status['documents_checked'],status['new_documents'],status['failed_documents'],status['duplicate_count'])
