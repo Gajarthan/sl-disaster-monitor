@@ -3,6 +3,10 @@
     "checked_at": "2026-09-14T23:13:50.361188+00:00",
     "hash": "305b5f88c9317d8ed84f3689b56979be36f281092fa1759c0b444231a6fef8fe"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Heavy_Rain_at_0300_hrs_on_2026__1789439584.pdf": {
+    "checked_at": "2026-09-15T05:03:36.074135+00:00",
+    "hash": "5ae0385ce3cccfd0dfe33f6e5a4ce4c31a9517bd6fa7fea38695f94c3f524a09"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789283295.pdf": {
     "checked_at": "2026-09-14T00:17:00.426742+00:00",
     "hash": "08977f3368154c699dae9b841f06382027c05dcce22d9934d9e1940816caa4a1"
@@ -387,6 +391,10 @@
     "checked_at": "2026-09-14T05:09:18.111591+00:00",
     "hash": "6a6157a3dbb84dffdcab20514ebbfcb0b2ed28f6ce684dec1a1c552e1baa4c34"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789446011.pdf": {
+    "checked_at": "2026-09-15T05:03:36.074135+00:00",
+    "hash": "0df734eb3ce3c2d9cb2f11ce813cbc911d8597f91cee560b8e1746406053c59d"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
     "hash": "a51c009265c0b012845fb89c20c92763631b41185c00a14067c00cdb0b23252c"
@@ -434,6 +442,14 @@
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789345476.pdf": {
     "checked_at": "2026-09-14T04:54:51.348993+00:00",
     "hash": "c7fcc5f900c59ad0d8e4017b1263d4507e459491d468bbef77b4779cae14f356"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789432000.pdf": {
+    "checked_at": "2026-09-15T05:03:36.074135+00:00",
+    "hash": "1e8b639652c195bf8d849f4a899383ce03fbf6c57403ab8581dc7c446005fb4a"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789438289.pdf": {
+    "checked_at": "2026-09-15T05:03:36.074135+00:00",
+    "hash": "32a9011bd86a5f2c3e3b2c9250fa13e388e43b8b9abd12ac324de62413b4dca6"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs__1788825874.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
