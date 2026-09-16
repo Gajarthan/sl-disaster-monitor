@@ -1,5 +1,98 @@
 [
   {
+    "content_hash": "61b966025b056fd292b9828a4c1dca07d48c7561d05d3714120dd3c5e64b3b0b",
+    "description": "",
+    "districts": [
+      "Ratnapura"
+    ],
+    "document_type": "river_flood",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.71,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1600,
+                "reason": "1600 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 1,
+            "reason": "1600 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "",
+      "severity_reason": "No unambiguous issued severity label in listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "river_flood",
+    "hazards": [
+      "river_flood",
+      "flood"
+    ],
+    "id": "dmc-61b966025b056fd292b9828a4c1dca07d48c7561d05d3714120dd3c5e64b3b0b",
+    "issued_at": "2026-09-16T18:00:00+05:30",
+    "language": "en",
+    "language_confidence": 0.71,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "river_flood",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "river_flood",
+          "report_date": "2026-09-16",
+          "report_time": "18:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789564722.pdf",
+          "title": "Water Level"
+        }
+      ],
+      "report_date": "2026-09-16",
+      "report_time": "18:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789564722.pdf",
+      "title": "Water Level"
+    },
+    "processed_at": "2026-09-16T13:35:26.890369+00:00",
+    "provinces": [
+      "Sabaragamuwa"
+    ],
+    "severity": "unknown",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789564722.pdf",
+    "summary": "0 DATE : 16-Sep-2026 TIME : 6:30 PM Station Unit Alert Level Minor Flood Level Major Flood Level Kelani Ganga Nagalagam Street ft 4.00 5.00 7.00 2.10 1.80 Normal - Kelani Ganga Hanwella m 6.50 7.50 9.50 1.45 1.38 Normal 0.0 Kelani Ganga Glencourse m 15.00 15.50 19.00 9.48 9.44 Normal 0.0 Kelani Ganga Kithulgala m 3.00 4.00 6.00 1.83 1.74 Normal 28.2 Gurugoda Oya Holombuwa m 3.00 4.00 6.00 0.50 0.50 Normal 8.1 Seethawaka Ganga Deraniyagala m 4.80 5.80 7.00 0.68 0.63 Normal 5.1 Kehelgamu Oya Norwood m 1.50 3.00 4.50 0.71 0.65 Normal 0.0 Kalu Ganga Putupaula m 3.00 4.00 5.00 1.11 1.15 Normal 10.3",
+    "title": "Water Level",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "7ed149101380043655aa128ccef5d5577221ce447c8635af78c02f9788fa8275",
     "description": "",
     "districts": [
