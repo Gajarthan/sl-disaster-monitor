@@ -1,5 +1,98 @@
 [
   {
+    "content_hash": "195e0ce17f73e05f5ca8d98ba831281f26e43f4e27b0a67631d53ecc1264ea99",
+    "description": "",
+    "districts": [
+      "Ratnapura"
+    ],
+    "document_type": "river_flood",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.71,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1599,
+                "reason": "1599 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 1,
+            "reason": "1599 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "",
+      "severity_reason": "No unambiguous issued severity label in listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "river_flood",
+    "hazards": [
+      "river_flood",
+      "flood"
+    ],
+    "id": "dmc-195e0ce17f73e05f5ca8d98ba831281f26e43f4e27b0a67631d53ecc1264ea99",
+    "issued_at": "2026-09-18T00:30:00+05:30",
+    "language": "en",
+    "language_confidence": 0.71,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "river_flood",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "river_flood",
+          "report_date": "2026-09-18",
+          "report_time": "00:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789673947.pdf",
+          "title": "Water Level"
+        }
+      ],
+      "report_date": "2026-09-18",
+      "report_time": "00:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789673947.pdf",
+      "title": "Water Level"
+    },
+    "processed_at": "2026-09-17T21:35:19.058190+00:00",
+    "provinces": [
+      "Sabaragamuwa"
+    ],
+    "severity": "unknown",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789673947.pdf",
+    "summary": "0 DATE : 18-Sep-2026 TIME : 12:30 AM Station Unit Alert Level Minor Flood Level Major Flood Level Kelani Ganga Nagalagam Street ft 4.00 5.00 7.00 0.80 1.00 Normal - Kelani Ganga Hanwella m 6.50 7.50 9.50 1.24 1.24 Normal 15.5 Kelani Ganga Glencourse m 15.00 15.50 19.00 9.56 9.57 Normal 4.1 Kelani Ganga Kithulgala m 3.00 4.00 6.00 1.71 1.70 Normal 5.0 Gurugoda Oya Holombuwa m 3.00 4.00 6.00 0.42 0.41 Normal 10.6 Seethawaka Ganga Deraniyagala m 4.80 5.80 7.00 0.58 0.59 Normal 1.9 Kehelgamu Oya Norwood m 1.50 3.00 4.50 0.50 0.50 Normal 1.6 Kalu Ganga Putupaula m 3.00 4.00 5.00 0.92 0.87 Normal 13",
+    "title": "Water Level",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "16b3f7c14ecca61c099dd078b958a1b5f7857c30bc4ce1a254f9cc29f27e30dc",
     "description": "",
     "districts": [
@@ -4751,130 +4844,6 @@
     "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530_hrs_on_2026__1789432000.pdf",
     "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලංකාව සඳහා සාමාන්‍යය කාලගුණ අන්‍ාවැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 සැප්තැම්බර් මස 15 දින්‍ සඳහා කාලගුණ අන්‍ාවැකිය 2026 සැප්තැම",
     "title": "Weather Forecast",
-    "valid_from": null,
-    "valid_until": null
-  },
-  {
-    "content_hash": "305b5f88c9317d8ed84f3689b56979be36f281092fa1759c0b444231a6fef8fe",
-    "description": "",
-    "districts": [
-      "Ampara",
-      "Batticaloa",
-      "Galle",
-      "Gampaha",
-      "Kalutara",
-      "Kegalle",
-      "Ratnapura"
-    ],
-    "document_type": "weather",
-    "extraction": {
-      "language_detection": {
-        "confidence": 0.95,
-        "language": "mul",
-        "languages_detected": [
-          "en",
-          "si"
-        ],
-        "pages": [
-          {
-            "confidence": 0.995,
-            "evidence": [
-              {
-                "confidence": 0.995,
-                "language": "si",
-                "letters": 565,
-                "reason": "565 of 568 alphabetic characters use the si script",
-                "share": 0.995
-              }
-            ],
-            "language": "si",
-            "languages_detected": [
-              "si"
-            ],
-            "page": 1,
-            "reason": "565 of 568 alphabetic characters use the si script",
-            "status": "single_language"
-          },
-          {
-            "confidence": 0.95,
-            "evidence": [
-              {
-                "confidence": 0.95,
-                "language": "en",
-                "letters": 884,
-                "reason": "884 Latin letters and 13 distinct English function/report words",
-                "share": 1.0
-              }
-            ],
-            "language": "en",
-            "languages_detected": [
-              "en"
-            ],
-            "page": 2,
-            "reason": "884 Latin letters and 13 distinct English function/report words",
-            "status": "single_language"
-          }
-        ],
-        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
-        "status": "multilingual",
-        "version": "2.0.0"
-      },
-      "location_scope": "mentions",
-      "rules_version": "1.1.0",
-      "severity_evidence": "advisory",
-      "severity_reason": "Explicit label in official listing title",
-      "status": "ok",
-      "summary_method": "first_600_characters_of_extracted_text",
-      "validity_reason": "Not inferred by MVP rules"
-    },
-    "hazard": "heavy_rain",
-    "hazards": [
-      "heavy_rain"
-    ],
-    "id": "dmc-305b5f88c9317d8ed84f3689b56979be36f281092fa1759c0b444231a6fef8fe",
-    "issued_at": "2026-09-15T03:00:00+05:30",
-    "language": "mul",
-    "language_confidence": 0.95,
-    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
-    "languages_detected": [
-      "en",
-      "si"
-    ],
-    "official": {
-      "description": "",
-      "document_type": "weather",
-      "listings": [
-        {
-          "description": "",
-          "document_type": "weather",
-          "report_date": "2026-09-15",
-          "report_time": "03:00",
-          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Heavy_Rain_at_0300_hrs_on_2026__1789423563.pdf",
-          "title": "Advisory for Heavy Rain"
-        }
-      ],
-      "report_date": "2026-09-15",
-      "report_time": "03:00",
-      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Heavy_Rain_at_0300_hrs_on_2026__1789423563.pdf",
-      "title": "Advisory for Heavy Rain"
-    },
-    "processed_at": "2026-09-14T23:13:50.361188+00:00",
-    "provinces": [
-      "Central",
-      "Eastern",
-      "Sabaragamuwa",
-      "Southern",
-      "Uva",
-      "Western"
-    ],
-    "severity": "advisory",
-    "source": "DMC",
-    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Heavy_Rain_at_0300_hrs_on_2026__1789423563.pdf",
-    "summary": "වර්ණය: -ක ොළ (බලපෑමක් නැත) වර්ණය: -රතු අනතුරු ඇඟවීම(පියවර ගන්න) ) වර්ණය: -ඇම්බර් අවවොදොත්ම (සූදානම් වන්න) ) නිවේදන අංකය : 01 LRA/26/09/15/01 වර්ණය : ඇම්බර් තද වැසි පිලිබඳ අවවොදොත්ම නිකේදනය කාලගුණ විදයා වදපාර්තවම්න්ුවේ, ස්වභාවික විපත් පිළිබඳ පූර්ව අනුරු ඇඟවීවම් මධ්‍යස්ථානය විසින් 2026 සැප්තැම්බර් මස 16 වන දින වප. ව 08.30 දක්වා වලංගු වන පරිදි 2026 සැප්තැම්බර් මස 15 වන දින වප. ව 03.00 නිකුත් කරන ලදී. බස්නොහිර, සබරගමුව, මධ්‍යම, දකුණ සහ ඌව පලොත්, අම්පොර සහ මඩ ලපුව දිස්ික් සඳහො සූදොනම් වන්න! ශ්‍රී ලං ොව ආසන්න පහල වොයුකගෝලකේ පවතින ැළඹිලි ස්වභොවය කහ්තුකවන්, බස්නොහිර, සබරගමුව, මධ්‍යම, දකුණ සහ ඌව පලොත්ව",
-    "title": "Advisory for Heavy Rain",
     "valid_from": null,
     "valid_until": null
   }
