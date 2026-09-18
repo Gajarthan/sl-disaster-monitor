@@ -977,6 +977,15 @@
           "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
           "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789564722.pdf",
           "title": "Water Level"
+        },
+        {
+          "description": "",
+          "document_type": "river_flood",
+          "report_date": "2026-09-18",
+          "report_time": "18:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789737128.pdf",
+          "title": "Water Level"
         }
       ],
       "report_date": "2026-09-16",

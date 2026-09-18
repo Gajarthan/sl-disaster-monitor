@@ -267,6 +267,10 @@
     "checked_at": "2026-09-14T00:17:00.426742+00:00",
     "hash": "443b6919a81aa489fc8b15a3a1ff293f29f3ab888de948734f92499b78b67980"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/MSA_26091801_TM__1789737653.pdf": {
+    "checked_at": "2026-09-18T17:44:24.841913+00:00",
+    "hash": "eb39228915d576fb77a6f1ffa2ecf3e6245c9d8510678d0cb9fcd8a82f888473"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Sinhala___Situation_Summary__Report_at_0600hrs_on_2026__1788999946.pdf": {
     "checked_at": "2026-09-14T00:17:00.426742+00:00",
     "hash": "22f5f2d4ce01f8974c41232529018f3c9cb73bda053b70d37922112a333ba243"
@@ -518,6 +522,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789715613.pdf": {
     "checked_at": "2026-09-18T07:29:14.119372+00:00",
     "hash": "6bfef1937ad2045da1b6c69e72f187fea325df43454194d29e86d268ded89be9"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1789737128.pdf": {
+    "checked_at": "2026-09-18T17:44:24.841913+00:00",
+    "hash": "61b966025b056fd292b9828a4c1dca07d48c7561d05d3714120dd3c5e64b3b0b"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
