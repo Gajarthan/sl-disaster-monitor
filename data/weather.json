@@ -1,5 +1,102 @@
 [
   {
+    "content_hash": "ed854abd9ecc4b7c7f311351ed93ca512a5c5e63b6da868ca5f8ffb764912434",
+    "description": "",
+    "districts": [],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.986,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.986,
+            "evidence": [
+              {
+                "confidence": 0.986,
+                "language": "ta",
+                "letters": 749,
+                "reason": "749 of 760 alphabetic characters use the ta script",
+                "share": 0.986
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "749 of 760 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 2,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "rough_sea",
+    "hazards": [
+      "rough_sea"
+    ],
+    "id": "dmc-ed854abd9ecc4b7c7f311351ed93ca512a5c5e63b6da868ca5f8ffb764912434",
+    "issued_at": "2026-09-19T18:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.986,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-19",
+          "report_time": "18:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Rough_Seas_at_1700hrs_on_2026__1789822621.pdf",
+          "title": "Advisory for Rough Seas (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-19",
+      "report_time": "18:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Rough_Seas_at_1700hrs_on_2026__1789822621.pdf",
+      "title": "Advisory for Rough Seas (Tamil Language)"
+    },
+    "processed_at": "2026-09-19T17:20:11.436497+00:00",
+    "provinces": [],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Rough_Seas_at_1700hrs_on_2026__1789822621.pdf",
+    "summary": "அறிக்கை இல : 02 MSA/26/09/19/01 நிறம் : ஆம்பர் ைடும் ைாற்று மற்றும் கைாந்தளிப்பான ைடல் கதாடர்பான ஆலலாசகன: இயற்கை அனர்த்தம் கதாடர்பான முன்கனச்சாிக்கை நிகலயத்தினால், அடுத்த 24 மணித்தியாலங்ைளுக்கு கசல்லுபடியாகும் வகையில் 2026 செப்டம்பர் 19ஆம் திைதி பிற்பைல் 05.00 மணியில் கவளியிடப்பட்டது. ஆழம் கூடிய வங்ைாள விாிகுடா ைடற்பரப்புைளில் நடவடிக்கைைளில் ஈடுபடும் பலநாள் மீன்பிடிக் கலங்களுக்கு: தயவுகசய்து அவதானமாை இருக்ைவும்! இன்று (19ஆம் திைதி) மாகல வங்காள விாிகுடாவில் உள்ள அந்தமான் ைடற்பரப்புைளுக்கு லமலாை ஒரு குகறந்த அழுத்தப் பிரலதசம் உருவாைக் கூடிய சாத்தியம் ைாணப்படுவதுடன், அது லமற்கு - வடலமற்குத் திகசயி",
+    "title": "Advisory for Rough Seas (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "44f65145c6ad611239a7ab90352206534d503249af067a64ff8d8e99a0e04f24",
     "description": "",
     "districts": [
