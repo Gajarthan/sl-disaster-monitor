@@ -1,5 +1,113 @@
 [
   {
+    "content_hash": "77ab94f4904b2e8c48741be06f42c2d9afadc2c3282fd17dea5b5ad71ddcfcad",
+    "description": "",
+    "districts": [],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 1.0,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.986,
+            "evidence": [
+              {
+                "confidence": 0.986,
+                "language": "ta",
+                "letters": 766,
+                "reason": "766 of 777 alphabetic characters use the ta script",
+                "share": 0.986
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "766 of 777 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 1.0,
+            "evidence": [
+              {
+                "confidence": 1.0,
+                "language": "ta",
+                "letters": 77,
+                "reason": "77 of 77 alphabetic characters use the ta script",
+                "share": 1.0
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "77 of 77 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "strong_wind",
+    "hazards": [
+      "strong_wind",
+      "rough_sea"
+    ],
+    "id": "dmc-77ab94f4904b2e8c48741be06f42c2d9afadc2c3282fd17dea5b5ad71ddcfcad",
+    "issued_at": "2026-09-20T17:00:00+05:30",
+    "language": "ta",
+    "language_confidence": 1.0,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-20",
+          "report_time": "17:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_strong_winds_and_rough_seas_at_1700hrs_on_20__1789923331.pdf",
+          "title": "Weather Advisory for Strong winds and Rough Seas"
+        }
+      ],
+      "report_date": "2026-09-20",
+      "report_time": "17:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_strong_winds_and_rough_seas_at_1700hrs_on_20__1789923331.pdf",
+      "title": "Weather Advisory for Strong winds and Rough Seas"
+    },
+    "processed_at": "2026-09-20T18:55:09.158143+00:00",
+    "provinces": [],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_strong_winds_and_rough_seas_at_1700hrs_on_20__1789923331.pdf",
+    "summary": "அறிக்கை இல : 03 MSA/26/09/20/01 நிறம் : ஆம்பர் ைடும் ைாற்று மற்றும் கைாந்தளிப்பான ைடல் கதாடர்பான ஆலலாசகன: இயற்கை அனர்த்தம் கதாடர்பான முன்கனச்சாிக்கை நிகலயத்தினால், அடுத்த 24 மணித்தியாலங்ைளுக்கு கசல்லுபடியாகும் வகையில் 2026 செப்டம்பர் 20ஆம் திைதி பிற்பைல் 05.00 மணியில் கவளியிடப்பட்டது. ஆழம் கூடிய வங்ைாள விாிகுடா ைடற்பரப்புைளில் நடவடிக்கைைளில் ஈடுபடும் பலநாள் மீன்பிடிக் கலங்களுக்கு: தயவுகசய்து அவதானமாை இருக்ைவும்! இன்று, 2026 -ஆம் ஆண்டு செப்டம்பர் 20-ஆம் தேேியன்று, வங்காள விாிகுடாவின் கிழக்கு- மத்ேியப் பகுேி மற்றும் அேனை ஒட்டிய வடக்கு அந்ேமான் கடல் பகுேியில் உள்ள அந்ேமான் கடல் பரப்பில் ஒரு குனைந",
+    "title": "Weather Advisory for Strong winds and Rough Seas",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "0c0971d0a76e261ec16e8845871ac38f8267448e28c5ca19a9557d5b777ef559",
     "description": "",
     "districts": [
