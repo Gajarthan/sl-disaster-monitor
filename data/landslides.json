@@ -1,5 +1,156 @@
 [
   {
+    "content_hash": "a5ae70ad53cd340bff278a29349ce83b12db500e4c929c29203742b3469c8cef",
+    "description": "",
+    "districts": [
+      "Colombo",
+      "Galle",
+      "Gampaha",
+      "Kalutara",
+      "Kandy",
+      "Kegalle",
+      "Kurunegala",
+      "Matara",
+      "Nuwara Eliya",
+      "Ratnapura"
+    ],
+    "document_type": "landslide",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 1,
+            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
+            "status": "unrecognized_text"
+          },
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1265,
+                "reason": "1265 Latin letters and 4 distinct English function/report words",
+                "share": 0.985
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "1265 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1272,
+                "reason": "1272 Latin letters and 12 distinct English function/report words",
+                "share": 0.894
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "1272 Latin letters and 12 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 4,
+            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
+            "status": "unrecognized_text"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 5,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "warning",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "landslide",
+    "hazards": [
+      "landslide"
+    ],
+    "id": "dmc-a5ae70ad53cd340bff278a29349ce83b12db500e4c929c29203742b3469c8cef",
+    "issued_at": "2026-09-20T22:00:00+05:30",
+    "language": "en",
+    "language_confidence": 0.95,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "landslide",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "landslide",
+          "report_date": "2026-09-20",
+          "report_time": "22:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_2200hrs_on_2026__1789931576.pdf",
+          "title": "Landslide Warning"
+        }
+      ],
+      "report_date": "2026-09-20",
+      "report_time": "22:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_2200hrs_on_2026__1789931576.pdf",
+      "title": "Landslide Warning"
+    },
+    "processed_at": "2026-09-20T22:33:46.277250+00:00",
+    "provinces": [
+      "Central",
+      "North Western",
+      "Sabaragamuwa",
+      "Southern",
+      "Western"
+    ],
+    "severity": "warning",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_2200hrs_on_2026__1789931576.pdf",
+    "summary": "නායයෑම් පිළිබඳ පෙර අනතුරු ඇඟවීම First warning issued date: 20-09-2026 kz;rhpT Kd;ndr;rhpf;if Landslide Early Warning Message ID: LEWM-20-09-2026-2200-03 Update: 3rd update Validity Period: From 22:00 hrs on 20.09.2026 To 22:00 hrs on 21.09.2026 Locations for Potential Risk නායයෑමේ අවදානම පැවතිය හැකි ප්‍රමේශ fdjpahd mghaKs;s ,lq;fs; District Level 1 (Yellow) Level 2 (Amber) Level 3 (Red) Colombo Seethawaka Divisional Secretariat Division(s) (DSD) and surrounding areas. Padukka Divisional Secretariat Division(s) (DSD) and surrounding areas. Galle Niyagama and Baddegama Divisional Secretariat Div",
+    "title": "Landslide Warning",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "c82c2e581bc5258ca5b9b92123fe7f09124e325b74e528be6e7d666a6d387158",
     "description": "",
     "districts": [
