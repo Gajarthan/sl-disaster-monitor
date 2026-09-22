@@ -1,5 +1,266 @@
 [
   {
+    "content_hash": "37d74a6f56a8ec394105b8f92a06df7642b75f64c99033420fd6d35b36a49077",
+    "description": "",
+    "districts": [],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.989,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.973,
+            "evidence": [
+              {
+                "confidence": 0.973,
+                "language": "ta",
+                "letters": 798,
+                "reason": "798 of 820 alphabetic characters use the ta script",
+                "share": 0.973
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "798 of 820 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.989,
+            "evidence": [
+              {
+                "confidence": 0.989,
+                "language": "ta",
+                "letters": 359,
+                "reason": "359 of 363 alphabetic characters use the ta script",
+                "share": 0.989
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "359 of 363 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 3,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "strong_wind",
+    "hazards": [
+      "strong_wind",
+      "rough_sea"
+    ],
+    "id": "dmc-37d74a6f56a8ec394105b8f92a06df7642b75f64c99033420fd6d35b36a49077",
+    "issued_at": "2026-09-22T22:45:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.989,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-22",
+          "report_time": "22:45",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_&_Rough_Seas_(Tamil)__1790097270.pdf",
+          "title": "Advisory for Strong Winds & Rough Seas (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-09-22",
+      "report_time": "22:45",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_&_Rough_Seas_(Tamil)__1790097270.pdf",
+      "title": "Advisory for Strong Winds & Rough Seas (Tamil Language)"
+    },
+    "processed_at": "2026-09-22T21:30:04.393160+00:00",
+    "provinces": [],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_&_Rough_Seas_(Tamil)__1790097270.pdf",
+    "summary": "அறிக்கை இல : 08 MSW/26/09/22/02 நிறம் : சிவப்பு ைடும் ைாற்று மற்றும் கைாந்தளிப்பான ைடல் கதாடர்பான எச்சாிக்கை: இயற்கை அனர்த்தம் கதாடர்பான முன்கனச்சாிக்கை நிகலயத்தினால், அடுத்த 12 மணித்தியாலங்ைளுக்கு கசல்லுபடியாகும் வகையில் 2026 செப்டம்பர் 22ஆம் திைதி பிற்பைல் 10.00 மணியில் கவளியிடப்பட்டது. ஆழம் கூடிய வங்ைாள விாிகுடா ைடற்பரப்புைளில் நடவடிக்கைைளில் ஈடுபடும் பலநாள் மீன்பிடிக் கலங்களுக்கு: நடவடிக்கை எடுக்ைவும்! மமற்கு - மத்திய மற்றும் அதனை அண்டிய வடமமற்கு வங்காள விாிகுடா ைடற்பரப்புைளுக்கு மமலாை நிலவிய தாழமுக்ைமானது மமற்கு - வடமமற்கு தினெயில் நகர்ந்து இன்று 2026 செப்டம்பர் 22ஆம் திைதி இலங்னக மநரப்பட",
+    "title": "Advisory for Strong Winds & Rough Seas (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "7871e4a61aa3175fd0c19bf6fe0cabeec79c98f2ec6d3d0b05da7971e9d0025a",
+    "description": "",
+    "districts": [],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.981,
+            "evidence": [
+              {
+                "confidence": 0.981,
+                "language": "si",
+                "letters": 913,
+                "reason": "913 of 931 alphabetic characters use the si script",
+                "share": 0.981
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "913 of 931 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 1.0,
+            "evidence": [
+              {
+                "confidence": 1.0,
+                "language": "si",
+                "letters": 32,
+                "reason": "32 of 32 alphabetic characters use the si script",
+                "share": 1.0
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "32 of 32 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1231,
+                "reason": "1231 Latin letters and 11 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "1231 Latin letters and 11 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 4,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "strong_wind",
+    "hazards": [
+      "strong_wind",
+      "rough_sea",
+      "heavy_rain"
+    ],
+    "id": "dmc-7871e4a61aa3175fd0c19bf6fe0cabeec79c98f2ec6d3d0b05da7971e9d0025a",
+    "issued_at": "2026-09-22T22:30:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.95,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-22",
+          "report_time": "22:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warning_for_strong_winds_and_rough_seas_at_2215hrs_on_2026__1790097013.pdf",
+          "title": "Advisory for Strong Winds & Rough Seas"
+        }
+      ],
+      "report_date": "2026-09-22",
+      "report_time": "22:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warning_for_strong_winds_and_rough_seas_at_2215hrs_on_2026__1790097013.pdf",
+      "title": "Advisory for Strong Winds & Rough Seas"
+    },
+    "processed_at": "2026-09-22T21:30:04.393160+00:00",
+    "provinces": [
+      "Central",
+      "North Western",
+      "Northern",
+      "Southern"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Warning_for_strong_winds_and_rough_seas_at_2215hrs_on_2026__1790097013.pdf",
+    "summary": "වර්ෂාපතනය(මි.මී) : තරමක් තද වැසි: 50 -100, තද වැසි: 100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි නිහේදන අංකය : 08 MSW/26/09/22/02 වර්ණය : රතු තද සුළං සහ මුහුද රළුවීම පිළිබඳ අනතුරු ඇඟවීමේ නිමේදනය කාලගුණ විදයා මදපාර්තමේන්තතුමේ, ස්වභාවික විපත් පිළිබඳ පූර්ව අනතුරු ඇඟවීමේ මධ්‍යස්ථානය විසින්ත ඉදිරි පැය 12 සඳහා වලංගු වන පරිදි, 2026 සැප්තැේබර් මස 22 දින ප. ව. 10.00 ට නිකුත් කරන ලදී. මබංගාල මබාක්ක ගැඹුරු මුහුදු ප්‍රමේශමේ යාත්‍රාකරන බහුදින ධීවර යාත්‍රා සඳහා. ක්‍රියාත්මක වන්තන! බටහිර-මධ්‍යම සහ ඊට යාබද වයඹ මබංගාල මබාක්ක ආශ්‍රිතව පැවති පීඩන අවපාතය බටහිරට බරව වයඹ මදසට ගමන්ත කර ගැඹුරු පීඩන අවපාතයක් දක්වා වර්ධ්‍නය",
+    "title": "Advisory for Strong Winds & Rough Seas",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "ee8a406658309b8e0680057e644bd7e54ff12fea5ec25ee8773655ab4202efc8",
     "description": "",
     "districts": [

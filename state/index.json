@@ -115,6 +115,10 @@
     "checked_at": "2026-09-22T11:52:32.092333+00:00",
     "hash": "2d09d32d72440d32c3b74595b9180572a3d70e23daa0c497bb536c6bd6493d79"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_&_Rough_Seas_(Tamil)__1790097270.pdf": {
+    "checked_at": "2026-09-22T21:30:04.393160+00:00",
+    "hash": "37d74a6f56a8ec394105b8f92a06df7642b75f64c99033420fd6d35b36a49077"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Strong_Winds_and_Rough_Sea_at_1030hrs_on_2026__1787981277.pdf": {
     "checked_at": "2026-09-16T00:32:00.889497+00:00",
     "hash": "c14900ed6da6360b06fc193c148692955435dc71985a30a1eb632570bd9000a2"
@@ -539,6 +543,10 @@
     "checked_at": "2026-09-21T13:02:54.059485+00:00",
     "hash": "564a7230a75d1aaca75202f4b77c59bd0ce0ae002cc0a455532bc9fcb4531af6"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Warning_for_strong_winds_and_rough_seas_at_2215hrs_on_2026__1790097013.pdf": {
+    "checked_at": "2026-09-22T21:30:04.393160+00:00",
+    "hash": "7871e4a61aa3175fd0c19bf6fe0cabeec79c98f2ec6d3d0b05da7971e9d0025a"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1786563812.pdf": {
     "checked_at": "2026-09-20T00:11:25.111329+00:00",
     "hash": "e3d360646cd5b9200afb80d0fb9fb6d7f1daf896a16d631aefe5bd3001d1a674"
@@ -790,6 +798,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790093650.pdf": {
     "checked_at": "2026-09-22T17:05:03.231165+00:00",
     "hash": "70e21b24575071719c9d2377c32483832d4c99bcd738716089418a3b38fa3051"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790104489.pdf": {
+    "checked_at": "2026-09-22T21:30:04.393160+00:00",
+    "hash": "8d72d76c19e3a484ed485b9bc3cffdce6f536f4233af8894f55ccc2733c60163"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
