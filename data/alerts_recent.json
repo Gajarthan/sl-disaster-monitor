@@ -1,5 +1,350 @@
 [
   {
+    "content_hash": "70e21b24575071719c9d2377c32483832d4c99bcd738716089418a3b38fa3051",
+    "description": "",
+    "districts": [
+      "Ratnapura"
+    ],
+    "document_type": "river_flood",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.71,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1610,
+                "reason": "1610 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 1,
+            "reason": "1610 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "",
+      "severity_reason": "No unambiguous issued severity label in listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "river_flood",
+    "hazards": [
+      "river_flood",
+      "flood"
+    ],
+    "id": "dmc-70e21b24575071719c9d2377c32483832d4c99bcd738716089418a3b38fa3051",
+    "issued_at": "2026-09-22T21:30:00+05:30",
+    "language": "en",
+    "language_confidence": 0.71,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "river_flood",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "river_flood",
+          "report_date": "2026-09-22",
+          "report_time": "21:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790093650.pdf",
+          "title": "Water Level"
+        }
+      ],
+      "report_date": "2026-09-22",
+      "report_time": "21:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790093650.pdf",
+      "title": "Water Level"
+    },
+    "processed_at": "2026-09-22T17:05:03.231165+00:00",
+    "provinces": [
+      "Sabaragamuwa"
+    ],
+    "severity": "unknown",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790093650.pdf",
+    "summary": "0 DATE : 22-Sep-2026 TIME : 9:30 PM Station Unit Alert Level Minor Flood Level Major Flood Level Kelani Ganga Nagalagam Street ft 4.00 5.00 7.00 2.00 2.00 Normal - Kelani Ganga Hanwella m 6.50 7.50 9.50 4.53 4.51 Normal 31.7 Kelani Ganga Glencourse m 15.00 15.50 19.00 12.40 12.48 Normal 22.0 Kelani Ganga Kithulgala m 3.00 4.00 6.00 2.15 2.19 Normal 40.0 Gurugoda Oya Holombuwa m 3.00 4.00 6.00 1.44 1.42 Normal 14.6 Seethawaka Ganga Deraniyagala m 4.80 5.80 7.00 1.84 1.87 Normal 61.6 Kehelgamu Oya Norwood m 1.50 3.00 4.50 0.90 0.90 Normal 2.9 Kalu Ganga Putupaula m 3.00 4.00 5.00 2.96 2.96 Norma",
+    "title": "Water Level",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "28bb12e877d6682df7e4e60003c97ec88356f3545fd792cd2780703bd1935184",
+    "description": "",
+    "districts": [
+      "Ratnapura"
+    ],
+    "document_type": "river_flood",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.71,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1621,
+                "reason": "1621 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 1,
+            "reason": "1621 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "",
+      "severity_reason": "No unambiguous issued severity label in listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "river_flood",
+    "hazards": [
+      "river_flood",
+      "flood"
+    ],
+    "id": "dmc-28bb12e877d6682df7e4e60003c97ec88356f3545fd792cd2780703bd1935184",
+    "issued_at": "2026-09-22T18:30:00+05:30",
+    "language": "en",
+    "language_confidence": 0.71,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "river_flood",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "river_flood",
+          "report_date": "2026-09-22",
+          "report_time": "18:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790086667.pdf",
+          "title": "Water Level report"
+        }
+      ],
+      "report_date": "2026-09-22",
+      "report_time": "18:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790086667.pdf",
+      "title": "Water Level report"
+    },
+    "processed_at": "2026-09-22T17:05:03.231165+00:00",
+    "provinces": [
+      "Sabaragamuwa"
+    ],
+    "severity": "unknown",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790086667.pdf",
+    "summary": "0 DATE : 22-Sep-2026 TIME : 6:30 PM Station Unit Alert Level Minor Flood Level Major Flood Level Kelani Ganga Nagalagam Street ft 4.00 5.00 7.00 2.20 2.10 Normal - Kelani Ganga Hanwella m 6.50 7.50 9.50 4.57 4.56 Normal 4.1 Kelani Ganga Glencourse m 15.00 15.50 19.00 12.52 12.45 Normal 8.6 Kelani Ganga Kithulgala m 3.00 4.00 6.00 2.20 2.20 Normal 32.9 Gurugoda Oya Holombuwa m 3.00 4.00 6.00 1.49 1.48 Normal 8.7 Seethawaka Ganga Deraniyagala m 4.80 5.80 7.00 1.83 1.88 Normal 26.3 Kehelgamu Oya Norwood m 1.50 3.00 4.50 0.90 0.91 Normal 2.9 Kalu Ganga Putupaula m 3.00 4.00 5.00 2.98 2.98 Normal 0",
+    "title": "Water Level report",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "ee8a406658309b8e0680057e644bd7e54ff12fea5ec25ee8773655ab4202efc8",
+    "description": "",
+    "districts": [
+      "Anuradhapura",
+      "Batticaloa",
+      "Colombo",
+      "Galle",
+      "Hambantota",
+      "Jaffna",
+      "Kandy",
+      "Mannar",
+      "Matale",
+      "Matara",
+      "Nuwara Eliya",
+      "Ratnapura",
+      "Trincomalee"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.322,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si",
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.373,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 983,
+                "reason": "983 Latin letters and 13 distinct English function/report words",
+                "share": 0.627
+              },
+              {
+                "confidence": 0.373,
+                "language": "si",
+                "letters": 586,
+                "reason": "586 of 1569 alphabetic characters use the si script",
+                "share": 0.373
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.264,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 441,
+                "reason": "441 Latin letters and 5 distinct English function/report words",
+                "share": 0.414
+              },
+              {
+                "confidence": 0.264,
+                "language": "si",
+                "letters": 281,
+                "reason": "281 of 1065 alphabetic characters use the si script",
+                "share": 0.264
+              },
+              {
+                "confidence": 0.322,
+                "language": "ta",
+                "letters": 343,
+                "reason": "343 of 1065 alphabetic characters use the ta script",
+                "share": 0.322
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si",
+              "ta"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "lightning",
+    "hazards": [
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-ee8a406658309b8e0680057e644bd7e54ff12fea5ec25ee8773655ab4202efc8",
+    "issued_at": "2026-09-22T16:00:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.322,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si",
+      "ta"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-22",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_1600hrs__1790087320.pdf",
+          "title": "Weather forecast at 1600hrs"
+        }
+      ],
+      "report_date": "2026-09-22",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_1600hrs__1790087320.pdf",
+      "title": "Weather forecast at 1600hrs"
+    },
+    "processed_at": "2026-09-22T17:05:03.231165+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_1600hrs__1790087320.pdf",
+    "summary": "ඉදිරි පැය 36 සඳහා සාමාන්‍යය කාලගුණ අන්‍ාවැකිය 2026 සැප්තැම්බර් මස 22 දින්‍ සවස 04.00 ට නිකුත් කරන්‍ ලදි දිවයින්‍ට ඊසාන්‍ දෙසින් වයඹදිග දබෙංගාල දබාක්ක ආශ්‍රිතව පිහිටා ඇති පීඩන්‍ අවපාතය ඉදිරි පැය 12 තුලදී විට ගැඹුරු පීඩන්‍ අවපාතයක් ෙක්වා තවදුරටත් වර්ධන්‍ය වනු ඇතැයි අදප්ක්ෂා දකදර්. දමම පද්ධතිදේ සෘජු බලපෑමක් ශ්‍රී ලෙංකාවට දන්‍ාමැතිවුවෙ එම පද්ධතිය දවත ඇදීයන්‍ සුළෙං ප්‍රවාහය දහේතුදවන් දිවයිදන් නිරිතදිග ප්‍රදද්ශදේ පවතින්‍ වැසි තත්ත්වය තවදුරටත්අදප්ක්ෂා දකදර්. බස්නාහිර, සබරගමුව, මධ්‍යම සහ වයඹ පලාත්වලත් ගාල්ල සහ මාතර දිස්ික්කවලත් විටින් විට වැසි හහෝ ගිගුරුම් සහිත වැසි ඇති හේ. ඇතැම් සේථාන්‍ වලට මි.මී. 10",
+    "title": "Weather forecast at 1600hrs",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "d3643492b451c93a96492e9dbaef03fd02e6271347fecb525dff1724f73d4377",
     "description": "",
     "districts": [
