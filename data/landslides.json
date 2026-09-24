@@ -1,5 +1,336 @@
 [
   {
+    "content_hash": "3886e48caa20ee7cafad23893f190c080c9e90533b9fa26eeb8d496056a34ce4",
+    "description": "",
+    "districts": [
+      "Colombo",
+      "Galle",
+      "Gampaha",
+      "Hambantota",
+      "Kalutara",
+      "Kandy",
+      "Kegalle",
+      "Kurunegala",
+      "Matara",
+      "Nuwara Eliya",
+      "Ratnapura"
+    ],
+    "document_type": "landslide",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 1,
+            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
+            "status": "unrecognized_text"
+          },
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1158,
+                "reason": "1158 Latin letters and 4 distinct English function/report words",
+                "share": 0.984
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "1158 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1248,
+                "reason": "1248 Latin letters and 12 distinct English function/report words",
+                "share": 0.892
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "1248 Latin letters and 12 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 4,
+            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
+            "status": "unrecognized_text"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 5,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "",
+      "severity_reason": "No unambiguous issued severity label in listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "landslide",
+    "hazards": [
+      "landslide"
+    ],
+    "id": "dmc-3886e48caa20ee7cafad23893f190c080c9e90533b9fa26eeb8d496056a34ce4",
+    "issued_at": "2026-09-24T13:00:00+05:30",
+    "language": "en",
+    "language_confidence": 0.95,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "landslide",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "landslide",
+          "report_date": "2026-09-24",
+          "report_time": "13:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1300hrs_on_2026__1790236908.pdf",
+          "title": "Landslide EW Report"
+        },
+        {
+          "description": "",
+          "document_type": "landslide",
+          "report_date": "2026-09-24",
+          "report_time": "13:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1300hrs_on_2026__1790237433.pdf",
+          "title": "Landslide EW Report"
+        }
+      ],
+      "report_date": "2026-09-24",
+      "report_time": "13:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1300hrs_on_2026__1790236908.pdf",
+      "title": "Landslide EW Report"
+    },
+    "processed_at": "2026-09-24T11:59:15.202965+00:00",
+    "provinces": [
+      "Central",
+      "North Western",
+      "Sabaragamuwa",
+      "Southern",
+      "Western"
+    ],
+    "severity": "unknown",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1300hrs_on_2026__1790236908.pdf",
+    "summary": "නායයෑම් පිළිබඳ පෙර අනතුරු ඇඟවීම First warning issued date: 20-09-2026 kz;rhpT Kd;ndr;rhpf;if Landslide Early Warning Message ID: LEWM-24-09-2026-1300-00 Update: 8th update Validity Period: From 13:00 hrs on 24.09.2026 To 13:00 hrs on 25.09.2026 Locations for Potential Risk නායයෑමේ අවදානම පැවතිය හැකි ප්‍රමේශ fdjpahd mghaKs;s ,lq;fs; District Level 1 (Yellow) Level 2 (Amber) Level 3 (Red) Colombo Seethawaka and Padukka Divisional Secretariat Division(s) (DSD) and surrounding areas. Galle Baddegama Divisional Secretariat Division(s) (DSD) and surrounding areas. Karandeniya and ↑ Elpitiya Division",
+    "title": "Landslide EW Report",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "7f4d4ed98cde927c144f9a4599d2e78444fb59258e902156c5c145789dc17c58",
+    "description": "",
+    "districts": [
+      "Ampara",
+      "Anuradhapura",
+      "Colombo",
+      "Gampaha",
+      "Hambantota",
+      "Kandy",
+      "Kegalle",
+      "Matale",
+      "Matara",
+      "Nuwara Eliya",
+      "Puttalam",
+      "Ratnapura",
+      "Vavuniya"
+    ],
+    "document_type": "situation",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.214,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.214,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 1083,
+                "reason": "1083 Latin letters and 5 distinct English function/report words",
+                "share": 0.757
+              },
+              {
+                "confidence": 0.214,
+                "language": "si",
+                "letters": 306,
+                "reason": "306 of 1431 alphabetic characters use the si script",
+                "share": 0.214
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.158,
+            "evidence": [
+              {
+                "confidence": 0.158,
+                "language": "si",
+                "letters": 145,
+                "reason": "145 of 917 alphabetic characters use the si script",
+                "share": 0.158
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "145 of 917 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.181,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 467,
+                "reason": "467 Latin letters and 5 distinct English function/report words",
+                "share": 0.819
+              },
+              {
+                "confidence": 0.181,
+                "language": "si",
+                "letters": 103,
+                "reason": "103 of 570 alphabetic characters use the si script",
+                "share": 0.181
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 3,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "situation report",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "flood",
+      "landslide",
+      "lightning"
+    ],
+    "id": "dmc-7f4d4ed98cde927c144f9a4599d2e78444fb59258e902156c5c145789dc17c58",
+    "issued_at": "2026-09-24T10:00:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.214,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "situation",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "situation",
+          "report_date": "2026-09-24",
+          "report_time": "10:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1790245513.pdf",
+          "title": "Situation Report"
+        }
+      ],
+      "report_date": "2026-09-24",
+      "report_time": "10:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1790245513.pdf",
+      "title": "Situation Report"
+    },
+    "processed_at": "2026-09-24T11:59:15.202965+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1790245513.pdf",
+    "summary": "දිස්ත්‍රික්කය மாவட்டம் District ප්‍රා.ලේ. ලකා gpuNjr nra.gp DS Division පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;fs; Families පුද්ගලයින් egHfs; People පූර්ණ හානි KOik Fully අර්ධ හානි gFjpasT Partially කුඩා හා මධය පරිමාණ වයාපාරික ස්ත්‍රථාන சிறிய, நடுத்தர, நிறுவனங் களி ன் சேதங் கள்; Small, Medium, Enterprises Damages ඉතා වැදගත් යටිතල පහසුකම් වලට වූ හානි mbg;gilf; fl;likg;Gf;fs; Damages to critical Infrastructure ආරක්ිත ස්ත්‍රථාන ස්ත්‍ංඛ්‍යාව vz;zpf;i f No. of Safety Locations පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;f s; Families පුද්ගලයින් egHfs; Persons 1 මාතලේ khj;jis Matale 02 DS Division Cutting Failiure / Flood / Heavy R",
+    "title": "Situation Report",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "f5d9c62e122ad7b79346e87636d6b3ae06a405f3940887c73df3eb3ac4d76e82",
     "description": "",
     "districts": [
@@ -589,157 +920,6 @@
     "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1790053739.pdf",
     "summary": "දිස්ත්‍රික්කය மாவட்டம் District ප්‍රා.ලේ. ලකා gpuNjr nra.gp DS Division පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;fs; Families පුද්ගලයින් egHfs; People පූර්ණ හානි KOik Fully අර්ධ හානි gFjpasT Partially කුඩා හා මධය පරිමාණ වයාපාරික ස්ත්‍රථාන சிறிய, நடுத்தர, நிறுவனங்களின் சேதங்கள்; Small, Medium, Enterprises Damages ඉතා වැදගත් යටිතල පහසුකම් වලට වූ හානි mbg;gilf; fl;likg;Gf;fs; Damages to critical Infrastructure ආරක්ිත ස්ත්‍රථාන ස්ත්‍ංඛ්‍යාව vz;zpf;i f No. of Safety Locations පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;f s; Families පුද්ගලයින් egHfs; Persons 1 මාතලේ khj;jis Matale 02 DS Division Cutting Failiure / Flood / Heavy Rain",
     "title": "Situation Report",
-    "valid_from": null,
-    "valid_until": null
-  },
-  {
-    "content_hash": "17bfc424d4c5a4b3166f6ee2b79000d0120f9c96a9c61c97f304c9e9e4387d73",
-    "description": "",
-    "districts": [
-      "Colombo",
-      "Galle",
-      "Gampaha",
-      "Kalutara",
-      "Kandy",
-      "Kegalle",
-      "Kurunegala",
-      "Matara",
-      "Nuwara Eliya",
-      "Ratnapura"
-    ],
-    "document_type": "landslide",
-    "extraction": {
-      "language_detection": {
-        "confidence": 0.95,
-        "language": "en",
-        "languages_detected": [
-          "en"
-        ],
-        "pages": [
-          {
-            "confidence": 0.0,
-            "evidence": [],
-            "language": "unknown",
-            "languages_detected": [],
-            "page": 1,
-            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
-            "status": "unrecognized_text"
-          },
-          {
-            "confidence": 0.71,
-            "evidence": [
-              {
-                "confidence": 0.71,
-                "language": "en",
-                "letters": 1265,
-                "reason": "1265 Latin letters and 4 distinct English function/report words",
-                "share": 0.985
-              }
-            ],
-            "language": "en",
-            "languages_detected": [
-              "en"
-            ],
-            "page": 2,
-            "reason": "1265 Latin letters and 4 distinct English function/report words",
-            "status": "single_language"
-          },
-          {
-            "confidence": 0.95,
-            "evidence": [
-              {
-                "confidence": 0.95,
-                "language": "en",
-                "letters": 1184,
-                "reason": "1184 Latin letters and 11 distinct English function/report words",
-                "share": 0.918
-              }
-            ],
-            "language": "en",
-            "languages_detected": [
-              "en"
-            ],
-            "page": 3,
-            "reason": "1184 Latin letters and 11 distinct English function/report words",
-            "status": "single_language"
-          },
-          {
-            "confidence": 0.0,
-            "evidence": [],
-            "language": "unknown",
-            "languages_detected": [],
-            "page": 4,
-            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
-            "status": "unrecognized_text"
-          },
-          {
-            "confidence": 0.0,
-            "evidence": [],
-            "language": "unknown",
-            "languages_detected": [],
-            "page": 5,
-            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
-            "status": "insufficient_text"
-          }
-        ],
-        "reason": "One supported language detected across PDF pages; see page evidence",
-        "status": "single_language",
-        "version": "2.0.0"
-      },
-      "location_scope": "mentions",
-      "rules_version": "1.1.0",
-      "severity_evidence": "",
-      "severity_reason": "No unambiguous issued severity label in listing title",
-      "status": "ok",
-      "summary_method": "first_600_characters_of_extracted_text",
-      "validity_reason": "Not inferred by MVP rules"
-    },
-    "hazard": "landslide",
-    "hazards": [
-      "landslide"
-    ],
-    "id": "dmc-17bfc424d4c5a4b3166f6ee2b79000d0120f9c96a9c61c97f304c9e9e4387d73",
-    "issued_at": "2026-09-21T16:00:00+05:30",
-    "language": "en",
-    "language_confidence": 0.95,
-    "language_reason": "One supported language detected across PDF pages; see page evidence",
-    "languages_detected": [
-      "en"
-    ],
-    "official": {
-      "description": "",
-      "document_type": "landslide",
-      "listings": [
-        {
-          "description": "",
-          "document_type": "landslide",
-          "report_date": "2026-09-21",
-          "report_time": "16:00",
-          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
-          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1600hrs_on_2026__1789987708.pdf",
-          "title": "Landslide EW Report"
-        }
-      ],
-      "report_date": "2026-09-21",
-      "report_time": "16:00",
-      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
-      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1600hrs_on_2026__1789987708.pdf",
-      "title": "Landslide EW Report"
-    },
-    "processed_at": "2026-09-21T13:02:54.059485+00:00",
-    "provinces": [
-      "Central",
-      "North Western",
-      "Sabaragamuwa",
-      "Southern",
-      "Western"
-    ],
-    "severity": "unknown",
-    "source": "DMC",
-    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
-    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1600hrs_on_2026__1789987708.pdf",
-    "summary": "Landslide Early Warning First warning issued date: 20-09-2026 නායයෑම් පිළිබඳ පෙර අනතුරු ඇඟවීම kz;rhpT Kd;ndr;rhpf;if Message ID : LEWM-21-09-2026-1600-04 Update : 4th update Validity Period : From 16:00 hrs on 21.09.2026 To 16:00 hrs on 22.09.2026 Locations for Potential Risk නායයෑමේ අවදානම පැවතිය හැකි ප්‍රමේශ fdjpahd mghaKs;s ,lq;fs; District Level 1 (Yellow) Level 2 (Amber) Level 3 (Red) Colombo Seethawaka Divisional Secretariat Division(s) (DSD) and surrounding areas. Padukka Divisional Secretariat Division(s) (DSD) and surrounding areas. Galle Niyagama and Baddegama Divisional Secretariat ",
-    "title": "Landslide EW Report",
     "valid_from": null,
     "valid_until": null
   }
