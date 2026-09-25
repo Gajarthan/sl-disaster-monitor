@@ -299,6 +299,10 @@
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "9f72f5f228da7122030f83e2494d5ad51e6f09893b60d25f025a98e879182f35"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Flood_Warning_for_Gin_River_Basin_-_NO_05_(2026__1790371997.pdf": {
+    "checked_at": "2026-09-25T23:21:17.683503+00:00",
+    "hash": "63449f20d677589e16cb7a5a5e91704e7607558d3c1ce73dafb69d5a932e194b"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Flood_Warning_for_Mahaweli_River_-_No_02_-_2026__1789883542.pdf": {
     "checked_at": "2026-09-23T00:44:43.585710+00:00",
     "hash": "3f5c0aff001c31299bbec5beddb7092698444b864e2f67de11738bb032ac8c2e"
@@ -318,6 +322,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Flood_warning_for_Nilwala_River_Basin_-_NO_02_(2026__1790282202.pdf": {
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "73b3477e67d7e1ff8823753fa5bf1672b32eb6a332311a95aeb070c36085b8d5"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Flood_warning_for_Nilwala_River_Basin_-_NO_03_(2026__1790369885.pdf": {
+    "checked_at": "2026-09-25T23:21:17.683503+00:00",
+    "hash": "a9c7e6fc8ea4c382c84116bc51c5494acef6a179ed11a907f2106c1e15838c86"
   },
   "https://www.dmc.gov.lk/images/dmcreports/LEWM_25-05-2026_16_00__1779705918.pdf": {
     "checked_at": "2026-09-20T00:11:25.111329+00:00",
@@ -970,6 +978,14 @@
   "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790359243.pdf": {
     "checked_at": "2026-09-25T18:44:46.209741+00:00",
     "hash": "66cb14e2efb20b800abd99a04c6e043361ec0ef92a84ccdcf77a116d663f3bbc"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790365671.pdf": {
+    "checked_at": "2026-09-25T23:21:17.683503+00:00",
+    "hash": "ba7921a5e807267d04fbe2098f700e08a7ed923f4be348e1cfba267eac3b24b8"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790375537.pdf": {
+    "checked_at": "2026-09-25T23:21:17.683503+00:00",
+    "hash": "7bf38d4900092ffa22f4425b151a27736a9d91993d8acb7b0279c638b174cabd"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
