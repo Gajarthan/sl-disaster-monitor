@@ -527,6 +527,10 @@
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "7f4d4ed98cde927c144f9a4599d2e78444fb59258e902156c5c145789dc17c58"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/W20260925a_TM__1790301375.pdf": {
+    "checked_at": "2026-09-25T07:59:04.066190+00:00",
+    "hash": "189caacca30eac11bcb740d9213aed7502a53df774dbe5a3ae4b3eb2a37a30b0"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1788518697.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
     "hash": "ce38bff12f4f5c8a120909f8a1f73da6a8f2cbad4ffe6ed198a81783bab1a770"
@@ -622,6 +626,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Warning_for_strong_winds_and_rough_seas_at_1000hrs_on_24__1790227494.pdf": {
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "465646231755f1c9bd7ebd3d82209e548c15722cf91768f3f807d6bb64054e8c"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Warning_for_strong_winds_and_rough_seas_at_1000hrs_on_25__1790320837.pdf": {
+    "checked_at": "2026-09-25T07:59:04.066190+00:00",
+    "hash": "2668c49a36061689dd94eebf05bf7494ab3610580801a33a334ed00500b10b61"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Warning_for_strong_winds_and_rough_seas_at_1400hrs_on_23__1790158843.pdf": {
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
@@ -938,6 +946,18 @@
   "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790288033.pdf": {
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "32fc3f22bc78f4845dea4e7ae54625b41525f167548519c8629e5abf038686df"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790298780.pdf": {
+    "checked_at": "2026-09-25T07:59:04.066190+00:00",
+    "hash": "96e47492f4d9db518d343ef2ade95852eedcf2d97225ca58fd67af4743b653cc"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790310904.pdf": {
+    "checked_at": "2026-09-25T07:59:04.066190+00:00",
+    "hash": "c9f38f3c29a0d2d61db0df76b7a1c2bbbd4e08947dc00236230ddfa875cc8c37"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790319687.pdf": {
+    "checked_at": "2026-09-25T07:59:04.066190+00:00",
+    "hash": "bdcbc5f030e39d43d0c9f759542fd1cbfacef8b1419c2c4193ac2cb5e013fe43"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
