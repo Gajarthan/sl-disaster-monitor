@@ -275,6 +275,10 @@
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "70845603e2d9f3997b576b09b035e92c40eec5fefed62b4d40855ad7acf4d588"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Flood_Warning__for_Gin_River_Basin_-_NO_06_(2026__1790457172.pdf": {
+    "checked_at": "2026-09-26T21:18:51.135462+00:00",
+    "hash": "7be395eb2102e1e26fac323c058504a7f82f6e8ed3ffa8758c8e60788158b719"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Flood_Warning__for_Kuda_Ganga_SubBasin_Of_Kalu_River_-_NO_01_(2026__1789878586.pdf": {
     "checked_at": "2026-09-23T00:44:43.585710+00:00",
     "hash": "a829f69ff2df479ece284712deda1e7e5286f1e8f28bb7fe297b4ec3884b8da8"
@@ -330,6 +334,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Flood_warning_for_Nilwala_River_Basin_-_NO_03_(2026__1790369885.pdf": {
     "checked_at": "2026-09-25T23:21:17.683503+00:00",
     "hash": "a9c7e6fc8ea4c382c84116bc51c5494acef6a179ed11a907f2106c1e15838c86"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Flood_warning_for_Nilwala_River_Basin_-_NO_04_(2026__1790457212.pdf": {
+    "checked_at": "2026-09-26T21:18:51.135462+00:00",
+    "hash": "531b9023f70d9ee29b6f4384edbaa79b101a7cd10693b1a05bda4d53cfcbe506"
   },
   "https://www.dmc.gov.lk/images/dmcreports/LEWM_25-05-2026_16_00__1779705918.pdf": {
     "checked_at": "2026-09-20T00:11:25.111329+00:00",
@@ -1014,6 +1022,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790439509.pdf": {
     "checked_at": "2026-09-26T16:32:32.874484+00:00",
     "hash": "6a61cd30ebb45e340a5d797f28b0cc7557da7ac2dfb841835aa23c7fd403747e"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790453774.pdf": {
+    "checked_at": "2026-09-26T21:18:51.135462+00:00",
+    "hash": "8234c3bd5969add50477220d21e6b895592cff220134b0d031c0b2d6dd9c2e20"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",

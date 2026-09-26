@@ -1,5 +1,267 @@
 [
   {
+    "content_hash": "7be395eb2102e1e26fac323c058504a7f82f6e8ed3ffa8758c8e60788158b719",
+    "description": "",
+    "districts": [
+      "Colombo"
+    ],
+    "document_type": "river_flood",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.189,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si",
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.189,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1064,
+                "reason": "1064 Latin letters and 12 distinct English function/report words",
+                "share": 0.615
+              },
+              {
+                "confidence": 0.189,
+                "language": "si",
+                "letters": 326,
+                "reason": "326 of 1729 alphabetic characters use the si script",
+                "share": 0.189
+              },
+              {
+                "confidence": 0.192,
+                "language": "ta",
+                "letters": 332,
+                "reason": "332 of 1729 alphabetic characters use the ta script",
+                "share": 0.192
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si",
+              "ta"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 2,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 3,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "warning",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "flood",
+    "hazards": [
+      "flood",
+      "river_flood"
+    ],
+    "id": "dmc-7be395eb2102e1e26fac323c058504a7f82f6e8ed3ffa8758c8e60788158b719",
+    "issued_at": "2026-09-27T02:30:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.189,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si",
+      "ta"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "river_flood",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "river_flood",
+          "report_date": "2026-09-27",
+          "report_time": "02:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Flood_Warning__for_Gin_River_Basin_-_NO_06_(2026__1790457172.pdf",
+          "title": "Flood warning for Gin River Basin"
+        }
+      ],
+      "report_date": "2026-09-27",
+      "report_time": "02:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Flood_Warning__for_Gin_River_Basin_-_NO_06_(2026__1790457172.pdf",
+      "title": "Flood warning for Gin River Basin"
+    },
+    "processed_at": "2026-09-26T21:18:51.135462+00:00",
+    "provinces": [
+      "Western"
+    ],
+    "severity": "warning",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Flood_Warning__for_Gin_River_Basin_-_NO_06_(2026__1790457172.pdf",
+    "summary": "jdßud¾. fomd¾;fïka;=j ePu;g;ghrdj; jpizf;fsk ; IRRIGATION DEPARTMENT (HYDROLOGY AND DISASTER MANAGEMENT DIVISION) jdßud¾. wOHlaI *elaia ,smskh 230, ;e.fm. 1138, fn!oaOdf,dal udj;,fld<U07,•,xldj ePu;g;ghrdj gzpg;ghsu; 011-2581636 gf;]; 011-2591125 Kftup 230, j.ng.1138,ngsj;jhNyhf;fkhtj;ij>nfhOk;G 07>,yq;if Director of Irrigation Fax Address 230, P.O. Box 1138, BauddhalokaMawatha, Colombo 07, Sri Lanka ³rl:kh^fmd³& œoaHq;a ,smskh fj’ wvœh njhiyNgrp(nghJ) 011-2590145 <.nka;y; Kftup ddhydrology@gmail.com ,izajsk; www.irrigation.gov.lk Telephone(General) E-mail Address Web site uf.a wxlh Tf’ wxlh o",
+    "title": "Flood warning for Gin River Basin",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "531b9023f70d9ee29b6f4384edbaa79b101a7cd10693b1a05bda4d53cfcbe506",
+    "description": "",
+    "districts": [
+      "Colombo"
+    ],
+    "document_type": "river_flood",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.189,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si",
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.189,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1067,
+                "reason": "1067 Latin letters and 12 distinct English function/report words",
+                "share": 0.614
+              },
+              {
+                "confidence": 0.189,
+                "language": "si",
+                "letters": 329,
+                "reason": "329 of 1738 alphabetic characters use the si script",
+                "share": 0.189
+              },
+              {
+                "confidence": 0.193,
+                "language": "ta",
+                "letters": 335,
+                "reason": "335 of 1738 alphabetic characters use the ta script",
+                "share": 0.193
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si",
+              "ta"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 2,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 3,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "warning",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "flood",
+    "hazards": [
+      "flood",
+      "river_flood"
+    ],
+    "id": "dmc-531b9023f70d9ee29b6f4384edbaa79b101a7cd10693b1a05bda4d53cfcbe506",
+    "issued_at": "2026-09-27T02:30:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.189,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si",
+      "ta"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "river_flood",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "river_flood",
+          "report_date": "2026-09-27",
+          "report_time": "02:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Flood_warning_for_Nilwala_River_Basin_-_NO_04_(2026__1790457212.pdf",
+          "title": "Flood warning for Nilwala River Basin"
+        }
+      ],
+      "report_date": "2026-09-27",
+      "report_time": "02:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Flood_warning_for_Nilwala_River_Basin_-_NO_04_(2026__1790457212.pdf",
+      "title": "Flood warning for Nilwala River Basin"
+    },
+    "processed_at": "2026-09-26T21:18:51.135462+00:00",
+    "provinces": [
+      "Western"
+    ],
+    "severity": "warning",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Flood_warning_for_Nilwala_River_Basin_-_NO_04_(2026__1790457212.pdf",
+    "summary": "jdßud¾. fomd¾;fïka;=j ePu;g;ghrdj; jpizf;fsk ; IRRIGATION DEPARTMENT (HYDROLOGY AND DISASTER MANAGEMENT DIVISION) jdßud¾. wOHlaI *elaia ,smskh 230, ;e.fm. 1138, fn!oaOdf,dal udj;,fld<U07,•,xldj ePu;g;ghrdj gzpg;ghsu; 011-2581636 gf;]; 011-2591125 Kftup 230, j.ng.1138,ngsj;jhNyhf;fkhtj;ij>nfhOk;G 07>,yq;if Director of Irrigation Fax Address 230, P.O. Box 1138, BauddhalokaMawatha, Colombo 07, Sri Lanka ³rl:kh^fmd³& œoaHq;a ,smskh fj’ wvœh njhiyNgrp(nghJ) 011-2590145 <.nka;y; Kftup ddhydrology@gmail.com ,izajsk; www.irrigation.gov.lk Telephone(General) E-mail Address Web site uf.a wxlh Tf’ wxlh o",
+    "title": "Flood warning for Nilwala River Basin",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "d82809d503da1424cf47293d55936016371998659c32e4225f21d99ca3b536c8",
     "description": "",
     "districts": [
