@@ -35,6 +35,10 @@
     "checked_at": "2026-09-23T00:44:43.585710+00:00",
     "hash": "2204b79461aab4fab984398c30d762ae171eb9b638d1754e3c7afc4854f9c0a0"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves_Report_at_0900_hrs_on_2026__1790395969.pdf": {
+    "checked_at": "2026-09-26T05:10:41.777193+00:00",
+    "hash": "9c46e87a709624df020de7d7bbc5a2b8e290d376e2f576a65dba96d0b3d999ab"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_High_Waves__1789283295.pdf": {
     "checked_at": "2026-09-18T00:29:32.121096+00:00",
     "hash": "08977f3368154c699dae9b841f06382027c05dcce22d9934d9e1940816caa4a1"
@@ -987,6 +991,14 @@
     "checked_at": "2026-09-25T23:21:17.683503+00:00",
     "hash": "7bf38d4900092ffa22f4425b151a27736a9d91993d8acb7b0279c638b174cabd"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790385790.pdf": {
+    "checked_at": "2026-09-26T05:10:41.777193+00:00",
+    "hash": "acf920ff143caaaf640fed3deba92f51c9bf931507e9fc40dd9eb7c04bcc53b6"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790397313.pdf": {
+    "checked_at": "2026-09-26T05:10:41.777193+00:00",
+    "hash": "d2363de76d63a515fb404c3747af3ac0a610963b9ceb0b1b17dfe68507f29aac"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
     "hash": "a51c009265c0b012845fb89c20c92763631b41185c00a14067c00cdb0b23252c"
@@ -1106,6 +1118,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1790295176.pdf": {
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "a696c48bb0b8bb9129966bcd2951f4f7d4cfb3ecc117ed34500c69e72b239513"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1790390847.pdf": {
+    "checked_at": "2026-09-26T05:10:41.777193+00:00",
+    "hash": "1ff6e5397bfabd8705468dd61c0843865597362be8730ba79033f231cef6d870"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1400_hrs_on_2026__1788943471.pdf": {
     "checked_at": "2026-09-14T00:17:00.426742+00:00",
