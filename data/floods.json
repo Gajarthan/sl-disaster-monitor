@@ -1,5 +1,98 @@
 [
   {
+    "content_hash": "ef907e20508115a6231d71cfcf365c4f16572ef3e83a53a210991a393e8f1820",
+    "description": "",
+    "districts": [
+      "Ratnapura"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.71,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.71,
+            "evidence": [
+              {
+                "confidence": 0.71,
+                "language": "en",
+                "letters": 1627,
+                "reason": "1627 Latin letters and 4 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 1,
+            "reason": "1627 Latin letters and 4 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "river_flood",
+    "hazards": [
+      "river_flood",
+      "flood"
+    ],
+    "id": "dmc-ef907e20508115a6231d71cfcf365c4f16572ef3e83a53a210991a393e8f1820",
+    "issued_at": "2026-09-27T15:30:00+05:30",
+    "language": "en",
+    "language_confidence": 0.71,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-09-27",
+          "report_time": "15:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790503419.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-09-27",
+      "report_time": "15:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790503419.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-09-27T14:10:49.323252+00:00",
+    "provinces": [
+      "Sabaragamuwa"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790503419.pdf",
+    "summary": "0 DATE : 27-Sep-2026 TIME : 3:30 PM Station Unit Alert Level Minor Flood Level Major Flood Level Kelani Ganga Nagalagam Street ft 4.00 5.00 7.00 2.90 2.90 Normal - Kelani Ganga Hanwella m 6.50 7.50 9.50 4.20 4.13 Normal 0.0 Kelani Ganga Glencourse m 15.00 15.50 19.00 11.82 11.73 Normal 0.0 Kelani Ganga Kithulgala m 3.00 4.00 6.00 2.17 2.23 Normal 0.0 Gurugoda Oya Holombuwa m 3.00 4.00 6.00 0.85 0.85 Normal 0.0 Seethawaka Ganga Deraniyagala m 4.80 5.80 7.00 1.31 1.30 Normal 0.0 Kehelgamu Oya Norwood m 1.50 3.00 4.50 0.96 0.95 Normal 0.0 Kalu Ganga Putupaula m 3.00 4.00 5.00 2.75 2.74 Normal 0.0",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "8234c3bd5969add50477220d21e6b895592cff220134b0d031c0b2d6dd9c2e20",
     "description": "",
     "districts": [
@@ -2890,99 +2983,6 @@
     "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
     "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790266999.pdf",
     "summary": "0 DATE : 24-Sep-2026 TIME : 9:30 PM Station Unit Alert Level Minor Flood Level Major Flood Level Kelani Ganga Nagalagam Street ft 4.00 5.00 7.00 2.30 2.40 Normal - Kelani Ganga Hanwella m 6.50 7.50 9.50 5.58 5.67 Normal 13.3 Kelani Ganga Glencourse m 15.00 15.50 19.00 14.00 14.21 Normal 20.0 Kelani Ganga Kithulgala m 3.00 4.00 6.00 3.53 3.30 Alert Falling 29.0 Gurugoda Oya Holombuwa m 3.00 4.00 6.00 2.62 2.39 Normal 11.9 Seethawaka Ganga Deraniyagala m 4.80 5.80 7.00 4.33 3.73 Normal 57.5 Kehelgamu Oya Norwood m 1.50 3.00 4.50 1.51 1.55 Alert Rising 40.4 Kalu Ganga Putupaula m 3.00 4.00 5.00 2",
-    "title": "Water Level",
-    "valid_from": null,
-    "valid_until": null
-  },
-  {
-    "content_hash": "8432b5cf03d47222a90a194fb75dfe8d40bf1b33041a04bd1eafe7f5bb74cde5",
-    "description": "",
-    "districts": [
-      "Ratnapura"
-    ],
-    "document_type": "river_flood",
-    "extraction": {
-      "language_detection": {
-        "confidence": 0.71,
-        "language": "en",
-        "languages_detected": [
-          "en"
-        ],
-        "pages": [
-          {
-            "confidence": 0.71,
-            "evidence": [
-              {
-                "confidence": 0.71,
-                "language": "en",
-                "letters": 1672,
-                "reason": "1672 Latin letters and 4 distinct English function/report words",
-                "share": 1.0
-              }
-            ],
-            "language": "en",
-            "languages_detected": [
-              "en"
-            ],
-            "page": 1,
-            "reason": "1672 Latin letters and 4 distinct English function/report words",
-            "status": "single_language"
-          }
-        ],
-        "reason": "One supported language detected across PDF pages; see page evidence",
-        "status": "single_language",
-        "version": "2.0.0"
-      },
-      "location_scope": "mentions",
-      "rules_version": "1.1.0",
-      "severity_evidence": "",
-      "severity_reason": "No unambiguous issued severity label in listing title",
-      "status": "ok",
-      "summary_method": "first_600_characters_of_extracted_text",
-      "validity_reason": "Not inferred by MVP rules"
-    },
-    "hazard": "river_flood",
-    "hazards": [
-      "river_flood",
-      "flood"
-    ],
-    "id": "dmc-8432b5cf03d47222a90a194fb75dfe8d40bf1b33041a04bd1eafe7f5bb74cde5",
-    "issued_at": "2026-09-24T15:30:00+05:30",
-    "language": "en",
-    "language_confidence": 0.71,
-    "language_reason": "One supported language detected across PDF pages; see page evidence",
-    "languages_detected": [
-      "en"
-    ],
-    "official": {
-      "description": "",
-      "document_type": "river_flood",
-      "listings": [
-        {
-          "description": "",
-          "document_type": "river_flood",
-          "report_date": "2026-09-24",
-          "report_time": "15:30",
-          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
-          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790244886.pdf",
-          "title": "Water Level"
-        }
-      ],
-      "report_date": "2026-09-24",
-      "report_time": "15:30",
-      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
-      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790244886.pdf",
-      "title": "Water Level"
-    },
-    "processed_at": "2026-09-24T11:59:15.202965+00:00",
-    "provinces": [
-      "Sabaragamuwa"
-    ],
-    "severity": "unknown",
-    "source": "DMC",
-    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=277&report_type_id=6&lang=en&limit=20&limitstart=0",
-    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790244886.pdf",
-    "summary": "0 DATE : 24-Sep-2026 TIME : 3:30 PM Station Unit Alert Level Minor Flood Level Major Flood Level Kelani Ganga Nagalagam Street ft 4.00 5.00 7.00 3.00 3.00 Normal - Kelani Ganga Hanwella m 6.50 7.50 9.50 5.02 5.13 Normal 11.6 Kelani Ganga Glencourse m 15.00 15.50 19.00 13.54 13.68 Normal 17.8 Kelani Ganga Kithulgala m 3.00 4.00 6.00 2.38 2.41 Normal 15.4 Gurugoda Oya Holombuwa m 3.00 4.00 6.00 2.20 2.04 Normal 10.4 Seethawaka Ganga Deraniyagala m 4.80 5.80 7.00 2.42 2.38 Normal 22.2 Kehelgamu Oya Norwood m 1.50 3.00 4.50 1.38 1.37 Normal 10.9 Kalu Ganga Putupaula m 3.00 4.00 5.00 2.61 2.62 Norm",
     "title": "Water Level",
     "valid_from": null,
     "valid_until": null

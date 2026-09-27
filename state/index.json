@@ -435,6 +435,10 @@
     "checked_at": "2026-09-27T00:42:39.414102+00:00",
     "hash": "d82809d503da1424cf47293d55936016371998659c32e4225f21d99ca3b536c8"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1630hrs_on_2026__1790508308.pdf": {
+    "checked_at": "2026-09-27T14:10:49.323252+00:00",
+    "hash": "5239beb95de0dfb5a775b23c8e8c2c07493de4ec2a8fbca31d36c3cf37224a3a"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1700hrs_on_2026__1790251970.pdf": {
     "checked_at": "2026-09-27T00:42:39.414102+00:00",
     "hash": "aa24682e3aff377e0697e7fdb5e422e81ecbbaac07e9d87fbc8543484845a4bd"
@@ -1051,6 +1055,10 @@
     "checked_at": "2026-09-27T08:22:55.254115+00:00",
     "hash": "42563655a28df37ce97659e11c0b56a8f61812ff10dcd01f2df507270dcbde96"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790503419.pdf": {
+    "checked_at": "2026-09-27T14:10:49.323252+00:00",
+    "hash": "ef907e20508115a6231d71cfcf365c4f16572ef3e83a53a210991a393e8f1820"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
     "hash": "a51c009265c0b012845fb89c20c92763631b41185c00a14067c00cdb0b23252c"
@@ -1502,6 +1510,14 @@
   "https://www.dmc.gov.lk/images/dmcreports/Weather_report_at_0530_hrs_on_2026__1790470231.pdf": {
     "checked_at": "2026-09-27T08:22:55.254115+00:00",
     "hash": "4d489f750d4a013cbfaca1c907c0efc66316f86e986d20ab628f326fdd8e0979"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_report_at_1400_hrs_on_2026__1790498546.pdf": {
+    "checked_at": "2026-09-27T14:10:49.323252+00:00",
+    "hash": "ef0f53d3058a9840437828e845b75bd83d432ef388c0f26834092efef737a4b7"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_report_at_1600_hrs_on_2026__1790505343.pdf": {
+    "checked_at": "2026-09-27T14:10:49.323252+00:00",
+    "hash": "68a1db2c14d055bdf3e5b3da8e8fbcfbb3f612b15c9497e3b7e84310d11cc54b"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_report_tat_0530hrs__1790125385.pdf": {
     "checked_at": "2026-09-27T00:42:39.414102+00:00",
