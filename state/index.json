@@ -1071,6 +1071,14 @@
     "checked_at": "2026-09-27T23:09:49.770842+00:00",
     "hash": "0597293d712822047bcfcd4fc4d653f1b03339dde48755a065060452b3a58069"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790557182.pdf": {
+    "checked_at": "2026-09-28T05:36:00.498469+00:00",
+    "hash": "57ff2768ba06df335023b80be475e71ec44bd6d86566ea7cf9e7ad8e3bd694d4"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790568329.pdf": {
+    "checked_at": "2026-09-28T05:36:00.498469+00:00",
+    "hash": "c52f98221b382e05a9ac9451063c891e50ac5ae884946d6a921c0f6f0e53653b"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
     "hash": "a51c009265c0b012845fb89c20c92763631b41185c00a14067c00cdb0b23252c"
@@ -1078,6 +1086,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788653344.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
     "hash": "5effd611388578b1b3feae676ec6e5aa8b2eb3e37c12c22cf17a0d9df6dc69ff"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs_on_28__1790559082.pdf": {
+    "checked_at": "2026-09-28T05:36:00.498469+00:00",
+    "hash": "edcb0bd74259f952c26c1eb58ae4bb380fb8820271c2b71f0f609b8570253e76"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_1600hrs__1790087320.pdf": {
     "checked_at": "2026-09-27T00:42:39.414102+00:00",
@@ -1522,6 +1534,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Weather_report_at_0530_hrs_on_2026__1790470231.pdf": {
     "checked_at": "2026-09-27T08:22:55.254115+00:00",
     "hash": "4d489f750d4a013cbfaca1c907c0efc66316f86e986d20ab628f326fdd8e0979"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_report_at_0530_hrs_on_2026__1790554386.pdf": {
+    "checked_at": "2026-09-28T05:36:00.498469+00:00",
+    "hash": "1819d72681fae0a894914a945c1a5a0a62f05f83aaa214c68e4b4c792cc3e143"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_report_at_1400_hrs_on_2026__1790498546.pdf": {
     "checked_at": "2026-09-27T14:10:49.323252+00:00",
