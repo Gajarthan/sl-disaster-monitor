@@ -91,6 +91,14 @@
     "checked_at": "2026-09-19T00:25:44.734185+00:00",
     "hash": "7acf32303fe40a2938b0c9232d921587a9d8fcaf6782a49540e399eceb4898f6"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1030hrs_on_2026__1790660135.pdf": {
+    "checked_at": "2026-09-29T08:44:12.064915+00:00",
+    "hash": "d49ccfa6a453bfa4d94b5dd1f43e7181feff6ee2426156f7dcd4e6f7acbeb289"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1030hrs_on_2026__1790670421.pdf": {
+    "checked_at": "2026-09-29T08:44:12.064915+00:00",
+    "hash": "e2e0224722d9f169c97ef7f7d9b84aa994ee6e2a68aec906e2175a884e363c14"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1100_hrs_on_2026__1789711279.pdf": {
     "checked_at": "2026-09-20T00:11:25.111329+00:00",
     "hash": "efe4836cf97df0c1bc526695a21e9318f8c73ff99b0dc13a4a25889bb121d8c2"
@@ -1103,6 +1111,10 @@
     "checked_at": "2026-09-29T02:05:04.888508+00:00",
     "hash": "8dc14b995803be47a017135cc979cf3109974f2bad6f25f9d22c1f6bb224f3aa"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Water_level_&_Rainfall_2026__1790655544.pdf": {
+    "checked_at": "2026-09-29T08:44:12.064915+00:00",
+    "hash": "34326ae4b535ed9ec724bd34cd54c60cf92efd5df44538c8bf4a254268b0ef0d"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_0530hrs__1788566908.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
     "hash": "a51c009265c0b012845fb89c20c92763631b41185c00a14067c00cdb0b23252c"
@@ -1586,6 +1598,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Weather_report_tat_0530hrs__1790125385.pdf": {
     "checked_at": "2026-09-27T00:42:39.414102+00:00",
     "hash": "6a57d96094fe83489bcb6130f3d32e3f3eec2cdf07ecf2302480a32e45e34180"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Withdrawal_of_Flood_warning_2026__1790658554.pdf": {
+    "checked_at": "2026-09-29T08:44:12.064915+00:00",
+    "hash": "9badb19ee76763337427e72801f0287916528c8c51b2e5be723947f72fccb321"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Withdrawal_of_Flood_warning_Mahaweli_Gaga_at_1200_noon_on_2026__1786518637.pdf": {
     "checked_at": "2026-09-19T07:25:48.843780+00:00",
