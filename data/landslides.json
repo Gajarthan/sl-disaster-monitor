@@ -172,21 +172,30 @@
     "valid_until": null
   },
   {
-    "content_hash": "5239beb95de0dfb5a775b23c8e8c2c07493de4ec2a8fbca31d36c3cf37224a3a",
+    "content_hash": "fe48f54ea57b4f618ac2c664b7523add8346a4bf697d46d75c16191c8dda74d4",
     "description": "",
     "districts": [
+      "Ampara",
+      "Anuradhapura",
+      "Colombo",
       "Galle",
-      "Kalutara",
+      "Gampaha",
+      "Hambantota",
       "Kandy",
       "Kegalle",
+      "Kurunegala",
+      "Matale",
       "Matara",
       "Nuwara Eliya",
-      "Ratnapura"
+      "Puttalam",
+      "Ratnapura",
+      "Trincomalee",
+      "Vavuniya"
     ],
-    "document_type": "landslide",
+    "document_type": "situation",
     "extraction": {
       "language_detection": {
-        "confidence": 0.171,
+        "confidence": 0.209,
         "language": "mul",
         "languages_detected": [
           "en",
@@ -194,49 +203,67 @@
         ],
         "pages": [
           {
-            "confidence": 0.0,
-            "evidence": [],
-            "language": "unknown",
-            "languages_detected": [],
-            "page": 1,
-            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
-            "status": "unrecognized_text"
-          },
-          {
-            "confidence": 0.71,
+            "confidence": 0.209,
             "evidence": [
               {
-                "confidence": 0.71,
+                "confidence": 0.75,
                 "language": "en",
-                "letters": 885,
-                "reason": "885 Latin letters and 4 distinct English function/report words",
-                "share": 0.979
+                "letters": 1156,
+                "reason": "1156 Latin letters and 5 distinct English function/report words",
+                "share": 0.763
+              },
+              {
+                "confidence": 0.209,
+                "language": "si",
+                "letters": 317,
+                "reason": "317 of 1515 alphabetic characters use the si script",
+                "share": 0.209
               }
             ],
-            "language": "en",
+            "language": "mul",
             "languages_detected": [
-              "en"
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.179,
+            "evidence": [
+              {
+                "confidence": 0.179,
+                "language": "si",
+                "letters": 202,
+                "reason": "202 of 1131 alphabetic characters use the si script",
+                "share": 0.179
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
             ],
             "page": 2,
-            "reason": "885 Latin letters and 4 distinct English function/report words",
+            "reason": "202 of 1131 alphabetic characters use the si script",
             "status": "single_language"
           },
           {
-            "confidence": 0.171,
+            "confidence": 0.175,
             "evidence": [
               {
-                "confidence": 0.95,
+                "confidence": 0.75,
                 "language": "en",
-                "letters": 732,
-                "reason": "732 Latin letters and 12 distinct English function/report words",
-                "share": 0.829
+                "letters": 359,
+                "reason": "359 Latin letters and 5 distinct English function/report words",
+                "share": 0.825
               },
               {
-                "confidence": 0.171,
+                "confidence": 0.175,
                 "language": "si",
-                "letters": 151,
-                "reason": "151 of 883 alphabetic characters use the si script",
-                "share": 0.171
+                "letters": 76,
+                "reason": "76 of 435 alphabetic characters use the si script",
+                "share": 0.175
               }
             ],
             "language": "mul",
@@ -247,24 +274,6 @@
             "page": 3,
             "reason": "Substantial evidence for multiple languages in this text",
             "status": "multilingual"
-          },
-          {
-            "confidence": 0.0,
-            "evidence": [],
-            "language": "unknown",
-            "languages_detected": [],
-            "page": 4,
-            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
-            "status": "unrecognized_text"
-          },
-          {
-            "confidence": 0.0,
-            "evidence": [],
-            "language": "unknown",
-            "languages_detected": [],
-            "page": 5,
-            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
-            "status": "insufficient_text"
           }
         ],
         "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
@@ -273,20 +282,22 @@
       },
       "location_scope": "mentions",
       "rules_version": "1.1.0",
-      "severity_evidence": "warning",
+      "severity_evidence": "situation report",
       "severity_reason": "Explicit label in official listing title",
       "status": "ok",
       "summary_method": "first_600_characters_of_extracted_text",
       "validity_reason": "Not inferred by MVP rules"
     },
-    "hazard": "landslide",
+    "hazard": "heavy_rain",
     "hazards": [
+      "heavy_rain",
+      "flood",
       "landslide"
     ],
-    "id": "dmc-5239beb95de0dfb5a775b23c8e8c2c07493de4ec2a8fbca31d36c3cf37224a3a",
-    "issued_at": "2026-09-27T16:30:00+05:30",
+    "id": "dmc-fe48f54ea57b4f618ac2c664b7523add8346a4bf697d46d75c16191c8dda74d4",
+    "issued_at": "2026-09-29T10:00:00+05:30",
     "language": "mul",
-    "language_confidence": 0.171,
+    "language_confidence": 0.209,
     "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
     "languages_detected": [
       "en",
@@ -294,37 +305,41 @@
     ],
     "official": {
       "description": "",
-      "document_type": "landslide",
+      "document_type": "situation",
       "listings": [
         {
           "description": "",
-          "document_type": "landslide",
-          "report_date": "2026-09-27",
-          "report_time": "16:30",
-          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
-          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1630hrs_on_2026__1790508308.pdf",
-          "title": "Landslide Early warning"
+          "document_type": "situation",
+          "report_date": "2026-09-29",
+          "report_time": "10:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1790750768.pdf",
+          "title": "Situation Report"
         }
       ],
-      "report_date": "2026-09-27",
-      "report_time": "16:30",
-      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
-      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1630hrs_on_2026__1790508308.pdf",
-      "title": "Landslide Early warning"
+      "report_date": "2026-09-29",
+      "report_time": "10:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1790750768.pdf",
+      "title": "Situation Report"
     },
-    "processed_at": "2026-09-27T14:10:49.323252+00:00",
+    "processed_at": "2026-09-30T12:48:24.035551+00:00",
     "provinces": [
       "Central",
+      "Eastern",
+      "North Central",
+      "North Western",
+      "Northern",
       "Sabaragamuwa",
       "Southern",
       "Western"
     ],
-    "severity": "warning",
+    "severity": "info",
     "source": "DMC",
-    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
-    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1630hrs_on_2026__1790508308.pdf",
-    "summary": "නායයෑම් පිළිබඳ පෙර අනතුරු ඇඟවීම First warning issued date: 20-09-2026 kz;rhpT Kd;ndr;rhpf;if Landslide Early Warning Message ID: LEWM-27-09-2026-1600-12 Update: 12th update Validity Period: From 16:00 hrs on 27.09.2026 To 16:00 hrs on 28.09.2026 Locations for Potential Risk නායයෑමේ අවදානම පැවතිය හැකි ප්‍රමේශ fdjpahd mghaKs;s ,lq;fs; District Level 1 (Yellow) Level 2 (Amber) Level 3 (Red) Galle Elpitiya, Karandeniya and Baddegama Divisional Secretariat Division(s) (DSD) and surrounding areas. Niyagama, Thawalama, Neluwa and Nagoda Divisional Secretariat Division(s) (DSD) and surrounding areas. ",
-    "title": "Landslide Early warning",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1790750768.pdf",
+    "summary": "දිස්ත්‍රික්කය மாவட்டம் District ප්‍රා.ලේ. ලකා gpuNjr nra.gp DS Division පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;fs; Families පුද්ගලයින් egHfs; People පූර්ණ හානි KOik Fully අර්ධ හානි gFjpasT Partially කුඩා හා මධය පරිමාණ වයාපාරික ස්ත්‍රථාන சிறிய, நடுத்தர, நிறுவனங் களி ன் சேதங் கள்; Small, Medium, Enterprises Damages ඉතා වැදගත් යටිතල පහසුකම් වලට වූ හානි mbg;gilf; fl;likg;Gf;fs; Damages to critical Infrastructure ආරක්ිත ස්ත්‍රථාන ස්ත්‍ංඛ්‍යාව vz;zpf;i f No. of Safety Locations පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;f s; Families පුද්ගලයින් egHfs; Persons 1 මාතලේ khj;jis Matale 04 DS Division Cutting Failiure / Flood / Heavy R",
+    "title": "Situation Report",
     "valid_from": null,
     "valid_until": null
   }
