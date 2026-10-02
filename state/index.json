@@ -135,6 +135,14 @@
     "checked_at": "2026-09-28T14:12:44.130287+00:00",
     "hash": "717360434e749b44b690373c2f4f1dc4d5ac91f489ebcf5cd0e0fe6b99099f4d"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1130hrs_on_02__1790923001.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "f5fa114934fc43f785ae26e20aa1bc8e734da1fd5070eb2325863dd9a602d90f"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1130hrs_on_02__1790925650.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "8be1eb9526c5b3978bdfc4bfa1cf3330fb2f910c48df348f9cc15a6ce4d18859"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1130hrs_on_07__1788763288.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
     "hash": "7c8823a8807b9500354f82fd395e0a52467283f1275c667a22c8442c10051bab"
@@ -314,6 +322,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Drought_Situation_Report_on_2026__1790750792.pdf": {
     "checked_at": "2026-09-30T12:48:24.035551+00:00",
     "hash": "2a3d56b8e6dd7cfe617176bdbd4e8469d57b03357b939dbfb744cedda11d55e1"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Fisherman_Bulletin__1790937006.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "1b429089c2b5bbb5e86201be3c5615a0e2a3a1d003241d24493728a3fbeb006f"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Flood_Warning__for_Gin_River_Basin_-_NO_06_(2026__1790457172.pdf": {
     "checked_at": "2026-09-27T00:42:39.414102+00:00",
@@ -622,6 +634,14 @@
   "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_01__1790853079.pdf": {
     "checked_at": "2026-10-01T13:34:21.322380+00:00",
     "hash": "fa850c25932c8fe14ceef67b19ebca1fb64a828d8ead3644c67e8181022c57e0"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_02__1790937758.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "af3ca88f6bf07f1840536239b998c72784709da40e8f1c9d701ae73400ad368e"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_02__1790940572.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "8c3426b76b4fe4fea0bf9cca4f8a4451932c390706778ec246d4940992528f9a"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1600hrs_on_2026__1788518697.pdf": {
     "checked_at": "2026-09-13T17:16:49.948626+00:00",
@@ -1211,6 +1231,10 @@
     "checked_at": "2026-09-30T12:48:24.035551+00:00",
     "hash": "c0274d297e5405588da69c97469a010a7d36a4ec20259a650d9e0c8baefbed8d"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_1400hrs__1790931332.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "d6e07d375af837e1650bdf76fa6ef66f272f8ff814f7935f3761eb71fd25584e"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Forecast_at_1400hrs_on_29__1790671905.pdf": {
     "checked_at": "2026-09-29T16:33:51.049037+00:00",
     "hash": "d1796243e1bfd642edc9c93acb129abab85b206db3dad5a678f0c4f5c020a9c3"
@@ -1635,6 +1659,14 @@
     "checked_at": "2026-10-01T13:34:21.322380+00:00",
     "hash": "99f9ff367101f9ddffbe849ac0023e012c29833511e5a1ee922e65fb40282d60"
   },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600hrs_on_2026__1790937601.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "d12fc9245a8eb6e44ac1beacf7188e4cf17d2cb0b91f6e4679fad0bc180578b4"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600hrs_on_2026__1790940374.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "7e38cb85115f990b14dc0b72de63b661e6de82609420055e7aef7a107636b542"
+  },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_1600hrs_on_21__1789989860.pdf": {
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "4827cda7ca10ed743581579e28dec427c80494052f3b83d582ef1804f08da538"
@@ -1698,6 +1730,10 @@
   "https://www.dmc.gov.lk/images/dmcreports/Weather_forecast_at_0540hrs__1790036402.pdf": {
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
     "hash": "9c21e13dc942b3bdf9b44ef46c436bb3bd84e98651bdc20c4489dc6c3cb3f47d"
+  },
+  "https://www.dmc.gov.lk/images/dmcreports/Weather_forecast_at_1400_hrs__TM__1790931635.pdf": {
+    "checked_at": "2026-10-02T12:53:06.477370+00:00",
+    "hash": "be26523773881f9815afed467ed4df198f49dc780e09a3d2cdede3b47997eab9"
   },
   "https://www.dmc.gov.lk/images/dmcreports/Weather_forecast_for_Multiday_Boats__1790041208.pdf": {
     "checked_at": "2026-09-25T00:37:18.735017+00:00",
