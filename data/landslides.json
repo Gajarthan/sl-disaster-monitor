@@ -1,5 +1,178 @@
 [
   {
+    "content_hash": "035863cf0ceccf2bee247d15632daa9a27ae8ab88ddea0a2b5aa5791ff87a88a",
+    "description": "",
+    "districts": [
+      "Ampara",
+      "Anuradhapura",
+      "Colombo",
+      "Galle",
+      "Gampaha",
+      "Hambantota",
+      "Kandy",
+      "Kegalle",
+      "Kurunegala",
+      "Matale",
+      "Matara",
+      "Mullaitivu",
+      "Nuwara Eliya",
+      "Puttalam",
+      "Ratnapura",
+      "Trincomalee",
+      "Vavuniya"
+    ],
+    "document_type": "situation",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.21,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.21,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 1154,
+                "reason": "1154 Latin letters and 5 distinct English function/report words",
+                "share": 0.763
+              },
+              {
+                "confidence": 0.21,
+                "language": "si",
+                "letters": 317,
+                "reason": "317 of 1513 alphabetic characters use the si script",
+                "share": 0.21
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.179,
+            "evidence": [
+              {
+                "confidence": 0.179,
+                "language": "si",
+                "letters": 202,
+                "reason": "202 of 1131 alphabetic characters use the si script",
+                "share": 0.179
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "202 of 1131 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.168,
+            "evidence": [
+              {
+                "confidence": 0.75,
+                "language": "en",
+                "letters": 446,
+                "reason": "446 Latin letters and 5 distinct English function/report words",
+                "share": 0.832
+              },
+              {
+                "confidence": 0.168,
+                "language": "si",
+                "letters": 90,
+                "reason": "90 of 536 alphabetic characters use the si script",
+                "share": 0.168
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 3,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "situation report",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "flood",
+      "landslide"
+    ],
+    "id": "dmc-035863cf0ceccf2bee247d15632daa9a27ae8ab88ddea0a2b5aa5791ff87a88a",
+    "issued_at": "2026-10-04T10:00:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.21,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "situation",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "situation",
+          "report_date": "2026-10-04",
+          "report_time": "10:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1791089060.pdf",
+          "title": "Situation Report"
+        }
+      ],
+      "report_date": "2026-10-04",
+      "report_time": "10:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1791089060.pdf",
+      "title": "Situation Report"
+    },
+    "processed_at": "2026-10-04T08:34:24.395747+00:00",
+    "provinces": [
+      "Central",
+      "Eastern",
+      "North Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Southern",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=273&report_type_id=1&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Situation_Report_on_2026__1791089060.pdf",
+    "summary": "දිස්ත්‍රික්කය மாவட்டம் District ප්‍රා.ලේ. ලකා gpuNjr nra.gp DS Division පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;fs; Families පුද්ගලයින් egHfs; People පූර්ණ හානි KOik Fully අර්ධ හානි gFjpasT Partially කුඩා හා මධය පරිමාණ වයාපාරික ස්ත්‍රථාන சிறிய, நடுத்தர, நிறுவனங் களி ன் சேதங் கள்; Small, Medium, Enterprises Damages ඉතා වැදගත් යටිතල පහසුකම් වලට වූ හානි mbg;gilf; fl;likg;Gf;fs; Damages to critical Infrastructure ආරක්ිත ස්ත්‍රථාන ස්ත්‍ංඛ්‍යාව vz;zpf;i f No. of Safety Locations පවුේ ස්ත්‍ංඛ්‍යාව FLk;gq;f s; Families පුද්ගලයින් egHfs; Persons 1 මාතලේ khj;jis Matale 04 DS Division Cutting Failiure / Flood / Heavy R",
+    "title": "Situation Report",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "bf114e50c7169e9e03a038d151f9c3c377584efba029b863bacb771688cf05e4",
     "description": "",
     "districts": [
