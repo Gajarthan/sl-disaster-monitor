@@ -1,5 +1,130 @@
 [
   {
+    "content_hash": "7c0e9900bd1d99c09f54381f731cd679ccd3a35ddcc555ce6fc644c6609f5af8",
+    "description": "",
+    "districts": [
+      "Badulla",
+      "Kandy",
+      "Kegalle",
+      "Matale",
+      "Ratnapura"
+    ],
+    "document_type": "landslide",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.95,
+        "language": "en",
+        "languages_detected": [
+          "en"
+        ],
+        "pages": [
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 1,
+            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
+            "status": "unrecognized_text"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1264,
+                "reason": "1264 Latin letters and 14 distinct English function/report words",
+                "share": 0.881
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "1264 Latin letters and 14 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 3,
+            "reason": "Text is present but supported-language evidence is insufficient; unsupported language or font encoding may be involved",
+            "status": "unrecognized_text"
+          },
+          {
+            "confidence": 0.0,
+            "evidence": [],
+            "language": "unknown",
+            "languages_detected": [],
+            "page": 4,
+            "reason": "Insufficient extractable alphabetic text; scanned pages may need OCR",
+            "status": "insufficient_text"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "",
+      "severity_reason": "No unambiguous issued severity label in listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "landslide",
+    "hazards": [
+      "landslide"
+    ],
+    "id": "dmc-7c0e9900bd1d99c09f54381f731cd679ccd3a35ddcc555ce6fc644c6609f5af8",
+    "issued_at": "2026-10-04T16:00:00+05:30",
+    "language": "en",
+    "language_confidence": 0.95,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "en"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "landslide",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "landslide",
+          "report_date": "2026-10-04",
+          "report_time": "16:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1600hrs_on_2026__1791113233.pdf",
+          "title": "Landslide EW Report"
+        }
+      ],
+      "report_date": "2026-10-04",
+      "report_time": "16:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1600hrs_on_2026__1791113233.pdf",
+      "title": "Landslide EW Report"
+    },
+    "processed_at": "2026-10-04T15:25:54.434409+00:00",
+    "provinces": [
+      "Central",
+      "Sabaragamuwa",
+      "Uva"
+    ],
+    "severity": "unknown",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=276&report_type_id=5&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Landslide_EW_Report_at_1600hrs_on_2026__1791113233.pdf",
+    "summary": "නායයෑම් පිළිබඳ පෙර අනතුරු ඇඟවීම First warning issued date: 03-10-2026 kz;rhpT Kd;ndr;rhpf;if Landslide Early Warning Message ID: LEWM-04-10-2026-1600-01 Update: 1 st update Validity Period: From 16:00 hrs on 04.10.2026 To 16:00 hrs on 05.10.2026 Locations for Potential Risk නායයෑමේ අවදානම පැවතිය හැකි ප්‍රමේශ fdjpahd mghaKs;s ,lq;fs; District Level 1 (Yellow) Level 2 (Amber) Level 3 (Red) Badulla * Passara Divisional Secretariat Division(s) (DSD) and surrounding areas. Kandy * Udapalatha Divisional Secretariat Division(s) (DSD) and surrounding areas. Minipe and Ududumbara Divisional Secretariat",
+    "title": "Landslide EW Report",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "035863cf0ceccf2bee247d15632daa9a27ae8ab88ddea0a2b5aa5791ff87a88a",
     "description": "",
     "districts": [
