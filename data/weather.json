@@ -1,5 +1,544 @@
 [
   {
+    "content_hash": "159cac8653861120df031ae0c41c692da40c4176ec2c88a87f78e6699172146a",
+    "description": "",
+    "districts": [
+      "Mannar"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.881,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.881,
+            "evidence": [
+              {
+                "confidence": 0.881,
+                "language": "si",
+                "letters": 805,
+                "reason": "805 of 914 alphabetic characters use the si script",
+                "share": 0.881
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "805 of 914 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 1173,
+                "reason": "1173 Latin letters and 14 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 2,
+            "reason": "1173 Latin letters and 14 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "advisory",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "lightning",
+    "hazards": [
+      "lightning",
+      "heavy_rain",
+      "strong_wind"
+    ],
+    "id": "dmc-159cac8653861120df031ae0c41c692da40c4176ec2c88a87f78e6699172146a",
+    "issued_at": "2026-10-05T11:00:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.881,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-10-05",
+          "report_time": "11:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1100hrs_on_05__1791179671.pdf",
+          "title": "Advisory for Severe Lightning"
+        }
+      ],
+      "report_date": "2026-10-05",
+      "report_time": "11:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1100hrs_on_05__1791179671.pdf",
+      "title": "Advisory for Severe Lightning"
+    },
+    "processed_at": "2026-10-05T05:55:59.400042+00:00",
+    "provinces": [
+      "Central",
+      "North Western",
+      "Northern",
+      "Sabaragamuwa",
+      "Uva",
+      "Western"
+    ],
+    "severity": "advisory",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1100hrs_on_05__1791179671.pdf",
+    "summary": "Spatial rainfall distribution: Isolated: <25%, A few: 26-50%, Many: 51-75%, Most: 76-100% Rainfall amount (mm): Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. නිවේදන අංකය : 09 LLA/26/10/05/01 වර්ණය : ඇම්බර් ප්‍රභල අකුණු පිළිබඳව අවවාදාත්මක නිවේදනය කාලගුණ විදයා වදපාර්තවේන්තුවේ, ස්වභාවික විපත් පිළිබඳ පූර්ව අනුරු ඇඟවීවේ මධ්‍යස්ථානය විසින්ත 2026 ඔකවතෝබර් මස 06 වන දින වප.ව. 01.00 දකවා වලංගු වන පරිදි 2026 ඔකවතෝබර් මස 05 වන දින වප.ව. 11.00 ට නිකුත් කරන ලදී. වයඹ, මධ්‍යම, සබරගමුව, ඌව, බස්නාහිර, දකුණ සහ උතුරු-මැද පළාත් සහ මන්නාරම දිස්ික්කය සඳහා සූදානම් වන්න! වයඹ, මධ්‍යම,",
+    "title": "Advisory for Severe Lightning",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "40eebb146ffc3d30d8db66654f129f546f7ecdc5fcd49bba006ad7a5467967ee",
+    "description": "",
+    "districts": [
+      "Colombo",
+      "Galle",
+      "Mannar",
+      "Matara",
+      "Puttalam"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.939,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.939,
+            "evidence": [
+              {
+                "confidence": 0.939,
+                "language": "si",
+                "letters": 661,
+                "reason": "661 of 704 alphabetic characters use the si script",
+                "share": 0.939
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 1,
+            "reason": "661 of 704 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.908,
+            "evidence": [
+              {
+                "confidence": 0.908,
+                "language": "si",
+                "letters": 407,
+                "reason": "407 of 448 alphabetic characters use the si script",
+                "share": 0.908
+              }
+            ],
+            "language": "si",
+            "languages_detected": [
+              "si"
+            ],
+            "page": 2,
+            "reason": "407 of 448 alphabetic characters use the si script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.95,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 954,
+                "reason": "954 Latin letters and 11 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 3,
+            "reason": "954 Latin letters and 11 distinct English function/report words",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.79,
+            "evidence": [
+              {
+                "confidence": 0.79,
+                "language": "en",
+                "letters": 571,
+                "reason": "571 Latin letters and 6 distinct English function/report words",
+                "share": 1.0
+              }
+            ],
+            "language": "en",
+            "languages_detected": [
+              "en"
+            ],
+            "page": 4,
+            "reason": "571 Latin letters and 6 distinct English function/report words",
+            "status": "single_language"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "strong_wind",
+    "hazards": [
+      "strong_wind",
+      "rough_sea"
+    ],
+    "id": "dmc-40eebb146ffc3d30d8db66654f129f546f7ecdc5fcd49bba006ad7a5467967ee",
+    "issued_at": "2026-10-05T07:00:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.939,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-10-05",
+          "report_time": "07:00",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_for_Multiday_Boats_at_0700hrs_on_2026__1791164294.pdf",
+          "title": "Weather forecast for Multiday boats at 0700hrs"
+        }
+      ],
+      "report_date": "2026-10-05",
+      "report_time": "07:00",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_for_Multiday_Boats_at_0700hrs_on_2026__1791164294.pdf",
+      "title": "Weather forecast for Multiday boats at 0700hrs"
+    },
+    "processed_at": "2026-10-05T05:55:59.400042+00:00",
+    "provinces": [
+      "Eastern",
+      "North Western",
+      "Northern",
+      "Southern",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_for_Multiday_Boats_at_0700hrs_on_2026__1791164294.pdf",
+    "summary": "Page 1 of 2 බහු දින යාත්‍රා සඳහා කාලගුණ අනාවැකිය උතුරු අක්ාාංශ 20 ත් දකුණු අක්ාාංශ 10 ත් සහ නැගෙනහිර ගේශාාංශ 60 ත් 100 ත් අතර මුහුදු ප්‍රගේශ සඳහා (2026 ඔකගතෝබර් මස 05 දින ගෙ.ව. 07.00 ට ඉදිරි ෙැය 24 සඳහා නිකුත් කරන ලදි.) දිවයින වටා වන මුහුදු ප්‍රගේශ ගබාංොල ගබාකක මුහුදු ප්‍රගේශය කාලගුණික තත්ත්වය: EQ-20N, 95E-100E : තැනින් තැන වැසි හ ෝ ගිගුරුම් සහිත වැසි. EQ-10N, 80E-95E : තැනින් තැන වැසි හ ෝ ගිගුරුම් සහිත වැසි. හසසු මුහුදු ප්‍රහේශ : ස්ථාන ස්වල්පයක වැසි හ ෝ ගිගුරුම් සහිත වැසි. සුළාං තත්ත්වය: 05N-20N, 90E-100E : වයඹ හෙසින් / පැ.කි.මී. (10-20); විටින් විට පැ.කි.මී. 30 ෙක්වා. EQ-05N, 80E-90E : බස්න",
+    "title": "Weather forecast for Multiday boats at 0700hrs",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "bdf6574e21d9e5fab70d103444ad15728f06df01e2d6d536af1e0e829c640c4d",
+    "description": "",
+    "districts": [
+      "Galle",
+      "Mannar",
+      "Puttalam"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.814,
+        "language": "ta",
+        "languages_detected": [
+          "ta"
+        ],
+        "pages": [
+          {
+            "confidence": 0.809,
+            "evidence": [
+              {
+                "confidence": 0.809,
+                "language": "ta",
+                "letters": 575,
+                "reason": "575 of 711 alphabetic characters use the ta script",
+                "share": 0.809
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 1,
+            "reason": "575 of 711 alphabetic characters use the ta script",
+            "status": "single_language"
+          },
+          {
+            "confidence": 0.814,
+            "evidence": [
+              {
+                "confidence": 0.814,
+                "language": "ta",
+                "letters": 596,
+                "reason": "596 of 732 alphabetic characters use the ta script",
+                "share": 0.814
+              }
+            ],
+            "language": "ta",
+            "languages_detected": [
+              "ta"
+            ],
+            "page": 2,
+            "reason": "596 of 732 alphabetic characters use the ta script",
+            "status": "single_language"
+          }
+        ],
+        "reason": "One supported language detected across PDF pages; see page evidence",
+        "status": "single_language",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind"
+    ],
+    "id": "dmc-bdf6574e21d9e5fab70d103444ad15728f06df01e2d6d536af1e0e829c640c4d",
+    "issued_at": "2026-10-05T05:30:00+05:30",
+    "language": "ta",
+    "language_confidence": 0.814,
+    "language_reason": "One supported language detected across PDF pages; see page evidence",
+    "languages_detected": [
+      "ta"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-10-05",
+          "report_time": "05:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1791165329.pdf",
+          "title": "Weather Forecast (Tamil Language)"
+        }
+      ],
+      "report_date": "2026-10-05",
+      "report_time": "05:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1791165329.pdf",
+      "title": "Weather Forecast (Tamil Language)"
+    },
+    "processed_at": "2026-10-05T05:55:59.400042+00:00",
+    "provinces": [
+      "North Western",
+      "Northern",
+      "Southern",
+      "Uva"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1791165329.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது 2026 ஒக்ட ோபர் 05ஆம் திகதிக்கான வானிழல முன்னறிவிப்பு 2026 ஒக்ட ோபர் 05ஆம் திகதி அதிகோலை 05",
+    "title": "Weather Forecast (Tamil Language)",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
+    "content_hash": "1e3f5b004b934f773588185d196efcd1ba147ac70e5c43bd9979a00fe6f8e7bb",
+    "description": "",
+    "districts": [
+      "Colombo",
+      "Galle",
+      "Mannar",
+      "Matara",
+      "Puttalam"
+    ],
+    "document_type": "weather",
+    "extraction": {
+      "language_detection": {
+        "confidence": 0.396,
+        "language": "mul",
+        "languages_detected": [
+          "en",
+          "si"
+        ],
+        "pages": [
+          {
+            "confidence": 0.367,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 666,
+                "reason": "666 Latin letters and 13 distinct English function/report words",
+                "share": 0.633
+              },
+              {
+                "confidence": 0.367,
+                "language": "si",
+                "letters": 386,
+                "reason": "386 of 1052 alphabetic characters use the si script",
+                "share": 0.367
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 1,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          },
+          {
+            "confidence": 0.396,
+            "evidence": [
+              {
+                "confidence": 0.95,
+                "language": "en",
+                "letters": 599,
+                "reason": "599 Latin letters and 11 distinct English function/report words",
+                "share": 0.604
+              },
+              {
+                "confidence": 0.396,
+                "language": "si",
+                "letters": 393,
+                "reason": "393 of 992 alphabetic characters use the si script",
+                "share": 0.396
+              }
+            ],
+            "language": "mul",
+            "languages_detected": [
+              "en",
+              "si"
+            ],
+            "page": 2,
+            "reason": "Substantial evidence for multiple languages in this text",
+            "status": "multilingual"
+          }
+        ],
+        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+        "status": "multilingual",
+        "version": "2.0.0"
+      },
+      "location_scope": "mentions",
+      "rules_version": "1.1.0",
+      "severity_evidence": "forecast",
+      "severity_reason": "Explicit label in official listing title",
+      "status": "ok",
+      "summary_method": "first_600_characters_of_extracted_text",
+      "validity_reason": "Not inferred by MVP rules"
+    },
+    "hazard": "heavy_rain",
+    "hazards": [
+      "heavy_rain",
+      "lightning",
+      "strong_wind",
+      "rough_sea"
+    ],
+    "id": "dmc-1e3f5b004b934f773588185d196efcd1ba147ac70e5c43bd9979a00fe6f8e7bb",
+    "issued_at": "2026-10-05T05:30:00+05:30",
+    "language": "mul",
+    "language_confidence": 0.396,
+    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
+    "languages_detected": [
+      "en",
+      "si"
+    ],
+    "official": {
+      "description": "",
+      "document_type": "weather",
+      "listings": [
+        {
+          "description": "",
+          "document_type": "weather",
+          "report_date": "2026-10-05",
+          "report_time": "05:30",
+          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1791159424.pdf",
+          "title": "Weather Forecast"
+        }
+      ],
+      "report_date": "2026-10-05",
+      "report_time": "05:30",
+      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1791159424.pdf",
+      "title": "Weather Forecast"
+    },
+    "processed_at": "2026-10-05T05:55:59.400042+00:00",
+    "provinces": [
+      "Central",
+      "North Western",
+      "Northern",
+      "Southern",
+      "Uva",
+      "Western"
+    ],
+    "severity": "info",
+    "source": "DMC",
+    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
+    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1791159424.pdf",
+    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලංකාව සඳහා සාමාන්‍යය කාලගුණ අන්‍ාවැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 ඔක්තෝබර් මස 05 දින්‍ සඳහා කාලගුණ අන්‍ාවැකිය 2026 ඔක්තෝබර් ම",
+    "title": "Weather Forecast",
+    "valid_from": null,
+    "valid_until": null
+  },
+  {
     "content_hash": "0bf77efd6b541fc1696a0924792a19e4f5d58b4fb3f740ef30a27661a3aa93d9",
     "description": "",
     "districts": [
@@ -4131,263 +4670,6 @@
     "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Advisory_for_Severe_Lightning_at_1130hrs_on_02__1790925650.pdf",
     "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது அறிக்ழக இல: 06 LLA/26/10/02/01 நிறம்: ஆம்பர் கடும் மின்னல் தாக்கம் ததாடர்பான ஆலலாசழன: இயற்",
     "title": "Advisory for Severe Lightning (Tamil Language)",
-    "valid_from": null,
-    "valid_until": null
-  },
-  {
-    "content_hash": "57d247e5c181a594a3a128ffa3f2ac9dd57d2fe19fda968e1f49c2317c7a6464",
-    "description": "",
-    "districts": [
-      "Galle",
-      "Puttalam"
-    ],
-    "document_type": "weather",
-    "extraction": {
-      "language_detection": {
-        "confidence": 0.807,
-        "language": "ta",
-        "languages_detected": [
-          "ta"
-        ],
-        "pages": [
-          {
-            "confidence": 0.807,
-            "evidence": [
-              {
-                "confidence": 0.807,
-                "language": "ta",
-                "letters": 567,
-                "reason": "567 of 703 alphabetic characters use the ta script",
-                "share": 0.807
-              }
-            ],
-            "language": "ta",
-            "languages_detected": [
-              "ta"
-            ],
-            "page": 1,
-            "reason": "567 of 703 alphabetic characters use the ta script",
-            "status": "single_language"
-          },
-          {
-            "confidence": 0.805,
-            "evidence": [
-              {
-                "confidence": 0.805,
-                "language": "ta",
-                "letters": 563,
-                "reason": "563 of 699 alphabetic characters use the ta script",
-                "share": 0.805
-              }
-            ],
-            "language": "ta",
-            "languages_detected": [
-              "ta"
-            ],
-            "page": 2,
-            "reason": "563 of 699 alphabetic characters use the ta script",
-            "status": "single_language"
-          }
-        ],
-        "reason": "One supported language detected across PDF pages; see page evidence",
-        "status": "single_language",
-        "version": "2.0.0"
-      },
-      "location_scope": "mentions",
-      "rules_version": "1.1.0",
-      "severity_evidence": "forecast",
-      "severity_reason": "Explicit label in official listing title",
-      "status": "ok",
-      "summary_method": "first_600_characters_of_extracted_text",
-      "validity_reason": "Not inferred by MVP rules"
-    },
-    "hazard": "heavy_rain",
-    "hazards": [
-      "heavy_rain",
-      "lightning",
-      "strong_wind"
-    ],
-    "id": "dmc-57d247e5c181a594a3a128ffa3f2ac9dd57d2fe19fda968e1f49c2317c7a6464",
-    "issued_at": "2026-10-02T07:00:00+05:30",
-    "language": "ta",
-    "language_confidence": 0.807,
-    "language_reason": "One supported language detected across PDF pages; see page evidence",
-    "languages_detected": [
-      "ta"
-    ],
-    "official": {
-      "description": "",
-      "document_type": "weather",
-      "listings": [
-        {
-          "description": "",
-          "document_type": "weather",
-          "report_date": "2026-10-02",
-          "report_time": "07:00",
-          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1790904865.pdf",
-          "title": "Weather Forecast (Tamil Language)"
-        }
-      ],
-      "report_date": "2026-10-02",
-      "report_time": "07:00",
-      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1790904865.pdf",
-      "title": "Weather Forecast (Tamil Language)"
-    },
-    "processed_at": "2026-10-02T05:54:23.605851+00:00",
-    "provinces": [
-      "North Western",
-      "Southern",
-      "Uva"
-    ],
-    "severity": "info",
-    "source": "DMC",
-    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1790904865.pdf",
-    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, moderate: 25-50, Fairly Heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි மழைவீழ்ச்சி அளவு (மி.மீ): சிறிதளவு: 00-12.5, சிறிதளவிலிருந்து மிதமானது வழை: 12.5-25, மிதமானது: 25-50, ஓைளவு பலத்த மழை: 50 -100, பலத்த மழை: 100 – 150, மிகப் பலத்த மழை: 150 க்கும் அதிகமானது 2026 ஒக்ட ோபர் 02ஆம் திகதிக்கான வானிழல முன்னறிவிப்பு 2026 ஒக்ட ோபர் 02ஆம் திகதி அதிகோலை 05",
-    "title": "Weather Forecast (Tamil Language)",
-    "valid_from": null,
-    "valid_until": null
-  },
-  {
-    "content_hash": "b45094f9cd0bddc68cd2c7e0193c29f095b5ad80d3eabb1071dfff1b031c17d8",
-    "description": "",
-    "districts": [
-      "Colombo",
-      "Galle",
-      "Mannar",
-      "Puttalam"
-    ],
-    "document_type": "weather",
-    "extraction": {
-      "language_detection": {
-        "confidence": 0.404,
-        "language": "mul",
-        "languages_detected": [
-          "en",
-          "si"
-        ],
-        "pages": [
-          {
-            "confidence": 0.375,
-            "evidence": [
-              {
-                "confidence": 0.95,
-                "language": "en",
-                "letters": 648,
-                "reason": "648 Latin letters and 13 distinct English function/report words",
-                "share": 0.625
-              },
-              {
-                "confidence": 0.375,
-                "language": "si",
-                "letters": 389,
-                "reason": "389 of 1037 alphabetic characters use the si script",
-                "share": 0.375
-              }
-            ],
-            "language": "mul",
-            "languages_detected": [
-              "en",
-              "si"
-            ],
-            "page": 1,
-            "reason": "Substantial evidence for multiple languages in this text",
-            "status": "multilingual"
-          },
-          {
-            "confidence": 0.404,
-            "evidence": [
-              {
-                "confidence": 0.95,
-                "language": "en",
-                "letters": 574,
-                "reason": "574 Latin letters and 11 distinct English function/report words",
-                "share": 0.596
-              },
-              {
-                "confidence": 0.404,
-                "language": "si",
-                "letters": 389,
-                "reason": "389 of 963 alphabetic characters use the si script",
-                "share": 0.404
-              }
-            ],
-            "language": "mul",
-            "languages_detected": [
-              "en",
-              "si"
-            ],
-            "page": 2,
-            "reason": "Substantial evidence for multiple languages in this text",
-            "status": "multilingual"
-          }
-        ],
-        "reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
-        "status": "multilingual",
-        "version": "2.0.0"
-      },
-      "location_scope": "mentions",
-      "rules_version": "1.1.0",
-      "severity_evidence": "forecast",
-      "severity_reason": "Explicit label in official listing title",
-      "status": "ok",
-      "summary_method": "first_600_characters_of_extracted_text",
-      "validity_reason": "Not inferred by MVP rules"
-    },
-    "hazard": "heavy_rain",
-    "hazards": [
-      "heavy_rain",
-      "lightning",
-      "strong_wind",
-      "rough_sea"
-    ],
-    "id": "dmc-b45094f9cd0bddc68cd2c7e0193c29f095b5ad80d3eabb1071dfff1b031c17d8",
-    "issued_at": "2026-10-02T05:30:00+05:30",
-    "language": "mul",
-    "language_confidence": 0.404,
-    "language_reason": "Multiple languages detected across PDF pages or within a page; see page evidence",
-    "languages_detected": [
-      "en",
-      "si"
-    ],
-    "official": {
-      "description": "",
-      "document_type": "weather",
-      "listings": [
-        {
-          "description": "",
-          "document_type": "weather",
-          "report_date": "2026-10-02",
-          "report_time": "05:30",
-          "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-          "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1790900145.pdf",
-          "title": "Weather Forecast"
-        }
-      ],
-      "report_date": "2026-10-02",
-      "report_time": "05:30",
-      "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-      "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1790900145.pdf",
-      "title": "Weather Forecast"
-    },
-    "processed_at": "2026-10-02T05:54:23.605851+00:00",
-    "provinces": [
-      "Central",
-      "North Central",
-      "North Western",
-      "Northern",
-      "Southern",
-      "Uva",
-      "Western"
-    ],
-    "severity": "info",
-    "source": "DMC",
-    "source_page": "https://www.dmc.gov.lk/index.php?option=com_dmcreports&view=reports&Itemid=274&report_type_id=2&lang=en&limit=20&limitstart=0",
-    "source_pdf": "https://www.dmc.gov.lk/images/dmcreports/Weather_Report_at_0530hrs_on_2026__1790900145.pdf",
-    "summary": "Rainfall amount (mm): Light: 00-12.5, Light to moderate: 12.5-25, Moderate: 25-50, Fairly heavy rain: 50 -100, Heavy rain: 100 – 150, Very heavy rain: 150 or more. වර්ෂාපතනය(මි.මී) : සිහින් වැසි: 00-12.5, සිහින් හ ෝ මද වැසි: 12.5-25, මද වැසි: 25-50, තරමක් තද වැසි: 50 -100, තද වැසි:100 – 150, ඉතා තද වැසි: 150 හ ෝ ඊට වැඩි ශ්‍රී ලං කා ව සඳහා ස මා න්‍ය ය කා ලංගුණ අන්‍ය වැකිය GENERAL WEATHER FORECAST FOR SRI LANKA ජාතික කාලගුණ විදයා මධ්‍යස්ථානහේ, අනාවැකි අංශය මගින් නිකුත් කරන ලදි Issued by Forecasting Division, National Meteorological Centre 2026 ඔක්තෝබර් මාස 02 දින්‍ය සඳහා කා ලංගුණ අන්‍ය වැකිය 202",
-    "title": "Weather Forecast",
     "valid_from": null,
     "valid_until": null
   }
